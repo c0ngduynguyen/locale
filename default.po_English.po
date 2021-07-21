@@ -1,0 +1,4393 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: POEditor.com\n"
+"Project-Id-Version: default.po\n"
+"Language: en\n"
+
+#: /var/azuracast/www/src/Entity/Repository/StorageLocationRepository.php:49
+msgid "None"
+msgstr "không"
+
+#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:48
+msgid "Search engine crawlers are not permitted to use this feature."
+msgstr "Trình tìm kiếm không được phép sử dụng tính năng này."
+
+#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:53
+#: /var/azuracast/www/src/Controller/Api/Stations/RequestsController.php:55
+#: /var/azuracast/www/src/Controller/Api/Stations/RequestsController.php:161
+msgid "This station does not accept requests currently."
+msgstr "Trạm này hiện không chấp nhận các yêu cầu."
+
+#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:60
+msgid "The song ID you specified could not be found in the station."
+msgstr "Không thể tìm thấy ID nội dung bạn đã chỉ định."
+
+#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:64
+msgid "The song ID you specified cannot be requested for this station."
+msgstr "Không thể yêu cầu ID nội dung bạn đã chỉ định cho đài này."
+
+#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:95
+msgid "You have submitted a request too recently! Please wait before submitting another one."
+msgstr "Bạn đã gửi một yêu cầu quá gần đây! Vui lòng đợi trước khi gửi một cái khác."
+
+#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:142
+msgid "Duplicate request: this song was already requested and will play soon."
+msgstr "Yêu cầu trùng lặp: nội dung này đã được yêu cầu và sẽ sớm phát."
+
+#: /var/azuracast/www/src/Entity/Repository/StationRequestRepository.php:221
+msgid "This song or artist has been played too recently. Wait a while before requesting it again."
+msgstr "Nội dung hoặc nghệ sĩ này đã được phát quá gần đây. Chờ một lúc trước khi yêu cầu lại."
+
+#: /var/azuracast/www/src/Sync/Runner.php:152
+#: /var/azuracast/www/src/Sync/Runner.php:154
+msgid "Now Playing Data"
+msgstr "Đang phát"
+
+#: /var/azuracast/www/src/Sync/Runner.php:161
+msgid "1-Minute Sync"
+msgstr "Đồng bộ trong 1 phút"
+
+#: /var/azuracast/www/src/Sync/Runner.php:163
+msgid "Song Requests Queue"
+msgstr "Xếp vào hàng đợi"
+
+#: /var/azuracast/www/src/Sync/Runner.php:170
+msgid "5-Minute Sync"
+msgstr "Đồng bộ trong 5 phút"
+
+#: /var/azuracast/www/src/Sync/Runner.php:172
+msgid "Check Media Folders"
+msgstr "Kiểm tra thư mục"
+
+#: /var/azuracast/www/src/Sync/Runner.php:179
+msgid "1-Hour Sync"
+msgstr "Đồng bộ trong 1 giờ"
+
+#: /var/azuracast/www/src/Sync/Runner.php:181
+msgid "Analytics/Statistics"
+msgstr "Phân tích/Thống kê"
+
+#: /var/azuracast/www/src/Sync/Runner.php:182
+msgid "Cleanup"
+msgstr "Dọn dẹp"
+
+#: /var/azuracast/www/src/Console/Command/Settings/ListCommand.php:16
+msgid "AzuraCast Settings"
+msgstr "Cài đặt"
+
+#: /var/azuracast/www/src/Console/Command/Settings/ListCommand.php:19
+msgid "Setting Key"
+msgstr "Khóa cài đặt"
+
+#: /var/azuracast/www/src/Console/Command/Settings/ListCommand.php:20
+msgid "Setting Value"
+msgstr "Giá trị cài đặt"
+
+#: /var/azuracast/www/src/Console/Command/Locale/ImportCommand.php:30
+msgid "Imported locale: %s"
+msgstr "Đã nhập: %s"
+
+#: /var/azuracast/www/src/Console/Command/MigrateConfigCommand.php:89
+msgid "Configuration successfully written."
+msgstr "Lưu cấu hình thành công."
+
+#: /var/azuracast/www/src/Console/Command/SetupCommand.php:26
+msgid "AzuraCast Setup"
+msgstr "Thiết lập máy chủ"
+
+#: /var/azuracast/www/src/Console/Command/SetupCommand.php:27
+msgid "Welcome to AzuraCast. Please wait while some key dependencies of AzuraCast are set up..."
+msgstr "Chào mừng đến với AzuraCast. Vui lòng đợi trong khi một số thuộc tính được thiết lập ..."
+
+#: /var/azuracast/www/src/Console/Command/SetupCommand.php:33
+msgid "Installing Data Fixtures"
+msgstr "Đang cài đặt dữ liệu"
+
+#: /var/azuracast/www/src/Console/Command/SetupCommand.php:39
+msgid "Refreshing All Stations"
+msgstr "Khởi động lại các trạm"
+
+#: /var/azuracast/www/src/Console/Command/SetupCommand.php:51
+msgid "AzuraCast is now updated to the latest version!"
+msgstr "Phần mềm đã cập nhật lên phiên bản mới nhất!"
+
+#: /var/azuracast/www/src/Console/Command/SetupCommand.php:60
+msgid "AzuraCast installation complete!"
+msgstr "Hoàn tất cài đặt máy chủ!"
+
+#: /var/azuracast/www/src/Console/Command/SetupCommand.php:61
+msgid "Visit %s to complete setup."
+msgstr "Truy cập %s để hoàn tất thiết lập."
+
+#: /var/azuracast/www/src/Console/Command/InitializeCommand.php:18
+msgid "Initialize AzuraCast"
+msgstr "Khởi tạo máy chủ"
+
+#: /var/azuracast/www/src/Console/Command/InitializeCommand.php:19
+msgid "Initializing essential settings..."
+msgstr "Đang khởi tạo các cài đặt cần thiết ..."
+
+#: /var/azuracast/www/src/Console/Command/InitializeCommand.php:23
+msgid "Environment: %s"
+msgstr "Môi trường: %s"
+
+#: /var/azuracast/www/src/Console/Command/InitializeCommand.php:24
+msgid "Installation Method: %s"
+msgstr "Phương pháp cài đặt: %s"
+
+#: /var/azuracast/www/src/Console/Command/InitializeCommand.php:29
+msgid "Running Database Migrations"
+msgstr "Di chuyển Cơ sở dữ liệu"
+
+#: /var/azuracast/www/src/Console/Command/InitializeCommand.php:40
+msgid "Generating Database Proxy Classes"
+msgstr "Tạo các lớp proxy cơ sở dữ liệu"
+
+#: /var/azuracast/www/src/Console/Command/InitializeCommand.php:45
+msgid "Reload System Data"
+msgstr "Tải lại dữ liệu hệ thống"
+
+#: /var/azuracast/www/src/Console/Command/InitializeCommand.php:56
+msgid "AzuraCast is now initialized."
+msgstr "Máy chủ hiện đã được khởi tạo."
+
+#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:58
+msgid "AzuraCast Backup"
+msgstr "Sao lưu máy chủ"
+
+#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:59
+msgid "Please wait while a backup is generated..."
+msgstr "Vui lòng đợi trong khi bản sao lưu được tạo ..."
+
+#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:62
+msgid "Creating temporary directories..."
+msgstr "Tạo thư mục tạm thời ..."
+
+#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:66
+msgid "Directory \"%s\" was not created"
+msgstr "Thư mục \"%s\" chưa được tạo"
+
+#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:73
+msgid "Backing up MariaDB..."
+msgstr "Đang sao lưu MariaDB ..."
+
+#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:117
+msgid "Creating backup archive..."
+msgstr "Tạo kho lưu trữ sao lưu ..."
+
+#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:176
+msgid "Cleaning up temporary files..."
+msgstr "Đang dọn dẹp các tệp tạm thời ..."
+
+#: /var/azuracast/www/src/Console/Command/Backup/BackupCommand.php:187
+msgid "Backup complete in %.2f seconds."
+msgstr "Quá trình sao lưu hoàn tất sau %.2f giây."
+
+#: /var/azuracast/www/src/Console/Command/Backup/RestoreCommand.php:34
+msgid "Backup path %s not found!"
+msgstr "Không tìm thấy đường dẫn sao lưu %s!"
+
+#: /var/azuracast/www/src/Console/Command/Users/SetAdministratorCommand.php:43
+msgid "The account associated with e-mail address \"%s\" has been set as an administrator"
+msgstr "Tài khoản được liên kết với địa chỉ e-mail \"%s\" đã được đặt làm quản trị viên"
+
+#: /var/azuracast/www/src/Console/Command/Users/SetAdministratorCommand.php:51
+msgid "Account not found."
+msgstr "Không tìm thấy tài khoản."
+
+#: /var/azuracast/www/src/Console/Command/SetupFixturesCommand.php:49
+msgid "Fixtures loaded."
+msgstr "Đã tải."
+
+#: /var/azuracast/www/src/Middleware/Module/StationFiles.php:19
+#: /var/azuracast/www/src/Controller/Stations/PlaylistsAction.php:22
+#: /var/azuracast/www/src/Controller/Stations/SftpUsersController.php:32
+msgid "This feature is not currently supported on this station."
+msgstr "Tính năng này hiện không được hỗ trợ."
+
+#: /var/azuracast/www/src/Validator/Constraints/StorageLocationValidator.php:35
+msgid "Storage location %s could not be validated: %s"
+msgstr "Không thể xác thực vị trí lưu trữ %s: %s"
+
+#: /var/azuracast/www/src/Validator/Constraints/StorageLocationValidator.php:66
+msgid "Storage location %s already exists."
+msgstr "Vị trí lưu trữ %s đã tồn tại."
+
+#: /var/azuracast/www/src/Validator/Constraints/StationPortCheckerValidator.php:40
+msgid "The port %s is in use by another station."
+msgstr "Cổng %s đang được dùng cho một trạm khác."
+
+#: /var/azuracast/www/src/Validator/Constraints/UniqueEntityValidator.php:178
+msgid "This value is already used."
+msgstr "Giá trị này đã được sử dụng."
+
+#: /var/azuracast/www/src/Form/StationForm.php:76
+msgid "Want to use SHOUTcast 2? <a href=\"%s\" target=\"_blank\">Install it here</a>, then reload this page."
+msgstr "Bạn muốn sử dụng SHOUTcast 2? <a href=\"%s\" target=\"_blank\"> Cài đặt nó tại đây </a>, sau đó tải lại trang này."
+
+#: /var/azuracast/www/src/Form/StationForm.php:95
+msgid "<a href=\"%s\" target=\"_blank\">Manage storage locations and storage quota here</a>."
+msgstr "<a href=\"%s\" target=\"_blank\"> Quản lý vị trí và định lượng bộ nhớ tại đây </a>."
+
+#: /var/azuracast/www/src/Form/StationForm.php:108
+#: /var/azuracast/www/src/Form/StationForm.php:121
+#: /var/azuracast/www/src/Form/StationForm.php:134
+msgid "Create a new storage location based on the base directory."
+msgstr "Tạo một lưu trữ mới dựa trên thư mục chính."
+
+#: /var/azuracast/www/src/Form/BackupSettingsForm.php:30
+#: /var/azuracast/www/src/Doctrine/Repository.php:80
+msgid "Select..."
+msgstr "Lựa chọn..."
+
+#: /var/azuracast/www/src/Form/SettingsForm.php:44
+msgid "Visit this page from a secure connection to enforce secure URLs on all pages."
+msgstr "Truy cập trang này từ một kết nối an toàn để thực thi các URLs trên tất cả các trang."
+
+#: /var/azuracast/www/src/Form/Field/File.php:11
+#: /var/azuracast/www/config/forms/install_shoutcast.php:36
+msgid "Select File"
+msgstr "Chọn tập tin"
+
+#: /var/azuracast/www/src/Acl.php:84
+#: /var/azuracast/www/src/Acl.php:95
+msgid "All Permissions"
+msgstr "Tất cả các quyền"
+
+#: /var/azuracast/www/src/Acl.php:85
+msgid "View Administration Page"
+msgstr "Xem trang quản trị"
+
+#: /var/azuracast/www/src/Acl.php:86
+msgid "View System Logs"
+msgstr "Xem nhật ký hệ thống"
+
+#: /var/azuracast/www/src/Acl.php:87
+msgid "Administer Settings"
+msgstr "Cài đặt quản trị viên"
+
+#: /var/azuracast/www/src/Acl.php:88
+msgid "Administer API Keys"
+msgstr "Mã API quản trị viên"
+
+#: /var/azuracast/www/src/Acl.php:89
+msgid "Administer Stations"
+msgstr "Trạm quản trị viên"
+
+#: /var/azuracast/www/src/Acl.php:90
+msgid "Administer Custom Fields"
+msgstr "Tùy chỉnh quản trị viên"
+
+#: /var/azuracast/www/src/Acl.php:91
+msgid "Administer Backups"
+msgstr "Sao lưu quản trị viên"
+
+#: /var/azuracast/www/src/Acl.php:92
+msgid "Administer Storage Locations"
+msgstr "Thư mục quản trị viên"
+
+#: /var/azuracast/www/src/Acl.php:96
+msgid "View Station Page"
+msgstr "Xem trạm phát"
+
+#: /var/azuracast/www/src/Acl.php:97
+msgid "View Station Reports"
+msgstr "Xem báo cáo"
+
+#: /var/azuracast/www/src/Acl.php:98
+msgid "View Station Logs"
+msgstr "Xem nhật ký"
+
+#: /var/azuracast/www/src/Acl.php:99
+msgid "Manage Station Profile"
+msgstr "Quản lý hồ sơ trạm"
+
+#: /var/azuracast/www/src/Acl.php:100
+msgid "Manage Station Broadcasting"
+msgstr "Quản lý trạm phát sóng"
+
+#: /var/azuracast/www/src/Acl.php:101
+msgid "Manage Station Streamers"
+msgstr "Quản lý người phát trực tiếp"
+
+#: /var/azuracast/www/src/Acl.php:102
+msgid "Manage Station Mount Points"
+msgstr "Quản lý Mountpoint trạm"
+
+#: /var/azuracast/www/src/Acl.php:103
+msgid "Manage Station Remote Relays"
+msgstr "Quản lý tiếp sóng"
+
+#: /var/azuracast/www/src/Acl.php:104
+msgid "Manage Station Media"
+msgstr "Quản lý nội dung"
+
+#: /var/azuracast/www/src/Acl.php:105
+msgid "Manage Station Automation"
+msgstr "Quản lý tự động hóa"
+
+#: /var/azuracast/www/src/Acl.php:106
+msgid "Manage Station Web Hooks"
+msgstr "Quản lý kết nối Web Hook"
+
+#: /var/azuracast/www/src/Acl.php:107
+msgid "Manage Station Podcasts"
+msgstr "Quản lý Podcast của trạm"
+
+#: /var/azuracast/www/src/Radio/Backend/Liquidsoap/ConfigWriter.php:113
+msgid "Welcome to the AzuraCast Liquidsoap configuration editor."
+msgstr "Chào mừng bạn đến với trình chỉnh sửa cấu hình Liquidsoap."
+
+#: /var/azuracast/www/src/Radio/Backend/Liquidsoap/ConfigWriter.php:114
+msgid "Using this page, you can customize several sections of the Liquidsoap configuration."
+msgstr "Sử dụng trang này, bạn có thể tùy chỉnh một số phần của cấu hình Liquidsoap."
+
+#: /var/azuracast/www/src/Radio/Backend/Liquidsoap/ConfigWriter.php:115
+msgid "The non-editable sections are automatically generated by AzuraCast."
+msgstr "Các phần không thể chỉnh sửa được máy chủ tạo tự động."
+
+#: /var/azuracast/www/src/Radio/AbstractAdapter.php:228
+msgid "%s is not recognized as a service."
+msgstr "%s không nhận là một dịch vụ."
+
+#: /var/azuracast/www/src/Radio/AbstractAdapter.php:229
+msgid "It may not be registered with Supervisor yet. Restarting broadcasting may help."
+msgstr "Nó có thể chưa được đăng ký với Người giám sát. Khởi động lại có thể hữu ích."
+
+#: /var/azuracast/www/src/Radio/AbstractAdapter.php:237
+msgid "%s cannot start"
+msgstr "%s không thể chạy"
+
+#: /var/azuracast/www/src/Radio/AbstractAdapter.php:238
+msgid "It is already running."
+msgstr "Đang chạy."
+
+#: /var/azuracast/www/src/Radio/AbstractAdapter.php:246
+msgid "%s cannot stop"
+msgstr "%s không thể dừng"
+
+#: /var/azuracast/www/src/Radio/AbstractAdapter.php:247
+msgid "It is not running."
+msgstr "Không chạy."
+
+#: /var/azuracast/www/src/Radio/AbstractAdapter.php:255
+msgid "%s encountered an error"
+msgstr "%s gặp lỗi"
+
+#: /var/azuracast/www/src/Radio/AbstractAdapter.php:264
+msgid "Check the log for details."
+msgstr "Kiểm tra nhật ký để biết chi tiết."
+
+#: /var/azuracast/www/src/Radio/Adapters.php:67
+#: /var/azuracast/www/src/Radio/Adapters.php:71
+#: /var/azuracast/www/src/Radio/Adapters.php:127
+msgid "Use <b>%s</b> on this server"
+msgstr "Sử dụng <b>%s </b> trên máy chủ này"
+
+#: /var/azuracast/www/src/Radio/Adapters.php:75
+msgid "Connect to a <b>remote radio server</b>"
+msgstr "Kết nối với <b> máy chủ radio từ xa </b>"
+
+#: /var/azuracast/www/src/Radio/Adapters.php:131
+msgid "<b>Do not use</b> an AutoDJ service"
+msgstr "<b> Không sử dụng </b> dịch vụ AutoDJ"
+
+#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:39
+#: /var/azuracast/www/src/Notification/Check/ComposeVersionCheck.php:51
+msgid "Update Instructions"
+msgstr "Cập nhật hướng dẫn"
+
+#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:46
+msgid "AzuraCast <a href=\"%s\" target=\"_blank\">version %s</a> is now available."
+msgstr "AzuraCast <a href=\"%s\" target=\"_blank\"> phiên bản% s </a> hiện đã có sẵn."
+
+#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:51
+msgid "You are currently running version %s. Updating is highly recommended."
+msgstr "Bạn hiện đang chạy phiên bản %s. Đã có bản cập nhật mới hơn."
+
+#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:58
+msgid "New AzuraCast Release Version Available"
+msgstr "Có sẵn phiên bản mới phát hành"
+
+#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:71
+msgid "Your installation is currently %d update(s) behind the latest version."
+msgstr "Cài đặt của bạn hiện đang %d cập nhật sau phiên bản mới nhất."
+
+#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:77
+msgid "View the changelog for full details."
+msgstr "Xem bảng thay đổi để biết đầy đủ chi tiết."
+
+#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:80
+msgid "You should update to take advantage of bug and security fixes."
+msgstr "Bạn nên cập nhật để tận dụng các bản sửa lỗi và bảo mật."
+
+#: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:83
+msgid "New AzuraCast Updates Available"
+msgstr "Có bản cập nhật mới"
+
+#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:36
+msgid "The performance profiling extension is currently enabled on this installation."
+msgstr "Tiện ích mở rộng hiệu suất hiện được bật trên cài đặt này."
+
+#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:37
+msgid "You can track the execution time and memory usage of any AzuraCast page or application from the profiler page."
+msgstr "Bạn có thể theo dõi thời gian thực thi và mức sử dụng bộ nhớ của bất kỳ trang hoặc ứng dụng nào từ trang hồ sơ."
+
+#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:43
+msgid "Profiler Control Panel"
+msgstr "Bảng điều khiển hồ sơ"
+
+#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:55
+msgid "Performance profiling is currently enabled for all requests."
+msgstr "Hồ sơ hiệu suất hiện được kích hoạt cho tất cả các yêu cầu."
+
+#: /var/azuracast/www/src/Notification/Check/ProfilerAdvisorCheck.php:56
+msgid "This can have an adverse impact on system performance. You should disable this when possible."
+msgstr "Điều này có thể có tác động tiêu cực đến hiệu suất hệ thống. Bạn nên tắt tính năng này khi có thể."
+
+#: /var/azuracast/www/src/Notification/Check/SyncTaskCheck.php:42
+msgid "Synchronized Task Not Recently Run"
+msgstr "Tác vụ được đồng bộ hóa không chạy gần đây"
+
+#: /var/azuracast/www/src/Notification/Check/SyncTaskCheck.php:43
+msgid "The \"%s\" synchronization task has not run recently. This may indicate an error with your installation."
+msgstr "Tác vụ đồng bộ hóa \"%s\" đã không chạy gần đây. Điều này có thể chỉ ra một lỗi với cài đặt của bạn."
+
+#: /var/azuracast/www/src/Notification/Check/SyncTaskCheck.php:51
+msgid "Manually Run Task"
+msgstr "Chạy theo cách thủ công"
+
+#: /var/azuracast/www/src/Notification/Check/ComposeVersionCheck.php:35
+msgid "You should update your <code>docker-compose.yml</code> file to reflect the newest changes."
+msgstr "Bạn nên cập nhật tệp <code> docker-compo.yml </code> của mình để tác dụng thay đổi mới nhất."
+
+#: /var/azuracast/www/src/Notification/Check/ComposeVersionCheck.php:38
+msgid "If you manually maintain this file, review the <a href=\"%s\" target=\"_blank\">latest version of the file</a> and make any changes needed."
+msgstr "Nếu bạn duy trì tệp này theo cách thủ công, hãy xem lại <a href=\"%s\" target=\"_blank\"> phiên bản mới nhất của tệp </a> và thực hiện bất kỳ thay đổi nào cần thiết."
+
+#: /var/azuracast/www/src/Notification/Check/ComposeVersionCheck.php:42
+msgid "Otherwise, update your installation and answer \"Y\" when prompted to update the file."
+msgstr "Nếu không, hãy cập nhật cài đặt của bạn và trả lời \"Y\" khi được nhắc cập nhật tệp."
+
+#: /var/azuracast/www/src/Notification/Check/ComposeVersionCheck.php:48
+msgid "Your <code>docker-compose.yml</code> file is out of date!"
+msgstr "Tệp <code> docker-compo.yml </code> của bạn đã lỗi thời!"
+
+#: /var/azuracast/www/src/Notification/Check/RecentBackupCheck.php:47
+msgid "Installation Not Recently Backed Up"
+msgstr "Cài đặt không được sao lưu gần đây"
+
+#: /var/azuracast/www/src/Notification/Check/RecentBackupCheck.php:48
+msgid "This installation has not been backed up in the last two weeks."
+msgstr "Cài đặt này chưa được sao lưu trong hai tuần qua."
+
+#: /var/azuracast/www/src/Notification/Check/RecentBackupCheck.php:52
+#: /var/azuracast/www/config/menus/admin.php:39
+#: /var/azuracast/www/templates/admin/backups/index.phtml:9
+#: /var/azuracast/www/templates/admin/backups/index.phtml:83
+msgid "Backups"
+msgstr "Sao lưu"
+
+#: /var/azuracast/www/src/Http/ErrorHandler.php:175
+#: /var/azuracast/www/src/Http/ErrorHandler.php:182
+msgid "You must be logged in to access this page."
+msgstr "Bạn phải đăng nhập để truy cập vào trang này."
+
+#: /var/azuracast/www/src/Http/ErrorHandler.php:197
+#: /var/azuracast/www/src/Http/ErrorHandler.php:205
+msgid "You do not have permission to access this portion of the site."
+msgstr "Bạn không có quyền truy cập phần này của trang web."
+
+#: /var/azuracast/www/src/Controller/AbstractLogViewerController.php:105
+msgid "Liquidsoap Log"
+msgstr "Nhật ký Liquidsoap"
+
+#: /var/azuracast/www/src/Controller/AbstractLogViewerController.php:110
+msgid "Liquidsoap Configuration"
+msgstr "Cấu hình Liquidsoap"
+
+#: /var/azuracast/www/src/Controller/AbstractLogViewerController.php:120
+msgid "Icecast Access Log"
+msgstr "Nhật ký truy cập Icecast"
+
+#: /var/azuracast/www/src/Controller/AbstractLogViewerController.php:125
+msgid "Icecast Error Log"
+msgstr "Nhật ký lỗi Icecast"
+
+#: /var/azuracast/www/src/Controller/AbstractLogViewerController.php:130
+msgid "Icecast Configuration"
+msgstr "Cấu hình Icecast"
+
+#: /var/azuracast/www/src/Controller/AbstractLogViewerController.php:138
+msgid "SHOUTcast Log"
+msgstr "Nhật ký SHOUTcast"
+
+#: /var/azuracast/www/src/Controller/AbstractLogViewerController.php:143
+msgid "SHOUTcast Configuration"
+msgstr "Cấu hình SHOUTcast"
+
+#: /var/azuracast/www/src/Controller/Frontend/PublicPages/PodcastEpisodesController.php:63
+msgid "No episodes found."
+msgstr "Không tìm thấy tập nào."
+
+#: /var/azuracast/www/src/Controller/Frontend/PublicPages/PodcastEpisodeController.php:54
+msgid "Episode not found."
+msgstr "Không tìm thấy tập."
+
+#: /var/azuracast/www/src/Controller/Frontend/SetupController.php:89
+msgid "Setup has already been completed!"
+msgstr "Thiết lập đã được hoàn tất!"
+
+#: /var/azuracast/www/src/Controller/Frontend/SetupController.php:115
+msgid "Super Administrator"
+msgstr "Quản trị viên cấp cao"
+
+#: /var/azuracast/www/src/Controller/Frontend/SetupController.php:211
+msgid "Setup is now complete!"
+msgstr "Thiết lập hiện đã hoàn tất!"
+
+#: /var/azuracast/www/src/Controller/Frontend/SetupController.php:212
+msgid "Continue setting up your station in the main AzuraCast app."
+msgstr "Tiếp tục thiết lập trạm của bạn trong ứng dụng chính."
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:56
+msgid "Too many login attempts"
+msgstr "Quá nhiều lần đăng nhập"
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:57
+msgid "You have attempted to log in too many times. Please wait 30 seconds and try again."
+msgstr "Bạn đã cố gắng đăng nhập quá nhiều lần. Vui lòng đợi 30 giây và thử lại."
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:93
+#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:102
+#: /var/azuracast/www/src/Controller/Frontend/Account/TwoFactorAction.php:26
+#: /var/azuracast/www/src/Controller/Admin/UsersController.php:101
+msgid "Logged in successfully."
+msgstr "Đăng nhập thành công."
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:94
+msgid "Complete the setup process to get started."
+msgstr "Hoàn tất quá trình thiết lập để bắt đầu."
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:115
+#: /var/azuracast/www/src/Controller/Frontend/Account/TwoFactorAction.php:39
+msgid "Login unsuccessful"
+msgstr "Đăng nhập không thành công"
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/LoginAction.php:115
+#: /var/azuracast/www/src/Controller/Frontend/Account/TwoFactorAction.php:39
+msgid "Your credentials could not be verified."
+msgstr "Không thể xác minh đăng nhập của bạn."
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:38
+msgid "Too many forgot password attempts"
+msgstr "Quá nhiều lần quên mật khẩu"
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:39
+msgid "You have attempted to reset your password too many times. Please wait 30 seconds and try again."
+msgstr "Bạn đã cố gắng đặt lại mật khẩu của mình quá nhiều lần. Vui lòng đợi 30 giây và thử lại."
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:57
+msgid "Account Recovery Link"
+msgstr "Liên kết khôi phục tài khoản"
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:75
+msgid "Account recovery e-mail sent."
+msgstr "Đã gửi e-mail khôi phục tài khoản."
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/ForgotPasswordAction.php:76
+msgid "If the e-mail address you provided is in the system, check your inbox for a password reset message."
+msgstr "Nếu địa chỉ e-mail của bạn có trong hệ thống, hãy kiểm tra hộp thư đến của bạn để biết thông báo đặt lại mật khẩu."
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/RecoverAction.php:29
+msgid "Invalid token specified."
+msgstr "Đã chỉ định token không hợp lệ."
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/RecoverAction.php:51
+msgid "Logged in using account recovery token"
+msgstr "Đã đăng nhập bằng token khôi phục tài khoản"
+
+#: /var/azuracast/www/src/Controller/Frontend/Account/RecoverAction.php:52
+msgid "Your password has been updated."
+msgstr "Mật khẩu của bạn đã được cập nhật."
+
+#: /var/azuracast/www/src/Controller/Frontend/ApiKeysController.php:51
+msgid "API Key not found."
+msgstr "Không tìm thấy API Key."
+
+#: /var/azuracast/www/src/Controller/Frontend/ApiKeysController.php:82
+#: /var/azuracast/www/src/Controller/Admin/ApiController.php:37
+msgid "API Key updated."
+msgstr "Đã cập nhật API Key."
+
+#: /var/azuracast/www/src/Controller/Frontend/ApiKeysController.php:89
+#: /var/azuracast/www/src/Controller/Admin/ApiController.php:44
+msgid "Edit API Key"
+msgstr "Chỉnh sửa API Key"
+
+#: /var/azuracast/www/src/Controller/Frontend/ApiKeysController.php:89
+#: /var/azuracast/www/templates/frontend/api_keys/index.phtml:20
+msgid "Add API Key"
+msgstr "Thêm API Key"
+
+#: /var/azuracast/www/src/Controller/Frontend/ApiKeysController.php:109
+#: /var/azuracast/www/src/Controller/Admin/ApiController.php:52
+msgid "API Key deleted."
+msgstr "API Key đã bị xóa."
+
+#: /var/azuracast/www/src/Controller/Frontend/Profile/EditAction.php:19
+msgid "Profile saved!"
+msgstr "Đã lưu hồ sơ!"
+
+#: /var/azuracast/www/src/Controller/Frontend/Profile/EditAction.php:27
+#: /var/azuracast/www/templates/stations/profile/edit.phtml:1
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:40
+msgid "Edit Profile"
+msgstr "Chỉnh sửa hồ sơ"
+
+#: /var/azuracast/www/src/Controller/Frontend/Profile/EnableTwoFactorAction.php:48
+msgid "The token you supplied is invalid. Please try again."
+msgstr "Mã token bạn đã cung cấp không hợp lệ. Vui lòng thử lại."
+
+#: /var/azuracast/www/src/Controller/Frontend/Profile/EnableTwoFactorAction.php:57
+msgid "Two-factor authentication enabled."
+msgstr "Đã bật xác thực hai yếu tố."
+
+#: /var/azuracast/www/src/Controller/Frontend/Profile/DisableTwoFactorAction.php:25
+msgid "Two-factor authentication disabled."
+msgstr "Xác thực hai yếu tố bị vô hiệu hóa."
+
+#: /var/azuracast/www/src/Controller/Admin/PermissionsController.php:67
+msgid "Permission updated."
+msgstr "Đã cập nhật quyền."
+
+#: /var/azuracast/www/src/Controller/Admin/PermissionsController.php:67
+msgid "Permission added."
+msgstr "Đã thêm quyền."
+
+#: /var/azuracast/www/src/Controller/Admin/PermissionsController.php:76
+msgid "Edit Permission"
+msgstr "Chỉnh sửa quyền"
+
+#: /var/azuracast/www/src/Controller/Admin/PermissionsController.php:76
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:10
+msgid "Add Permission"
+msgstr "Thêm quyền"
+
+#: /var/azuracast/www/src/Controller/Admin/PermissionsController.php:84
+msgid "Permission deleted."
+msgstr "Quyền đã bị xóa."
+
+#: /var/azuracast/www/src/Controller/Admin/AbstractAdminCrudController.php:52
+#: /var/azuracast/www/src/Controller/Api/Stations/Art/DeleteArtAction.php:23
+#: /var/azuracast/www/src/Controller/Api/Stations/Art/PostArtAction.php:26
+#: /var/azuracast/www/src/Controller/Stations/AbstractStationCrudController.php:61
+msgid "Record not found."
+msgstr "Không tìm thấy bản ghi."
+
+#: /var/azuracast/www/src/Controller/Admin/StationsController.php:39
+msgid "Station updated."
+msgstr "Đã cập nhật trạm."
+
+#: /var/azuracast/www/src/Controller/Admin/StationsController.php:39
+msgid "Station added."
+msgstr "Đã thêm trạm."
+
+#: /var/azuracast/www/src/Controller/Admin/StationsController.php:45
+msgid "Edit Station"
+msgstr "Chỉnh sửa Trạm"
+
+#: /var/azuracast/www/src/Controller/Admin/StationsController.php:58
+msgid "Station deleted."
+msgstr "Trạm đã bị xóa."
+
+#: /var/azuracast/www/src/Controller/Admin/StationsController.php:66
+msgid "Station not found."
+msgstr "Không tìm thấy trạm."
+
+#: /var/azuracast/www/src/Controller/Admin/StationsController.php:70
+#: /var/azuracast/www/src/Controller/Admin/SettingsController.php:19
+#: /var/azuracast/www/src/Controller/Admin/InstallGeoLiteController.php:31
+#: /var/azuracast/www/src/Controller/Admin/BackupsController.php:90
+#: /var/azuracast/www/src/Controller/Admin/BrandingController.php:19
+#: /var/azuracast/www/src/Controller/Stations/AutomationController.php:44
+#: /var/azuracast/www/src/Controller/Stations/EditLiquidsoapConfigAction.php:109
+#: /var/azuracast/www/src/Controller/Stations/SftpUsersController.php:57
+msgid "Changes saved."
+msgstr "Đã lưu thay đổi."
+
+#: /var/azuracast/www/src/Controller/Admin/StationsController.php:77
+msgid "Clone Station: %s"
+msgstr "Nhân bản trạm: %s"
+
+#: /var/azuracast/www/src/Controller/Admin/InstallShoutcastController.php:39
+msgid "SHOUTcast version \"%s\" is currently installed."
+msgstr "Phiên bản SHOUTcast \"%s\" hiện đã được cài đặt."
+
+#: /var/azuracast/www/src/Controller/Admin/InstallShoutcastController.php:91
+#: /var/azuracast/www/config/menus/admin.php:96
+msgid "Install SHOUTcast"
+msgstr "Cài đặt SHOUTcast"
+
+#: /var/azuracast/www/src/Controller/Admin/SettingsController.php:26
+#: /var/azuracast/www/config/menus/admin.php:19
+#: /var/azuracast/www/templates/frontend/setup/station.phtml:25
+#: /var/azuracast/www/templates/frontend/setup/settings.phtml:25
+msgid "System Settings"
+msgstr "Cài đặt hệ thống"
+
+#: /var/azuracast/www/src/Controller/Admin/UsersController.php:45
+msgid "User updated."
+msgstr "Đã cập nhật người dùng."
+
+#: /var/azuracast/www/src/Controller/Admin/UsersController.php:45
+msgid "User added."
+msgstr "Đã thêm người dùng."
+
+#: /var/azuracast/www/src/Controller/Admin/UsersController.php:51
+msgid "Another user already exists with this e-mail address. Please update the e-mail address."
+msgstr "Một người dùng khác đã sử dụng địa chỉ e-mail này. Vui lòng cập nhật địa chỉ e-mail."
+
+#: /var/azuracast/www/src/Controller/Admin/UsersController.php:59
+msgid "Edit User"
+msgstr "Sửa người dùng"
+
+#: /var/azuracast/www/src/Controller/Admin/UsersController.php:59
+#: /var/azuracast/www/templates/admin/users/index.phtml:10
+msgid "Add User"
+msgstr "Thêm người dùng"
+
+#: /var/azuracast/www/src/Controller/Admin/UsersController.php:72
+msgid "You cannot delete your own account."
+msgstr "Bạn không thể xóa tài khoản của mình."
+
+#: /var/azuracast/www/src/Controller/Admin/UsersController.php:77
+msgid "User deleted."
+msgstr "Người dùng đã bị xóa."
+
+#: /var/azuracast/www/src/Controller/Admin/UsersController.php:94
+msgid "User not found."
+msgstr "Không tìm thấy người dùng."
+
+#: /var/azuracast/www/src/Controller/Admin/InstallGeoLiteController.php:34
+msgid "An error occurred while downloading the GeoLite database: %s"
+msgstr "Đã xảy ra lỗi khi tải xuống cơ sở dữ liệu GeoLite: %s"
+
+#: /var/azuracast/www/src/Controller/Admin/InstallGeoLiteController.php:52
+#: /var/azuracast/www/config/menus/admin.php:101
+msgid "Install GeoLite IP Database"
+msgstr "Cài đặt Cơ sở dữ liệu IP của GeoLite"
+
+#: /var/azuracast/www/src/Controller/Admin/InstallGeoLiteController.php:73
+msgid "GeoLite database uninstalled."
+msgstr "Đã gỡ cài đặt cơ sở dữ liệu GeoLite."
+
+#: /var/azuracast/www/src/Controller/Admin/CustomFieldsController.php:39
+msgid "Custom Field updated."
+msgstr "Đã cập nhật Trường tùy chỉnh."
+
+#: /var/azuracast/www/src/Controller/Admin/CustomFieldsController.php:39
+msgid "Custom Field added."
+msgstr "Đã thêm Trường tùy chỉnh."
+
+#: /var/azuracast/www/src/Controller/Admin/CustomFieldsController.php:48
+msgid "Edit Custom Field"
+msgstr "Sửa Trường tùy chỉnh"
+
+#: /var/azuracast/www/src/Controller/Admin/CustomFieldsController.php:48
+#: /var/azuracast/www/templates/admin/custom_fields/index.phtml:10
+msgid "Add Custom Field"
+msgstr "Thêm Trường tùy chỉnh"
+
+#: /var/azuracast/www/src/Controller/Admin/CustomFieldsController.php:56
+msgid "Custom Field deleted."
+msgstr "Trường Tùy chỉnh đã bị xóa."
+
+#: /var/azuracast/www/src/Controller/Admin/BackupsController.php:100
+msgid "Configure Backups"
+msgstr "Cấu hình sao lưu"
+
+#: /var/azuracast/www/src/Controller/Admin/BackupsController.php:145
+#: /var/azuracast/www/src/Controller/Admin/BackupsController.php:158
+#: /var/azuracast/www/templates/admin/backups/run.phtml:8
+#: /var/azuracast/www/templates/admin/backups/run.phtml:15
+#: /var/azuracast/www/templates/admin/backups/index.phtml:88
+msgid "Run Manual Backup"
+msgstr "Sao lưu thủ công"
+
+#: /var/azuracast/www/src/Controller/Admin/BackupsController.php:195
+msgid "Backup deleted."
+msgstr "Đã xóa bản sao lưu."
+
+#: /var/azuracast/www/src/Controller/Admin/BackupsController.php:222
+msgid "Backup not found."
+msgstr "Không tìm thấy sao lưu."
+
+#: /var/azuracast/www/src/Controller/Admin/LogsController.php:54
+msgid "AzuraCast Application Log"
+msgstr "Nhật ký ứng dụng"
+
+#: /var/azuracast/www/src/Controller/Admin/LogsController.php:61
+msgid "Nginx Access Log"
+msgstr "Nhật ký truy cập Nginx"
+
+#: /var/azuracast/www/src/Controller/Admin/LogsController.php:66
+msgid "Nginx Error Log"
+msgstr "Nhật ký lỗi Nginx"
+
+#: /var/azuracast/www/src/Controller/Admin/LogsController.php:71
+msgid "PHP Application Log"
+msgstr "Nhật ký ứng dụng PHP"
+
+#: /var/azuracast/www/src/Controller/Admin/LogsController.php:76
+msgid "Supervisord Log"
+msgstr "Nhật ký giám sát"
+
+#: /var/azuracast/www/src/Controller/Admin/DebugController.php:77
+msgid "Run Synchronized Task"
+msgstr "Chạy tác vụ được đồng bộ hóa"
+
+#: /var/azuracast/www/src/Controller/Admin/DebugController.php:121
+#: /var/azuracast/www/src/Controller/Admin/DebugController.php:155
+msgid "Debug Output"
+msgstr "Gỡ lỗi đầu ra"
+
+#: /var/azuracast/www/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:124
+msgid "All Stations"
+msgstr "Tất cả các trạm"
+
+#: /var/azuracast/www/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:171
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:67
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:110
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:160
+#: /var/azuracast/www/config/menus/station.php:123
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:7
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:22
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:44
+msgid "Listeners"
+msgstr "Người nghe"
+
+#: /var/azuracast/www/src/Controller/Api/Frontend/Account/PutMeAction.php:22
+#: /var/azuracast/www/src/Controller/Api/Admin/AbstractAdminApiCrudController.php:92
+#: /var/azuracast/www/src/Controller/Api/Stations/AbstractStationApiCrudController.php:136
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastEpisodesController.php:257
+#: /var/azuracast/www/src/Controller/Api/Stations/FilesController.php:290
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastsController.php:202
+msgid "Changes saved successfully."
+msgstr "Lưu thay đổi thành công."
+
+#: /var/azuracast/www/src/Controller/Api/Admin/AbstractAdminApiCrudController.php:57
+#: /var/azuracast/www/src/Controller/Api/Admin/AbstractAdminApiCrudController.php:87
+#: /var/azuracast/www/src/Controller/Api/Admin/AbstractAdminApiCrudController.php:106
+#: /var/azuracast/www/src/Controller/Api/Admin/UsersController.php:105
+#: /var/azuracast/www/src/Controller/Api/Stations/AbstractStationApiCrudController.php:94
+#: /var/azuracast/www/src/Controller/Api/Stations/AbstractStationApiCrudController.php:131
+#: /var/azuracast/www/src/Controller/Api/Stations/AbstractStationApiCrudController.php:155
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastEpisodesController.php:196
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastEpisodesController.php:252
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastEpisodesController.php:270
+#: /var/azuracast/www/src/Controller/Api/Stations/FilesController.php:190
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastsController.php:155
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastsController.php:197
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastsController.php:215
+#: /var/azuracast/www/src/Controller/Api/Stations/Streamers/BroadcastsController.php:38
+#: /var/azuracast/www/src/Controller/Api/Stations/Streamers/BroadcastsController.php:146
+#: /var/azuracast/www/src/Controller/Api/Stations/Streamers/BroadcastsController.php:179
+msgid "Record not found!"
+msgstr "Không tìm thấy bản ghi!"
+
+#: /var/azuracast/www/src/Controller/Api/Admin/AbstractAdminApiCrudController.php:111
+#: /var/azuracast/www/src/Controller/Api/Admin/UsersController.php:117
+#: /var/azuracast/www/src/Controller/Api/Stations/AbstractStationApiCrudController.php:160
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastEpisodesController.php:276
+#: /var/azuracast/www/src/Controller/Api/Stations/PodcastsController.php:221
+msgid "Record deleted successfully."
+msgstr "Xóa bản ghi thành công."
+
+#: /var/azuracast/www/src/Controller/Api/Admin/UsersController.php:112
+msgid "You cannot remove yourself."
+msgstr "Bạn không thể xóa chính mình."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Files/ListAction.php:282
+msgid "Directory"
+msgstr "Danh mục"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Files/ListAction.php:288
+msgid "File Not Processed: %s"
+msgstr "Tệp không được xử lý: %s"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Files/ListAction.php:293
+msgid "File Processing"
+msgstr "Xử lý tệp"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Files/FlowUploadAction.php:31
+#: /var/azuracast/www/src/Controller/Api/Stations/FilesController.php:150
+msgid "This station is out of available storage space."
+msgstr "Trạm này đã hết dung lượng lưu trữ khả dụng."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Files/MakeDirectoryAction.php:23
+msgid "No directory specified"
+msgstr "Không có thư mục nào được chỉ định"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Files/RenameAction.php:22
+msgid "File not specified."
+msgstr "Tệp không được chỉ định."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Files/RenameAction.php:28
+msgid "New path not specified."
+msgstr "Đường dẫn mới không được chỉ định."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/OnDemand/DownloadAction.php:24
+#: /var/azuracast/www/src/Controller/Api/Stations/OnDemand/ListAction.php:38
+msgid "This station does not support on-demand streaming."
+msgstr "Đài này không hỗ trợ phát trực tuyến theo yêu cầu."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/OnDemand/DownloadAction.php:31
+msgid "File not found."
+msgstr "Không tìm thấy tệp."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:43
+msgid "Listeners by Day"
+msgstr "Người nghe theo ngày"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:84
+msgid "Listeners by Day of Week"
+msgstr "Người nghe theo ngày trong tuần"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:92
+msgid "Monday"
+msgstr "Thứ hai"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:93
+msgid "Tuesday"
+msgstr "Thứ ba"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:94
+msgid "Wednesday"
+msgstr "Thứ tư"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:95
+msgid "Thursday"
+msgstr "Thứ năm"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:96
+msgid "Friday"
+msgstr "Thứ sáu"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:97
+msgid "Saturday"
+msgstr "Thứ bảy"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:98
+msgid "Sunday"
+msgstr "Chủ nhật"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:144
+msgid "Listeners by Hour"
+msgstr "Người nghe theo giờ"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:74
+msgid "Station restarted."
+msgstr "Khởi động lại trạm."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:113
+msgid "Frontend stopped."
+msgstr "Frontend đã dừng."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:118
+msgid "Frontend started."
+msgstr "Frontend  đã bắt đầu."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:130
+msgid "Frontend restarted."
+msgstr "Frontend được khởi động lại."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:182
+msgid "Song skipped."
+msgstr "Nội dung bị bỏ qua."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:189
+msgid "Streamer disconnected."
+msgstr "Đã ngắt kết nối phát trực tiếp."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:194
+msgid "Backend stopped."
+msgstr "Dừng Backend."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:199
+msgid "Backend started."
+msgstr "Chạy Backend."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/ServicesController.php:211
+msgid "Backend restarted."
+msgstr "Khởi động lại Backend."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/DeleteQueueAction.php:25
+msgid "Playlist queue cleared."
+msgstr "Đã xóa danh sách hàng đợi."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/ToggleAction.php:23
+msgid "Playlist enabled."
+msgstr "Đã bật danh sách phát."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/ToggleAction.php:24
+msgid "Playlist disabled."
+msgstr "Khóa danh sách phát."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/ReshuffleAction.php:25
+msgid "Playlist reshuffled."
+msgstr "Đã làm lại danh sách phát."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/AbstractPlaylistsAction.php:26
+msgid "Playlist not found."
+msgstr "Không tìm thấy danh sách phát."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/ImportAction.php:121
+msgid "Playlist successfully imported; %d of %d files were successfully matched."
+msgstr "Đã nhập thành công danh sách phát; %d trong số %d tệp thành công."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/PutOrderAction.php:25
+#: /var/azuracast/www/src/Controller/Api/Stations/Playlists/GetOrderAction.php:24
+msgid "This playlist is not a sequential playlist."
+msgstr "Danh sách phát này không phải là danh sách phát tuần tự."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Streamers/BroadcastsController.php:153
+msgid "No recording available."
+msgstr "Không có bản ghi nào."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Podcasts/Episodes/Media/PostMediaAction.php:36
+#: /var/azuracast/www/src/Controller/Api/Stations/Podcasts/Episodes/Art/DeleteArtAction.php:27
+#: /var/azuracast/www/src/Controller/Api/Stations/Podcasts/Episodes/Art/PostArtAction.php:33
+msgid "Episode not found!"
+msgstr "Không tìm thấy tập!"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Podcasts/Episodes/Art/DeleteArtAction.php:34
+msgid "Episode artwork successfully cleared."
+msgstr "Ảnh minh họa đã được xóa thành công."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Podcasts/Art/DeleteArtAction.php:31
+#: /var/azuracast/www/src/Controller/Api/Stations/Podcasts/Art/PostArtAction.php:33
+msgid "Podcast not found!"
+msgstr "Không tìm thấy podcast!"
+
+#: /var/azuracast/www/src/Controller/Api/Stations/Podcasts/Art/DeleteArtAction.php:43
+msgid "Podcast artwork successfully cleared."
+msgstr "Đã xóa thành công podcast artwork."
+
+#: /var/azuracast/www/src/Controller/Api/Stations/RequestsController.php:181
+msgid "Request submitted successfully."
+msgstr "Đã gửi yêu cầu thành công."
+
+#: /var/azuracast/www/src/Controller/Stations/AutomationController.php:60
+msgid "Automated assignment complete!"
+msgstr "Hoàn thành gán tự động!"
+
+#: /var/azuracast/www/src/Controller/Stations/AutomationController.php:64
+msgid "Automated assignment error"
+msgstr "Lỗi gán tự động"
+
+#: /var/azuracast/www/src/Controller/Stations/Reports/SoundExchangeController.php:161
+msgid "SoundExchange Report"
+msgstr "Báo cáo SoundExchange"
+
+#: /var/azuracast/www/src/Controller/Stations/EditLiquidsoapConfigAction.php:57
+#: /var/azuracast/www/config/forms/custom_field.php:109
+#: /var/azuracast/www/config/forms/webhook/telegram.php:138
+#: /var/azuracast/www/config/forms/webhook/tunein.php:63
+#: /var/azuracast/www/config/forms/webhook/discord.php:144
+#: /var/azuracast/www/config/forms/webhook/generic.php:100
+#: /var/azuracast/www/config/forms/webhook/google_analytics.php:43
+#: /var/azuracast/www/config/forms/webhook/email.php:88
+#: /var/azuracast/www/config/forms/webhook/twitter.php:153
+#: /var/azuracast/www/config/forms/station.php:700
+#: /var/azuracast/www/config/forms/api_key.php:20
+#: /var/azuracast/www/config/forms/remote.php:194
+#: /var/azuracast/www/config/forms/install_geolite.php:35
+#: /var/azuracast/www/config/forms/backup.php:80
+#: /var/azuracast/www/config/forms/settings.php:402
+#: /var/azuracast/www/config/forms/automation.php:40
+#: /var/azuracast/www/config/forms/user.php:52
+#: /var/azuracast/www/config/forms/backup_run.php:37
+#: /var/azuracast/www/config/forms/profile.php:114
+#: /var/azuracast/www/config/forms/branding.php:126
+#: /var/azuracast/www/config/forms/sftp_user.php:38
+#: /var/azuracast/www/config/forms/role.php:44
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: /var/azuracast/www/src/Controller/Stations/EditLiquidsoapConfigAction.php:119
+#: /var/azuracast/www/config/menus/station.php:175
+msgid "Edit Liquidsoap Configuration"
+msgstr "Chỉnh sửa cấu hình Liquidsoap"
+
+#: /var/azuracast/www/src/Controller/Stations/WebhooksController.php:56
+msgid "Web Hook added."
+msgstr "Đã thêm Web Hook."
+
+#: /var/azuracast/www/src/Controller/Stations/WebhooksController.php:63
+#: /var/azuracast/www/templates/stations/webhooks/add.phtml:3
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:20
+msgid "Add Web Hook"
+msgstr "Thêm Web Hook"
+
+#: /var/azuracast/www/src/Controller/Stations/WebhooksController.php:70
+msgid "Web Hook updated."
+msgstr "Đã cập nhật Web Hook."
+
+#: /var/azuracast/www/src/Controller/Stations/WebhooksController.php:77
+msgid "Edit Web Hook"
+msgstr "Sửa Web Hook"
+
+#: /var/azuracast/www/src/Controller/Stations/WebhooksController.php:98
+msgid "Web hook enabled."
+msgstr "Đã bật Web Hook."
+
+#: /var/azuracast/www/src/Controller/Stations/WebhooksController.php:98
+msgid "Web Hook disabled."
+msgstr "Khóa Web Hook."
+
+#: /var/azuracast/www/src/Controller/Stations/WebhooksController.php:120
+msgid "Web Hook Test Output"
+msgstr "Kiểm tra đầu ra Web Hook"
+
+#: /var/azuracast/www/src/Controller/Stations/WebhooksController.php:133
+msgid "Web Hook deleted."
+msgstr "Web Hook đã bị xóa."
+
+#: /var/azuracast/www/src/Controller/Stations/StreamersAction.php:40
+msgid "Streamers enabled!"
+msgstr "Người phát trực tuyến đã được kích hoạt!"
+
+#: /var/azuracast/www/src/Controller/Stations/StreamersAction.php:40
+msgid "You can now set up streamer (DJ) accounts."
+msgstr "Bạn có thể thiết lập Người phát trực tiếp(DJ)."
+
+#: /var/azuracast/www/src/Controller/Stations/SftpUsersController.php:64
+msgid "Edit SFTP User"
+msgstr "Chỉnh sửa SFTP user"
+
+#: /var/azuracast/www/src/Controller/Stations/SftpUsersController.php:64
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:13
+msgid "Add SFTP User"
+msgstr "Thêm SFTP user"
+
+#: /var/azuracast/www/src/Controller/Stations/SftpUsersController.php:76
+msgid "SFTP User deleted."
+msgstr "SFTP user đã bị xóa."
+
+#: /var/azuracast/www/src/Controller/Stations/RemotesController.php:36
+msgid "Remote Relay updated."
+msgstr "Đã cập nhật phát chuyển tiếp."
+
+#: /var/azuracast/www/src/Controller/Stations/RemotesController.php:36
+msgid "Remote Relay added."
+msgstr "Đã thêm phát chuyển tiếp."
+
+#: /var/azuracast/www/src/Controller/Stations/RemotesController.php:45
+msgid "Edit Remote Relay"
+msgstr "Chỉnh sửa phát chuyển tiếp"
+
+#: /var/azuracast/www/src/Controller/Stations/RemotesController.php:45
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:20
+msgid "Add Remote Relay"
+msgstr "Thêm phát chuyển tiếp"
+
+#: /var/azuracast/www/src/Controller/Stations/RemotesController.php:57
+msgid "Remote Relay deleted."
+msgstr "Phát chuyển tiếp đã bị xóa."
+
+#: /var/azuracast/www/src/Controller/Stations/RemotesController.php:67
+msgid "This record cannot be edited."
+msgstr "Bản ghi này không thể được chỉnh sửa."
+
+#: /var/azuracast/www/src/Service/IpGeolocation.php:55
+msgid "GeoLite database not configured for this installation. See System Administration for instructions."
+msgstr "Cơ sở dữ liệu GeoLite không được định cấu hình cho cài đặt này. Xem Quản trị hệ thống để biết hướng dẫn."
+
+#: /var/azuracast/www/src/Service/IpGeolocator/DbIp.php:27
+msgid "IP Geolocation by DB-IP"
+msgstr "Định vị địa lý IP theo DB-IP"
+
+#: /var/azuracast/www/src/Service/IpGeolocator/GeoLite.php:27
+msgid "This product includes GeoLite2 data created by MaxMind, available from %s."
+msgstr "Sản phẩm này bao gồm dữ liệu GeoLite2 do MaxMind tạo, có sẵn từ %s."
+
+#: /var/azuracast/www/config/cli.php:56
+msgid "Generate the translation locale file."
+msgstr "Tạo tệp ngôn ngữ dịch."
+
+#: /var/azuracast/www/config/cli.php:61
+msgid "Convert translated locale files into PHP arrays."
+msgstr "Chuyển đổi các tệp ngôn ngữ đã dịch sang mảng PHP."
+
+#: /var/azuracast/www/config/cli.php:67
+msgid "Ensure key settings are initialized within AzuraCast."
+msgstr "Đảm bảo các cài đặt chính được khởi tạo trong máy chủ."
+
+#: /var/azuracast/www/config/cli.php:72
+msgid "Migrate existing configuration to new INI format if any exists."
+msgstr "Di chuyển cấu hình hiện có sang định dạng INI mới nếu có."
+
+#: /var/azuracast/www/config/cli.php:77
+msgid "Install fixtures for demo / local development."
+msgstr "Cài đặt thông số để demo / tự phát triển."
+
+#: /var/azuracast/www/config/cli.php:82
+msgid "Run all general AzuraCast setup steps."
+msgstr "Chạy tất cả các bước thiết lập chung."
+
+#: /var/azuracast/www/config/cli.php:93
+msgid "Run one or more scheduled synchronization tasks."
+msgstr "Chạy một hoặc nhiều tác vụ đồng bộ hóa theo lịch trình."
+
+#: /var/azuracast/www/config/cli.php:98
+msgid "Process the message queue."
+msgstr "Xử lý hàng đợi tin nhắn."
+
+#: /var/azuracast/www/config/cli.php:103
+msgid "Clear the contents of the message queue."
+msgstr "Xóa nội dung của hàng đợi tin nhắn."
+
+#: /var/azuracast/www/config/cli.php:139
+msgid "List all settings in the AzuraCast settings database."
+msgstr "Liệt kê tất cả cài đặt trong cơ sở dữ liệu cài đặt."
+
+#: /var/azuracast/www/config/cli.php:149
+msgid "Back up the AzuraCast database and statistics (and optionally media)."
+msgstr "Sao lưu cơ sở dữ liệu và thống kê (và tùy chọn file)."
+
+#: /var/azuracast/www/config/webhooks.php:13
+msgid "Generic Web Hook"
+msgstr "Web Hook chung"
+
+#: /var/azuracast/www/config/webhooks.php:14
+msgid "Automatically send a message to any URL when your station data changes."
+msgstr "Tự động gửi tin nhắn đến bất kỳ URL nào khi dữ liệu trạm của bạn thay đổi."
+
+#: /var/azuracast/www/config/webhooks.php:18
+msgid "Send E-mail"
+msgstr "Gửi email"
+
+#: /var/azuracast/www/config/webhooks.php:19
+msgid "Send an e-mail to specified address(es)."
+msgstr "Gửi e-mail đến (các) địa chỉ cụ thể."
+
+#: /var/azuracast/www/config/webhooks.php:23
+msgid "TuneIn AIR"
+msgstr "TuneIn AIR"
+
+#: /var/azuracast/www/config/webhooks.php:24
+msgid "Send song metadata changes to TuneIn."
+msgstr "Gửi thay đổi Metadata nội dung tới TuneIn."
+
+#: /var/azuracast/www/config/webhooks.php:28
+msgid "Discord Webhook"
+msgstr "Discord Webhook"
+
+#: /var/azuracast/www/config/webhooks.php:29
+msgid "Automatically send a customized message to your Discord server."
+msgstr "Tự động gửi tin nhắn tùy chỉnh đến máy chủ Discord của bạn."
+
+#: /var/azuracast/www/config/webhooks.php:33
+msgid "Telegram Chat Message"
+msgstr "Tin nhắn trò chuyện Telegram"
+
+#: /var/azuracast/www/config/webhooks.php:34
+msgid "Use the Telegram Bot API to send a message to a channel."
+msgstr "Sử dụng Telegram Bot API để gửi tin nhắn đến một kênh."
+
+#: /var/azuracast/www/config/webhooks.php:38
+msgid "Twitter Post"
+msgstr "Bài đăng trên Twitter"
+
+#: /var/azuracast/www/config/webhooks.php:39
+msgid "Automatically send a tweet."
+msgstr "Tự động gửi một tweet."
+
+#: /var/azuracast/www/config/webhooks.php:43
+msgid "Google Analytics Integration"
+msgstr "Tích hợp Google Analytics"
+
+#: /var/azuracast/www/config/webhooks.php:44
+msgid "Send stream listener details to Google Analytics."
+msgstr "Gửi thông tin chi tiết về trình nghe tới Google Analytics."
+
+#: /var/azuracast/www/config/webhooks.php:50
+msgid "Any time the currently playing song changes"
+msgstr "Bất kỳ lúc nào bài hát đang phát thay đổi"
+
+#: /var/azuracast/www/config/webhooks.php:51
+msgid "Any time the listener count increases"
+msgstr "Bất kỳ lúc nào lượng người nghe tăng"
+
+#: /var/azuracast/www/config/webhooks.php:52
+msgid "Any time the listener count decreases"
+msgstr "Bất kỳ lúc nào lượng người nghe giảm"
+
+#: /var/azuracast/www/config/webhooks.php:53
+msgid "Any time a live streamer/DJ connects to the stream"
+msgstr "Bất kỳ lúc nào người phát trực tiếp / DJ kết nối"
+
+#: /var/azuracast/www/config/webhooks.php:54
+msgid "Any time a live streamer/DJ disconnects from the stream"
+msgstr "Bất kỳ lúc nào người phát trực tiếp / DJ ngắt kết nối"
+
+#: /var/azuracast/www/config/webhooks.php:55
+msgid "When the station broadcast goes offline."
+msgstr "Khi trạm phát sóng chuyển sang offline."
+
+#: /var/azuracast/www/config/webhooks.php:56
+msgid "When the station broadcast comes online."
+msgstr "Khi trạm phát sóng chuyển sang online."
+
+#: /var/azuracast/www/config/menus/station.php:21
+msgid "Start Station"
+msgstr "Bật trạm phát"
+
+#: /var/azuracast/www/config/menus/station.php:22
+msgid "Ready to start broadcasting? Click to start your station."
+msgstr "Sẵn sàng để bắt đầu phát sóng? Nhấp để bắt đầu trạm của bạn."
+
+#: /var/azuracast/www/config/menus/station.php:26
+#: /var/azuracast/www/config/menus/station.php:36
+#: /var/azuracast/www/config/menus/station.php:195
+msgid "Restart broadcasting? This will disconnect any current listeners."
+msgstr "Khởi động lại trạm phát sóng? Điều này sẽ ngắt kết nối đến người nghe."
+
+#: /var/azuracast/www/config/menus/station.php:31
+msgid "Restart to Apply Changes"
+msgstr "Khởi động lại để áp dụng các thay đổi"
+
+#: /var/azuracast/www/config/menus/station.php:32
+msgid "Click to restart your station and apply configuration changes."
+msgstr "Nhấp để khởi động lại trạm và áp dụng các thay đổi cấu hình."
+
+#: /var/azuracast/www/config/menus/station.php:41
+#: /var/azuracast/www/templates/stations/profile/index.phtml:10
+msgid "Profile"
+msgstr "Hồ sơ"
+
+#: /var/azuracast/www/config/menus/station.php:46
+msgid "Public Page"
+msgstr "Trang công khai"
+
+#: /var/azuracast/www/config/menus/station.php:53
+msgid "On-Demand Media"
+msgstr "Nội dung theo yêu cầu"
+
+#: /var/azuracast/www/config/menus/station.php:60
+#: /var/azuracast/www/templates/stations/files/index.phtml:7
+#: /var/azuracast/www/templates/stations/files/index.phtml:36
+msgid "Music Files"
+msgstr "File nội dung"
+
+#: /var/azuracast/www/config/menus/station.php:67
+#: /var/azuracast/www/config/forms/station_clone.php:47
+#: /var/azuracast/www/templates/stations/playlists/index.phtml:6
+msgid "Playlists"
+msgstr "Danh sách phát"
+
+#: /var/azuracast/www/config/menus/station.php:74
+msgid "Podcasts (Beta)"
+msgstr "Podcast"
+
+#: /var/azuracast/www/config/menus/station.php:80
+#: /var/azuracast/www/templates/stations/streamers/disabled.phtml:1
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:3
+msgid "Streamer/DJ Accounts"
+msgstr "Người phát trực tiếp"
+
+#: /var/azuracast/www/config/menus/station.php:87
+msgid "Web DJ"
+msgstr "Phát từ web"
+
+#: /var/azuracast/www/config/menus/station.php:95
+#: /var/azuracast/www/config/forms/station_clone.php:48
+#: /var/azuracast/www/templates/stations/mounts/index.phtml:6
+msgid "Mount Points"
+msgstr "Mount Points"
+
+#: /var/azuracast/www/config/menus/station.php:102
+#: /var/azuracast/www/config/forms/station_clone.php:49
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:1
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:5
+msgid "Remote Relays"
+msgstr "Chuyển tiếp"
+
+#: /var/azuracast/www/config/menus/station.php:108
+#: /var/azuracast/www/config/forms/station_clone.php:52
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:1
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:5
+msgid "Web Hooks"
+msgstr "Web Hooks"
+
+#: /var/azuracast/www/config/menus/station.php:114
+msgid "Reports"
+msgstr "Báo cáo"
+
+#: /var/azuracast/www/config/menus/station.php:119
+#: /var/azuracast/www/templates/stations/reports/overview.phtml:7
+msgid "Statistics Overview"
+msgstr "Thống kê"
+
+#: /var/azuracast/www/config/menus/station.php:128
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:1
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:13
+msgid "Song Requests"
+msgstr "Yêu cầu bài hát"
+
+#: /var/azuracast/www/config/menus/station.php:133
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:1
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:15
+msgid "Song Playback Timeline"
+msgstr "Dòng thời gian phát"
+
+#: /var/azuracast/www/config/menus/station.php:137
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:2
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:12
+msgid "Song Listener Impact"
+msgstr "Tác động của người nghe"
+
+#: /var/azuracast/www/config/menus/station.php:142
+msgid "Duplicate Songs"
+msgstr "Nội dung trùng lặp"
+
+#: /var/azuracast/www/config/menus/station.php:147
+msgid "Unprocessable Files"
+msgstr "Tệp không thể xử lý"
+
+#: /var/azuracast/www/config/menus/station.php:152
+msgid "SoundExchange Royalties"
+msgstr "Bản quyền SoundExchange"
+
+#: /var/azuracast/www/config/menus/station.php:159
+msgid "Utilities"
+msgstr "Tiện ích"
+
+#: /var/azuracast/www/config/menus/station.php:163
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:1
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:7
+msgid "SFTP Users"
+msgstr "Tài khoản SFTP"
+
+#: /var/azuracast/www/config/menus/station.php:169
+msgid "Automated Assignment"
+msgstr "Thiết lập tự động"
+
+#: /var/azuracast/www/config/menus/station.php:182
+#: /var/azuracast/www/templates/stations/logs/index.phtml:3
+#: /var/azuracast/www/templates/admin/logs/index.phtml:7
+msgid "Log Viewer"
+msgstr "Trình xem nhật ký"
+
+#: /var/azuracast/www/config/menus/station.php:187
+#: /var/azuracast/www/templates/stations/queue/index.phtml:3
+msgid "Upcoming Song Queue"
+msgstr "Hàng đợi bài sắp tới"
+
+#: /var/azuracast/www/config/menus/station.php:192
+msgid "Restart Broadcasting"
+msgstr "Khởi động lại phát sóng"
+
+#: /var/azuracast/www/config/menus/admin.php:15
+msgid "System Maintenance"
+msgstr "Bảo trì hệ thống"
+
+#: /var/azuracast/www/config/menus/admin.php:24
+#: /var/azuracast/www/templates/admin/branding/index.phtml:12
+msgid "Custom Branding"
+msgstr "Tùy chỉnh thương hiệu"
+
+#: /var/azuracast/www/config/menus/admin.php:29
+#: /var/azuracast/www/templates/admin/logs/index.phtml:16
+msgid "System Logs"
+msgstr "Nhật ký hệ thống"
+
+#: /var/azuracast/www/config/menus/admin.php:34
+#: /var/azuracast/www/templates/admin/storage_locations/index.phtml:6
+msgid "Storage Locations"
+msgstr "Vị trí lưu trữ"
+
+#: /var/azuracast/www/config/menus/admin.php:44
+#: /var/azuracast/www/templates/admin/debug/index.phtml:3
+#: /var/azuracast/www/templates/admin/debug/index.phtml:8
+msgid "System Debugger"
+msgstr "Trình gỡ lỗi hệ thống"
+
+#: /var/azuracast/www/config/menus/admin.php:51
+msgid "Users"
+msgstr "Người dùng"
+
+#: /var/azuracast/www/config/menus/admin.php:55
+#: /var/azuracast/www/templates/admin/users/index.phtml:1
+#: /var/azuracast/www/templates/admin/users/index.phtml:5
+msgid "User Accounts"
+msgstr "Tài khoản người dùng"
+
+#: /var/azuracast/www/config/menus/admin.php:60
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:1
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:5
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:23
+msgid "Permissions"
+msgstr "Quyền"
+
+#: /var/azuracast/www/config/menus/admin.php:65
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:3
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:19
+msgid "Audit Log"
+msgstr "Nhật ký đánh giá"
+
+#: /var/azuracast/www/config/menus/admin.php:70
+#: /var/azuracast/www/templates/admin/api/index.phtml:1
+#: /var/azuracast/www/templates/admin/api/index.phtml:5
+msgid "API Keys"
+msgstr "API Key"
+
+#: /var/azuracast/www/config/menus/admin.php:77
+#: /var/azuracast/www/config/menus/admin.php:81
+#: /var/azuracast/www/templates/admin/stations/index.phtml:1
+msgid "Stations"
+msgstr "Trạm"
+
+#: /var/azuracast/www/config/menus/admin.php:86
+#: /var/azuracast/www/templates/admin/custom_fields/index.phtml:1
+#: /var/azuracast/www/templates/admin/custom_fields/index.phtml:5
+msgid "Custom Fields"
+msgstr "Tùy chỉnh"
+
+#: /var/azuracast/www/config/menus/admin.php:91
+#: /var/azuracast/www/templates/admin/relays/index.phtml:3
+#: /var/azuracast/www/templates/admin/relays/index.phtml:15
+msgid "Connected AzuraRelays"
+msgstr "AzuraRelays được kết nối"
+
+#: /var/azuracast/www/config/forms/custom_field.php:13
+msgid "Field Name"
+msgstr "Tên trường"
+
+#: /var/azuracast/www/config/forms/custom_field.php:14
+msgid "This will be used as the label when editing individual songs, and will show in API results."
+msgstr "Điều này sẽ được sử dụng làm nhãn khi chỉnh sửa các bài hát riêng lẻ và sẽ hiển thị trong kết quả API."
+
+#: /var/azuracast/www/config/forms/custom_field.php:22
+#: /var/azuracast/www/templates/admin/custom_fields/index.phtml:23
+msgid "Programmatic Name"
+msgstr "Tên có lập trình"
+
+#: /var/azuracast/www/config/forms/custom_field.php:23
+msgid "Optionally specify an API-friendly name, such as <code>field_name</code>. Leave this field blank to automatically create one based on the name."
+msgstr "Tùy ý chỉ định tên thân thiện với API, chẳng hạn như <code> field_name </code>. Để trống trường này để tự động tạo một trường dựa trên tên."
+
+#: /var/azuracast/www/config/forms/custom_field.php:31
+msgid "Automatically Set from ID3v2 Value"
+msgstr "Tự động đặt từ Giá trị ID3v2"
+
+#: /var/azuracast/www/config/forms/custom_field.php:32
+msgid "Optionally select an ID3v2 metadata field that, if present, will be used to set this field's value."
+msgstr "Tùy ý chọn trường Metadata ID3v2, nếu có, sẽ được sử dụng để đặt giá trị của trường này."
+
+#: /var/azuracast/www/config/forms/custom_field.php:36
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:47
+msgid "Disable"
+msgstr "Tắt"
+
+#: /var/azuracast/www/config/forms/custom_field.php:37
+msgid "Album"
+msgstr "Album"
+
+#: /var/azuracast/www/config/forms/custom_field.php:38
+msgid "Album Artist Sort Order"
+msgstr "Sắp xếp theo album nghệ sĩ"
+
+#: /var/azuracast/www/config/forms/custom_field.php:39
+msgid "Album Sort Order"
+msgstr "Sắp xếp theo album"
+
+#: /var/azuracast/www/config/forms/custom_field.php:40
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:31
+msgid "Artist"
+msgstr "Nghệ sĩ"
+
+#: /var/azuracast/www/config/forms/custom_field.php:41
+msgid "Band"
+msgstr "Ban nhạc"
+
+#: /var/azuracast/www/config/forms/custom_field.php:42
+msgid "Bpm"
+msgstr "Bpm"
+
+#: /var/azuracast/www/config/forms/custom_field.php:43
+msgid "Comment"
+msgstr "Bình luận"
+
+#: /var/azuracast/www/config/forms/custom_field.php:44
+msgid "Commercial Information"
+msgstr "Thông tin thương mại"
+
+#: /var/azuracast/www/config/forms/custom_field.php:45
+msgid "Composer"
+msgstr "Người soạn"
+
+#: /var/azuracast/www/config/forms/custom_field.php:46
+msgid "Composer Sort Order"
+msgstr "Sắp xếp theo người soạn"
+
+#: /var/azuracast/www/config/forms/custom_field.php:47
+msgid "Conductor"
+msgstr "Nhạc trưởng"
+
+#: /var/azuracast/www/config/forms/custom_field.php:48
+msgid "Content Group Description"
+msgstr "Mô tả Nhóm Nội dung"
+
+#: /var/azuracast/www/config/forms/custom_field.php:49
+msgid "Copyright"
+msgstr "Bản quyền"
+
+#: /var/azuracast/www/config/forms/custom_field.php:50
+msgid "Copyright Message"
+msgstr "Thông báo Bản quyền"
+
+#: /var/azuracast/www/config/forms/custom_field.php:51
+msgid "Encoded By"
+msgstr "Được mã hoá bởi"
+
+#: /var/azuracast/www/config/forms/custom_field.php:52
+msgid "Encoder Settings"
+msgstr "Cài đặt mã hóa"
+
+#: /var/azuracast/www/config/forms/custom_field.php:53
+msgid "Encoding Time"
+msgstr "Thời gian mã hóa"
+
+#: /var/azuracast/www/config/forms/custom_field.php:54
+msgid "File Owner"
+msgstr "Chủ sở hữu tệp"
+
+#: /var/azuracast/www/config/forms/custom_field.php:55
+msgid "File Type"
+msgstr "Loại tệp"
+
+#: /var/azuracast/www/config/forms/custom_field.php:56
+#: /var/azuracast/www/config/forms/station.php:90
+msgid "Genre"
+msgstr "Thể loại"
+
+#: /var/azuracast/www/config/forms/custom_field.php:57
+msgid "Initial Key"
+msgstr "Initial Key"
+
+#: /var/azuracast/www/config/forms/custom_field.php:58
+msgid "Internet Radio Station Name"
+msgstr "Tên đài phát thanh Internet"
+
+#: /var/azuracast/www/config/forms/custom_field.php:59
+msgid "Internet Radio Station Owner"
+msgstr "Chủ sở hữu đài phát thanh Internet"
+
+#: /var/azuracast/www/config/forms/custom_field.php:60
+msgid "Involved People List"
+msgstr "Danh sách những người liên quan"
+
+#: /var/azuracast/www/config/forms/custom_field.php:61
+msgid "ISRC"
+msgstr "ISRC"
+
+#: /var/azuracast/www/config/forms/custom_field.php:62
+#: /var/azuracast/www/config/forms/profile.php:84
+#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:56
+msgid "Language"
+msgstr "Ngôn ngữ"
+
+#: /var/azuracast/www/config/forms/custom_field.php:63
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:33
+msgid "Length"
+msgstr "Độ dài"
+
+#: /var/azuracast/www/config/forms/custom_field.php:64
+msgid "Linked Information"
+msgstr "Thông tin liên kết"
+
+#: /var/azuracast/www/config/forms/custom_field.php:65
+msgid "Lyricist"
+msgstr "Viết lời"
+
+#: /var/azuracast/www/config/forms/custom_field.php:66
+msgid "Media Type"
+msgstr "Loại file"
+
+#: /var/azuracast/www/config/forms/custom_field.php:67
+msgid "Mood"
+msgstr "Điệu"
+
+#: /var/azuracast/www/config/forms/custom_field.php:68
+msgid "Music CD Identifier"
+msgstr "Nhận dạng CD nhạc"
+
+#: /var/azuracast/www/config/forms/custom_field.php:69
+msgid "Musician Credits List"
+msgstr "Danh sách tín nhiệm nhạc sĩ"
+
+#: /var/azuracast/www/config/forms/custom_field.php:70
+msgid "Original Album"
+msgstr "Album gốc"
+
+#: /var/azuracast/www/config/forms/custom_field.php:71
+msgid "Original Artist"
+msgstr "Nghệ sĩ gốc"
+
+#: /var/azuracast/www/config/forms/custom_field.php:72
+msgid "Original Filename"
+msgstr "Tên tệp gốc"
+
+#: /var/azuracast/www/config/forms/custom_field.php:73
+msgid "Original Lyricist"
+msgstr "Lời bài hát gốc"
+
+#: /var/azuracast/www/config/forms/custom_field.php:74
+msgid "Original Release Time"
+msgstr "Thời gian phát hành"
+
+#: /var/azuracast/www/config/forms/custom_field.php:75
+msgid "Original Year"
+msgstr "Năm gốc"
+
+#: /var/azuracast/www/config/forms/custom_field.php:76
+msgid "Part Of A Compilation"
+msgstr "Một phần của tổng hợp"
+
+#: /var/azuracast/www/config/forms/custom_field.php:77
+msgid "Part Of A Set"
+msgstr "Một phần của một bộ"
+
+#: /var/azuracast/www/config/forms/custom_field.php:78
+msgid "Performer Sort Order"
+msgstr "Sắp xếp theo người biểu diễn"
+
+#: /var/azuracast/www/config/forms/custom_field.php:79
+msgid "Playlist Delay"
+msgstr "Delay danh sách phát"
+
+#: /var/azuracast/www/config/forms/custom_field.php:80
+msgid "Produced Notice"
+msgstr "Thông báo được sản xuất"
+
+#: /var/azuracast/www/config/forms/custom_field.php:81
+msgid "Publisher"
+msgstr "Nhà xuất bản"
+
+#: /var/azuracast/www/config/forms/custom_field.php:82
+msgid "Recording Time"
+msgstr "Thời gian ghi âm"
+
+#: /var/azuracast/www/config/forms/custom_field.php:83
+msgid "Release Time"
+msgstr "Thời gian phát hành"
+
+#: /var/azuracast/www/config/forms/custom_field.php:84
+msgid "Remixer"
+msgstr "Người phối lại"
+
+#: /var/azuracast/www/config/forms/custom_field.php:85
+msgid "Set Subtitle"
+msgstr "Đặt phụ đề"
+
+#: /var/azuracast/www/config/forms/custom_field.php:86
+msgid "Subtitle"
+msgstr "Phụ đề"
+
+#: /var/azuracast/www/config/forms/custom_field.php:87
+msgid "Tagging Time"
+msgstr "Thời gian gắn thẻ"
+
+#: /var/azuracast/www/config/forms/custom_field.php:88
+msgid "Terms Of Use"
+msgstr "Điều khoản sử dụng"
+
+#: /var/azuracast/www/config/forms/custom_field.php:89
+#: /var/azuracast/www/config/forms/webhook/discord.php:77
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:30
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: /var/azuracast/www/config/forms/custom_field.php:90
+msgid "Title Sort Order"
+msgstr "Sắp xếp theo tiêu đề"
+
+#: /var/azuracast/www/config/forms/custom_field.php:91
+msgid "Track Number"
+msgstr "Số thứ tự"
+
+#: /var/azuracast/www/config/forms/custom_field.php:92
+msgid "Unsynchronised Lyric"
+msgstr "Lời bài hát không được đồng bộ"
+
+#: /var/azuracast/www/config/forms/custom_field.php:93
+msgid "URL Artist"
+msgstr "URL Artist"
+
+#: /var/azuracast/www/config/forms/custom_field.php:94
+msgid "URL File"
+msgstr "URL File"
+
+#: /var/azuracast/www/config/forms/custom_field.php:95
+msgid "URL Payment"
+msgstr "URL Payment"
+
+#: /var/azuracast/www/config/forms/custom_field.php:96
+msgid "URL Publisher"
+msgstr "URL Publisher"
+
+#: /var/azuracast/www/config/forms/custom_field.php:97
+msgid "URL Source"
+msgstr "Nguồn URL"
+
+#: /var/azuracast/www/config/forms/custom_field.php:98
+msgid "URL Station"
+msgstr "URL Station"
+
+#: /var/azuracast/www/config/forms/custom_field.php:99
+msgid "URL User"
+msgstr "URL User"
+
+#: /var/azuracast/www/config/forms/custom_field.php:100
+msgid "Year"
+msgstr "Năm"
+
+#: /var/azuracast/www/config/forms/station_clone.php:17
+msgid "New Station Name"
+msgstr "Tên trạm mới"
+
+#: /var/azuracast/www/config/forms/station_clone.php:26
+msgid "New Station Description"
+msgstr "Mô tả Trạm mới"
+
+#: /var/azuracast/www/config/forms/station_clone.php:36
+msgid "Customize Station Cloning"
+msgstr "Tùy chỉnh nhân bản trạm"
+
+#: /var/azuracast/www/config/forms/station_clone.php:42
+msgid "Copy to New Station:"
+msgstr "Sao chép sang Trạm mới:"
+
+#: /var/azuracast/www/config/forms/station_clone.php:44
+msgid "Share Media Storage Location"
+msgstr "Chia sẻ vị trí lưu trữ file"
+
+#: /var/azuracast/www/config/forms/station_clone.php:45
+msgid "Share Recordings Storage Location"
+msgstr "Chia sẻ vị trí lưu trữ bản ghi"
+
+#: /var/azuracast/www/config/forms/station_clone.php:46
+msgid "Share Podcasts Storage Location"
+msgstr "Chia sẻ vị trí lưu trữ Podcast"
+
+#: /var/azuracast/www/config/forms/station_clone.php:50
+msgid "Streamers/DJs"
+msgstr "Người phát trực tiếp/DJ"
+
+#: /var/azuracast/www/config/forms/station_clone.php:51
+msgid "User Permissions"
+msgstr "Quyền Người dùng"
+
+#: /var/azuracast/www/config/forms/station_clone.php:67
+msgid "Create New Station"
+msgstr "Tạo đài mới"
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:20
+#: /var/azuracast/www/config/forms/webhook/tunein.php:19
+#: /var/azuracast/www/config/forms/webhook/discord.php:20
+#: /var/azuracast/www/config/forms/webhook/generic.php:33
+#: /var/azuracast/www/config/forms/webhook/google_analytics.php:19
+#: /var/azuracast/www/config/forms/webhook/email.php:20
+#: /var/azuracast/www/config/forms/webhook/twitter.php:103
+msgid "Web Hook Name"
+msgstr "Tên Web Hook"
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:21
+#: /var/azuracast/www/config/forms/webhook/tunein.php:20
+#: /var/azuracast/www/config/forms/webhook/discord.php:21
+#: /var/azuracast/www/config/forms/webhook/generic.php:34
+#: /var/azuracast/www/config/forms/webhook/google_analytics.php:20
+#: /var/azuracast/www/config/forms/webhook/email.php:21
+#: /var/azuracast/www/config/forms/webhook/twitter.php:104
+msgid "Choose a name for this webhook that will help you distinguish it from others. This will only be shown on the administration page."
+msgstr "Chọn tên cho webhook này sẽ giúp bạn phân biệt nó với những người khác. Điều này sẽ chỉ được hiển thị trên trang quản trị."
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:32
+msgid "Bot Token"
+msgstr "Bot Token"
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:33
+#: /var/azuracast/www/config/forms/webhook/telegram.php:115
+msgid "See the <a href=\"%s\" target=\"_blank\">Telegram Documentation</a> for more details."
+msgstr "Xem <a href=\"%s\" target=\"_blank\"> Tài liệu Telegram </a> để biết thêm chi tiết."
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:46
+msgid "Chat ID"
+msgstr "Chat ID"
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:47
+msgid "Unique identifier for the target chat or username of the target channel (in the format @channelusername)."
+msgstr "Giá trị nhận dạng duy nhất cho cuộc trò chuyện mục tiêu hoặc tên người dùng của kênh mục tiêu (ở định dạng @channelusername)."
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:59
+msgid "Custom API Base URL"
+msgstr "Tùy chỉnh API Base URL "
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:61
+msgid "Leave blank to use the default Telegram API URL (recommended). Specify the full URL, like <code>https://api.pwrtelegram.xyz/</code>."
+msgstr "Để trống để sử dụng URL Telegram API mặc định (được khuyến nghị). Chỉ định URL đầy đủ, chẳng hạn như <code> https://api.pwrtelegram.xyz/ </code>."
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:72
+#: /var/azuracast/www/config/forms/webhook/discord.php:43
+#: /var/azuracast/www/config/forms/webhook/generic.php:83
+#: /var/azuracast/www/config/forms/webhook/email.php:32
+#: /var/azuracast/www/config/forms/webhook/twitter.php:115
+msgid "Web Hook Triggers"
+msgstr "Web Hook Triggers"
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:84
+#: /var/azuracast/www/config/forms/webhook/discord.php:55
+msgid "Customize Message"
+msgstr "Tùy chỉnh tin nhắn"
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:87
+#: /var/azuracast/www/config/forms/webhook/discord.php:57
+#: /var/azuracast/www/config/forms/webhook/email.php:56
+#: /var/azuracast/www/config/forms/webhook/email.php:70
+#: /var/azuracast/www/config/forms/webhook/twitter.php:135
+msgid "Variables are in the form of <code>{{ var.name }}</code>. All values in the <a href=\"%s\" target=\"_blank\">Now Playing API response</a> are avaliable for use. Any empty fields are ignored."
+msgstr "Các biến có dạng <code> {{var.name}} </code>. Tất cả các giá trị trong <a href=\"%s\" target=\"_blank\"> phản hồi API Now Playing </a> đều có thể sử dụng được. Mọi trường trống đều bị bỏ qua."
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:98
+#: /var/azuracast/www/config/forms/webhook/discord.php:67
+msgid "Main Message Content"
+msgstr "Nội dung tin nhắn chính"
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:101
+msgid "Now playing on %s: %s by %s! Tune in now."
+msgstr "Hiện đang phát trên %s: %s x %s! Vào ngay bây giờ."
+
+#: /var/azuracast/www/config/forms/webhook/telegram.php:114
+msgid "Message parsing mode"
+msgstr "Chế độ phân tích tin nhắn"
+
+#: /var/azuracast/www/config/forms/webhook/tunein.php:31
+msgid "TuneIn Station ID"
+msgstr "TuneIn Station ID"
+
+#: /var/azuracast/www/config/forms/webhook/tunein.php:32
+msgid "The station ID will be a numeric string that starts with the letter S."
+msgstr "ID trạm sẽ là một chuỗi số bắt đầu bằng chữ S."
+
+#: /var/azuracast/www/config/forms/webhook/tunein.php:42
+msgid "TuneIn Partner ID"
+msgstr "TuneIn Partner ID"
+
+#: /var/azuracast/www/config/forms/webhook/tunein.php:52
+msgid "TuneIn Partner Key"
+msgstr "TuneIn Partner Key"
+
+#: /var/azuracast/www/config/forms/webhook/discord.php:32
+msgid "Discord Web Hook URL"
+msgstr "Discord Web Hook URL"
+
+#: /var/azuracast/www/config/forms/webhook/discord.php:33
+msgid "This URL is provided within the Discord application."
+msgstr "URL này được cung cấp trong ứng dụng Discord."
+
+#: /var/azuracast/www/config/forms/webhook/discord.php:69
+msgid "Now playing on %s:"
+msgstr "Hiện đang phát trên %s:"
+
+#: /var/azuracast/www/config/forms/webhook/discord.php:87
+#: /var/azuracast/www/config/forms/station.php:82
+#: /var/azuracast/www/templates/frontend/public/podcast-episode.phtml:108
+msgid "Description"
+msgstr "Sự miêu tả"
+
+#: /var/azuracast/www/config/forms/webhook/discord.php:97
+msgid "URL"
+msgstr "URL"
+
+#: /var/azuracast/www/config/forms/webhook/discord.php:107
+msgid "Author Name"
+msgstr "Tên tác giả"
+
+#: /var/azuracast/www/config/forms/webhook/discord.php:117
+msgid "Thumbnail Image URL"
+msgstr "URL hình ảnh thu nhỏ"
+
+#: /var/azuracast/www/config/forms/webhook/discord.php:127
+msgid "Footer Text"
+msgstr "Chữ dưới trang"
+
+#: /var/azuracast/www/config/forms/webhook/discord.php:129
+#: /var/azuracast/www/templates/main.phtml:178
+#: /var/azuracast/www/templates/minimal.phtml:50
+msgid "Powered by %s"
+msgstr "Được cung cấp bởi %s"
+
+#: /var/azuracast/www/config/forms/webhook/generic.php:15
+msgid "Web Hook Details"
+msgstr "Chi tiết Web Hook"
+
+#: /var/azuracast/www/config/forms/webhook/generic.php:18
+msgid "Web hooks automatically send a HTTP POST request to the URL you specify to\n"
+"                notify it any time one of the triggers you specify occurs on your station. The body of the POST message\n"
+"                is the exact same as the <a href=\"%s\" target=\"_blank\">Now Playing API response</a> for your station.\n"
+"                In order to process quickly, web hooks have a short timeout, so the responding service should be\n"
+"                optimized to handle the request in under 2 seconds."
+msgstr "Web Hook tự động gửi một yêu cầu HTTP POST đến URL mà bạn chỉ định\n"
+"                thông báo cho nó bất cứ khi nào một trong các kích hoạt bạn chỉ định xảy ra. Nội dung của tin nhắn POST\n"
+"                hoàn toàn giống với <a href=\"%s\" target=\"_blank\"> phản hồi của Now Playing API </a> cho đài của bạn.\n"
+"                Để xử lý nhanh chóng, web hook có thời gian chờ ngắn, vì vậy dịch vụ phản hồi phải\n"
+"                được tối ưu hóa để xử lý yêu cầu trong vòng  2 giây."
+
+#: /var/azuracast/www/config/forms/webhook/generic.php:45
+msgid "Web Hook URL"
+msgstr "Web Hook URL"
+
+#: /var/azuracast/www/config/forms/webhook/generic.php:46
+msgid "The URL that will receive the POST messages any time an event is triggered."
+msgstr "URL sẽ nhận thông báo POST bất kỳ khi nào một sự kiện được kích hoạt."
+
+#: /var/azuracast/www/config/forms/webhook/generic.php:59
+msgid "Optional: HTTP Basic Authentication Username"
+msgstr "Tùy chọn: Tên người dùng HTTP Basic Authentication"
+
+#: /var/azuracast/www/config/forms/webhook/generic.php:60
+msgid "If your web hook requires HTTP basic authentication, provide the username here."
+msgstr "Nếu web hook của bạn yêu cầu HTTP Basic Authentication, cung cấp tên người dùng tại đây."
+
+#: /var/azuracast/www/config/forms/webhook/generic.php:71
+msgid "Optional: HTTP Basic Authentication Password"
+msgstr "Tùy chọn: Mật khẩu HTTP Basic Authentication"
+
+#: /var/azuracast/www/config/forms/webhook/generic.php:72
+msgid "If your web hook requires HTTP basic authentication, provide the password here."
+msgstr "Nếu web hook của bạn yêu cầu HTTP Basic Authentication, cung cấp mật khẩu tại đây."
+
+#: /var/azuracast/www/config/forms/webhook/google_analytics.php:31
+msgid "GA Property Tracking ID"
+msgstr "GA Property Tracking ID"
+
+#: /var/azuracast/www/config/forms/webhook/google_analytics.php:32
+msgid "The property ID used to track live listeners."
+msgstr "ID thuộc tính được sử dụng để theo dõi người nghe trực tiếp."
+
+#: /var/azuracast/www/config/forms/webhook/email.php:42
+msgid "Message Recipient(s)"
+msgstr "Người nhận tin nhắn"
+
+#: /var/azuracast/www/config/forms/webhook/email.php:45
+msgid "E-mail addresses can be separated by commas."
+msgstr "Các địa chỉ e-mail được phân tách bằng dấu phẩy."
+
+#: /var/azuracast/www/config/forms/webhook/email.php:53
+msgid "Message Subject"
+msgstr "Chủ đề tin nhắn"
+
+#: /var/azuracast/www/config/forms/webhook/email.php:67
+#: /var/azuracast/www/config/forms/webhook/twitter.php:125
+msgid "Message Body"
+msgstr "Nội dung tin nhắn"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:15
+msgid "Twitter Account Details"
+msgstr "Chi tiết tài khoản Twitter"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:17
+msgid "Steps for configuring a Twitter application:<br>\n"
+"                <ol type=\"1\">\n"
+"                    <li>Create a new app on the <a href=\"%s\" target=\"_blank\">Twitter Applications site</a>.\n"
+"                    Use this installation's base URL as the application URL.</li>\n"
+"                    <li>In the newly created application, click the \"Keys and Access Tokens\" tab.</li>\n"
+"                    <li>At the bottom of the page, click \"Create my access token\".</li>\n"
+"                </ol>\n"
+"                <p>Once these steps are completed, enter the information from the \"Keys and Access Tokens\" page into the fields below.</p>"
+msgstr "Các bước để định cấu hình ứng dụng Twitter: <br>\n"
+"                <ol type = \"1\">\n"
+"                    <li> Tạo ứng dụng mới trên <a href=\"%s\" target=\"_blank\"> trang web Ứng dụng Twitter </a>.\n"
+"                    Sử dụng URL cơ sở của cài đặt này làm URL ứng dụng. </li>\n"
+"                    <li> Trong ứng dụng mới được tạo, nhấp vào tab \"Chìa khóa và Mã thông báo truy cập\". </li>\n"
+"                    <li> Ở cuối trang, hãy nhấp vào \"Tạo mã truy cập của tôi\". </li>\n"
+"                </ol>\n"
+"                <p> Sau khi hoàn tất các bước này, hãy nhập thông tin từ trang \"Chìa khóa và Mã truy cập\" vào các trường bên dưới. </p>"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:34
+msgid "Consumer Key (API Key)"
+msgstr "Consumer Key (API Key)"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:44
+msgid "Consumer Secret (API Secret)"
+msgstr "Consumer Secret (API Secret)"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:54
+msgid "Access Token"
+msgstr "Truy cập thẻ"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:64
+msgid "Access Token Secret"
+msgstr "Access Token Secret"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:74
+msgid "Only Send One Tweet Every..."
+msgstr "Chỉ gửi một Tweet mỗi ..."
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:78
+msgid "No Limit"
+msgstr "Không giới hạn"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:79
+#: /var/azuracast/www/config/forms/webhook/twitter.php:80
+#: /var/azuracast/www/config/forms/webhook/twitter.php:81
+msgid "%d seconds"
+msgstr "%d giây"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:82
+#: /var/azuracast/www/config/forms/webhook/twitter.php:83
+#: /var/azuracast/www/config/forms/webhook/twitter.php:84
+#: /var/azuracast/www/config/forms/webhook/twitter.php:85
+#: /var/azuracast/www/config/forms/webhook/twitter.php:86
+#: /var/azuracast/www/config/forms/webhook/twitter.php:87
+msgid "%d minutes"
+msgstr "%d phút"
+
+#: /var/azuracast/www/config/forms/webhook/twitter.php:128
+msgid "Now playing on %s: %s by %s! Tune in now: %s"
+msgstr "Hiện đang phát trên %s: %s x %s! Dò ngay bây giờ: %s"
+
+#: /var/azuracast/www/config/forms/install_shoutcast.php:13
+#: /var/azuracast/www/config/forms/install_geolite.php:10
+msgid "Instructions"
+msgstr "Hướng dẫn"
+
+#: /var/azuracast/www/config/forms/install_shoutcast.php:14
+msgid "<p>SHOUTcast 2 DNAS is not free software, and its restrictive license does not allow AzuraCast to distribute the SHOUTcast binary. In order to install SHOUTcast, you should download the Linux x64 binary from the <a href=\"%s\" target=\"_blank\">SHOUTcast Radio Manager</a> web site. Upload the <code>sc_serv2_linux_x64-latest.tar.gz</code> into the field below to automatically extract it into the proper directory.</p>"
+msgstr "<p> SHOUTcast 2 DNAS không phải là phần mềm miễn phí và giấy phép hạn chế của nó không cho phép AzuraCast phân phối lại SHOUTcast. Để cài đặt SHOUTcast, bạn nên tải xuống tệp Linux x64 từ trang web <a href=\"%s\" target=\"_blank\"> SHOUTcast Radio Manager </a>. Tải lên <code> sc_serv2_linux_x64-new.tar.gz </code> vào trường bên dưới để tự động giải nén nó vào thư mục thích hợp. </p>"
+
+#: /var/azuracast/www/config/forms/install_shoutcast.php:23
+#: /var/azuracast/www/templates/admin/install_geolite/index.phtml:27
+msgid "Current Installed Version"
+msgstr "Phiên bản hiện tại"
+
+#: /var/azuracast/www/config/forms/install_shoutcast.php:24
+msgid "SHOUTcast is not currently installed on this installation."
+msgstr "SHOUTcast hiện không được cài đặt trên này."
+
+#: /var/azuracast/www/config/forms/install_shoutcast.php:32
+msgid "Select SHOUTcast 64-bit .tar.gz File"
+msgstr "Chọn Tệp SHOUTcast 64-bit .tar.gz"
+
+#: /var/azuracast/www/config/forms/install_shoutcast.php:45
+msgid "Upload"
+msgstr "Tải lên"
+
+#: /var/azuracast/www/config/forms/station.php:58
+msgid "Station Profile"
+msgstr "Hồ sơ trạm"
+
+#: /var/azuracast/www/config/forms/station.php:59
+msgid "Broadcasting"
+msgstr "Phát thanh"
+
+#: /var/azuracast/www/config/forms/station.php:60
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:33
+msgid "AutoDJ"
+msgstr "AutoDJ"
+
+#: /var/azuracast/www/config/forms/station.php:61
+#: /var/azuracast/www/templates/admin/sidebar.phtml:3
+#: /var/azuracast/www/templates/admin/index/index.phtml:18
+msgid "Administration"
+msgstr "Quản trị"
+
+#: /var/azuracast/www/config/forms/station.php:73
+#: /var/azuracast/www/config/forms/profile.php:18
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:32
+#: /var/azuracast/www/templates/admin/custom_fields/index.phtml:22
+msgid "Name"
+msgstr "Tên"
+
+#: /var/azuracast/www/config/forms/station.php:98
+msgid "Web Site URL"
+msgstr "URL trang web"
+
+#: /var/azuracast/www/config/forms/station.php:99
+msgid "Note: This should be the public-facing homepage of the radio station, not the AzuraCast URL. It will be included in broadcast details."
+msgstr "Lưu ý: Đây phải là trang chủ công khai của đài phát thanh, không phải là URL máy chủ. Nó sẽ bao gồm chi tiết phát sóng."
+
+#: /var/azuracast/www/config/forms/station.php:109
+msgid "Time Zone"
+msgstr "Múi giờ"
+
+#: /var/azuracast/www/config/forms/station.php:110
+msgid "Scheduled playlists and other timed items will be controlled by this time zone."
+msgstr "Danh sách phát đã lên lịch và các mục đã hẹn giờ  sẽ được kiểm soát bởi múi giờ này."
+
+#: /var/azuracast/www/config/forms/station.php:122
+msgid "Enable Public Page"
+msgstr "Bật trang công khai"
+
+#: /var/azuracast/www/config/forms/station.php:123
+msgid "Show the station in public pages and general API results."
+msgstr "Hiển thị đài trong các trang công khai và kết quả API chung."
+
+#: /var/azuracast/www/config/forms/station.php:124
+#: /var/azuracast/www/config/forms/station.php:138
+#: /var/azuracast/www/config/forms/station.php:163
+#: /var/azuracast/www/config/forms/station.php:368
+#: /var/azuracast/www/config/forms/station.php:382
+#: /var/azuracast/www/config/forms/station.php:424
+#: /var/azuracast/www/config/forms/station.php:438
+#: /var/azuracast/www/config/forms/station.php:561
+#: /var/azuracast/www/config/forms/station.php:591
+#: /var/azuracast/www/config/forms/station.php:672
+#: /var/azuracast/www/config/forms/remote.php:16
+#: /var/azuracast/www/config/forms/remote.php:87
+#: /var/azuracast/www/config/forms/remote.php:177
+#: /var/azuracast/www/config/forms/backup.php:18
+#: /var/azuracast/www/config/forms/backup.php:41
+#: /var/azuracast/www/config/forms/settings.php:61
+#: /var/azuracast/www/config/forms/settings.php:75
+#: /var/azuracast/www/config/forms/settings.php:109
+#: /var/azuracast/www/config/forms/settings.php:123
+#: /var/azuracast/www/config/forms/settings.php:146
+#: /var/azuracast/www/config/forms/settings.php:239
+#: /var/azuracast/www/config/forms/settings.php:289
+#: /var/azuracast/www/config/forms/settings.php:361
+#: /var/azuracast/www/config/forms/settings.php:372
+#: /var/azuracast/www/config/forms/report/soundexchange.php:59
+#: /var/azuracast/www/config/forms/backup_run.php:27
+#: /var/azuracast/www/config/forms/branding.php:33
+#: /var/azuracast/www/config/forms/branding.php:71
+#: /var/azuracast/www/templates/admin/relays/index.phtml:35
+msgid "Yes"
+msgstr "Đúng"
+
+#: /var/azuracast/www/config/forms/station.php:125
+#: /var/azuracast/www/config/forms/station.php:139
+#: /var/azuracast/www/config/forms/station.php:164
+#: /var/azuracast/www/config/forms/station.php:369
+#: /var/azuracast/www/config/forms/station.php:383
+#: /var/azuracast/www/config/forms/station.php:425
+#: /var/azuracast/www/config/forms/station.php:439
+#: /var/azuracast/www/config/forms/station.php:562
+#: /var/azuracast/www/config/forms/station.php:592
+#: /var/azuracast/www/config/forms/station.php:673
+#: /var/azuracast/www/config/forms/remote.php:17
+#: /var/azuracast/www/config/forms/remote.php:88
+#: /var/azuracast/www/config/forms/remote.php:178
+#: /var/azuracast/www/config/forms/backup.php:19
+#: /var/azuracast/www/config/forms/backup.php:42
+#: /var/azuracast/www/config/forms/settings.php:62
+#: /var/azuracast/www/config/forms/settings.php:76
+#: /var/azuracast/www/config/forms/settings.php:110
+#: /var/azuracast/www/config/forms/settings.php:124
+#: /var/azuracast/www/config/forms/settings.php:147
+#: /var/azuracast/www/config/forms/settings.php:240
+#: /var/azuracast/www/config/forms/settings.php:290
+#: /var/azuracast/www/config/forms/settings.php:362
+#: /var/azuracast/www/config/forms/settings.php:373
+#: /var/azuracast/www/config/forms/report/soundexchange.php:60
+#: /var/azuracast/www/config/forms/backup_run.php:28
+#: /var/azuracast/www/config/forms/branding.php:34
+#: /var/azuracast/www/config/forms/branding.php:72
+#: /var/azuracast/www/templates/admin/relays/index.phtml:35
+msgid "No"
+msgstr "Không"
+
+#: /var/azuracast/www/config/forms/station.php:134
+msgid "Enable On-Demand Streaming"
+msgstr "Bật tính năng phát trực tuyến theo yêu cầu"
+
+#: /var/azuracast/www/config/forms/station.php:135
+#: /var/azuracast/www/config/forms/station.php:160
+msgid "If enabled, music from playlists with on-demand streaming enabled will be available to stream and download via a specialized public page."
+msgstr "Nếu được bật, nội dung từ danh sách phát có bật tính năng phát trực tuyến theo yêu cầu sẽ phát trực tuyến và tải xuống qua trang công khai."
+
+#: /var/azuracast/www/config/forms/station.php:148
+#: /var/azuracast/www/config/forms/branding.php:55
+msgid "Default Album Art URL"
+msgstr "URL ảnh bìa album mặc định"
+
+#: /var/azuracast/www/config/forms/station.php:149
+#: /var/azuracast/www/config/forms/branding.php:56
+msgid "If a song has no album art, this URL will be listed instead. Leave blank to use the standard placeholder art."
+msgstr "Nếu một bài hát không có ảnh bìa album, URL này sẽ được liệt kê thay thế. Để trống để sử dụng mẫu có sẵn."
+
+#: /var/azuracast/www/config/forms/station.php:159
+msgid "Enable Downloads on On-Demand Page"
+msgstr "Cho phép tải xuống trên trang theo yêu cầu"
+
+#: /var/azuracast/www/config/forms/station.php:173
+msgid "URL Stub"
+msgstr "URL Stub"
+
+#: /var/azuracast/www/config/forms/station.php:175
+msgid "Optionally specify a short URL-friendly name, such as <code>my_station_name</code>, that will be used in this station's URLs. Leave this field blank to automatically create one based on the station name."
+msgstr "Tùy ý chỉ định tên ngắn thân thiện với URL, chẳng hạn như <code> my_station_name </code>, sẽ được sử dụng trong các URL của đài này. Để trống trường này để tự động tạo một trường dựa trên tên đài."
+
+#: /var/azuracast/www/config/forms/station.php:185
+msgid "Number of Recently Played Songs"
+msgstr "Sốnội dung đã phát gần đây"
+
+#: /var/azuracast/www/config/forms/station.php:187
+msgid "Customize the number of songs that will appear in the \"Song History\" section for this station and in all public APIs."
+msgstr "Tùy chỉnh số lượng nội dung sẽ xuất hiện trong phần \"Lịch sử bài hát\" cho đài này và trong tất cả các API công khai."
+
+#: /var/azuracast/www/config/forms/station.php:191
+#: /var/azuracast/www/config/forms/settings.php:331
+#: /var/azuracast/www/config/forms/automation.php:14
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:60
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:59
+#: /var/azuracast/www/templates/admin/backups/index.phtml:52
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:84
+msgid "Disabled"
+msgstr "Đã tắt"
+
+#: /var/azuracast/www/config/forms/station.php:211
+msgid "Broadcasting Service"
+msgstr "Dịch vụ phát thanh"
+
+#: /var/azuracast/www/config/forms/station.php:212
+msgid "This software delivers your broadcast to the listening audience."
+msgstr "Phần mềm này đưa chương trình phát sóng của bạn đến khán giả đang nghe"
+
+#: /var/azuracast/www/config/forms/station.php:230
+msgid "Customize Source Password"
+msgstr "Tùy chỉnh Source Password"
+
+#: /var/azuracast/www/config/forms/station.php:231
+#: /var/azuracast/www/config/forms/station.php:241
+msgid "Leave blank to automatically generate a new password."
+msgstr "Để trống để tự động tạo mật khẩu mới."
+
+#: /var/azuracast/www/config/forms/station.php:240
+msgid "Customize Administrator Password"
+msgstr "Tùy chỉnh mật khẩu quản trị viên"
+
+#: /var/azuracast/www/config/forms/station.php:250
+msgid "Customize Broadcasting Port"
+msgstr "Tùy chỉnh Broadcasting Port"
+
+#: /var/azuracast/www/config/forms/station.php:252
+msgid "No other program can be using this port. Leave blank to automatically assign a port."
+msgstr "Không có chương trình nào khác có thể sử dụng cổng này. Để trống để tự động gán một cổng."
+
+#: /var/azuracast/www/config/forms/station.php:263
+msgid "Maximum Listeners"
+msgstr "Người nghe tối đa"
+
+#: /var/azuracast/www/config/forms/station.php:265
+msgid "Maximum number of total listeners across all streams. Leave blank to use the default (250)."
+msgstr "Tổng số người nghe tối đa trên tất cả các luồng. Để trống để sử dụng mặc định (250)."
+
+#: /var/azuracast/www/config/forms/station.php:276
+msgid "Custom Configuration"
+msgstr "Tùy chỉnh cấu hình"
+
+#: /var/azuracast/www/config/forms/station.php:280
+msgid "This code will be included in the frontend configuration. You can use either JSON {\"new_key\": \"new_value\"} format or XML &lt;new_key&gt;new_value&lt;/new_key&gt;."
+msgstr "Mã này sẽ được bao gồm trong cấu hình giao diện người dùng. Bạn có thể sử dụng định dạng JSON {\"new_key\": \"new_value\"} hoặc XML & lt; new_key & gt; new_value & lt; / new_key & gt ;."
+
+#: /var/azuracast/www/config/forms/station.php:282
+msgid "For SHOUTcast Premium users, you can use custom configuration in this format: <code>{ \"licenceid\": \"YOUR_LICENSE_ID\" \"userid\": \"YOUR_USER_ID\" }</code>"
+msgstr "Đối với người dùng SHOUTcast Premium, bạn có thể sử dụng cấu hình tùy chỉnh ở định dạng sau: <code> {\"Licenceid\": \"YOUR_LICENSE_ID\" \"userid\": \"YOUR_USER_ID\"} </code>"
+
+#: /var/azuracast/www/config/forms/station.php:292
+msgid "Banned IP Addresses"
+msgstr "Địa chỉ IP bị cấm"
+
+#: /var/azuracast/www/config/forms/station.php:296
+msgid "List one IP address or group (in CIDR format) per line."
+msgstr "Liệt kê một địa chỉ hoặc nhóm IP (ở định dạng CIDR) trên mỗi dòng."
+
+#: /var/azuracast/www/config/forms/station.php:310
+msgid "AutoDJ Service"
+msgstr "Dịch vụ AutoDJ"
+
+#: /var/azuracast/www/config/forms/station.php:311
+msgid "This software shuffles from playlists of music constantly and plays when no other radio source is available."
+msgstr "Phần mềm này xáo trộn liên tục từ danh sách phát và phát khi không có sẵn nguồn radio khác."
+
+#: /var/azuracast/www/config/forms/station.php:331
+msgid "Crossfade Method"
+msgstr "Phương pháp Crossfade"
+
+#: /var/azuracast/www/config/forms/station.php:333
+msgid "Choose a method to use when transitioning from one song to another. Smart Mode considers the volume of the two tracks when fading for a smoother effect, but requires more CPU resources."
+msgstr "Chọn một phương pháp để sử dụng khi chuyển từ bài hát này sang bài hát khác. Chế độ Thông minh xem xét âm lượng của hai bản nhạc khi mờ dần để có hiệu ứng mượt mà hơn, nhưng yêu cầu nhiều tài nguyên CPU hơn."
+
+#: /var/azuracast/www/config/forms/station.php:337
+msgid "Smart Mode"
+msgstr "Chế độ thông minh"
+
+#: /var/azuracast/www/config/forms/station.php:338
+msgid "Normal Mode"
+msgstr "Chế độ bình thường"
+
+#: /var/azuracast/www/config/forms/station.php:339
+msgid "Disable Crossfading"
+msgstr "Tắt Crossfading"
+
+#: /var/azuracast/www/config/forms/station.php:349
+msgid "Crossfade Duration (Seconds)"
+msgstr "Thời lượng Crossfade (Giây)"
+
+#: /var/azuracast/www/config/forms/station.php:351
+msgid "Number of seconds to overlap songs."
+msgstr "Số giây trùng lặp bài hát."
+
+#: /var/azuracast/www/config/forms/station.php:363
+msgid "Apply Compression and Normalization"
+msgstr "Áp dụng nén và chuẩn hóa"
+
+#: /var/azuracast/www/config/forms/station.php:365
+msgid "Compress and normalize your station's audio, producing a more uniform and \"full\" sound."
+msgstr "Nén và chuẩn hóa âm thanh của đài phát, tạo ra âm thanh đồng đều và \"đầy đủ\" hơn."
+
+#: /var/azuracast/www/config/forms/station.php:378
+msgid "Allow Song Requests"
+msgstr "Cho phép yêu cầu bài hát"
+
+#: /var/azuracast/www/config/forms/station.php:379
+msgid "Enable listeners to request a song for play on your station. Only songs that are already in your playlists are requestable."
+msgstr "Cho phép người nghe yêu cầu phát một bài hát trên đài của bạn. Chỉ những bài hát đã có trong danh sách phát của bạn mới có thể được yêu cầu."
+
+#: /var/azuracast/www/config/forms/station.php:392
+msgid "Request Minimum Delay (Minutes)"
+msgstr "Yêu cầu độ trễ tối thiểu (phút)"
+
+#: /var/azuracast/www/config/forms/station.php:393
+msgid "If requests are enabled, this specifies the minimum delay (in minutes) between a request being submitted and being played. If set to zero, no delay is applied.<br><b>Important:</b> Some stream licensing rules require a minimum delay for requests (in the US, this is currently 60 minutes). Check your local regulations for more information."
+msgstr "Nếu các yêu cầu được bật, điều này chỉ định độ trễ tối thiểu (tính bằng phút) giữa một yêu cầu được gửi và được phát. Nếu được đặt thành 0, không có độ trễ nào được áp dụng. <br> <b> Quan trọng: </b> Một số quy tắc cấp phép luồng yêu cầu độ trễ tối thiểu cho các yêu cầu (ở Hoa Kỳ, thời gian này hiện là 60 phút). Kiểm tra các quy định địa phương của bạn để biết thêm thông tin."
+
+#: /var/azuracast/www/config/forms/station.php:406
+msgid "Request Last Played Threshold (Minutes)"
+msgstr "Yêu cầu ngưỡng được phát lần cuối (Phút)"
+
+#: /var/azuracast/www/config/forms/station.php:407
+msgid "If requests are enabled, this specifies the minimum time (in minutes) between a song playing on the radio and being available to request again. Set to 0 for no threshold."
+msgstr "Nếu yêu cầu được bật, điều này chỉ định thời gian tối thiểu (tính bằng phút) giữa một nội dung đang phát và có sẵn để yêu cầu lại. Đặt thành 0 để không có ngưỡng."
+
+#: /var/azuracast/www/config/forms/station.php:420
+msgid "Allow Streamers / DJs"
+msgstr "Cho phép Streamers / DJs"
+
+#: /var/azuracast/www/config/forms/station.php:421
+msgid "If enabled, streamers (or DJs) will be able to connect directly to your stream and broadcast live music that interrupts the AutoDJ stream."
+msgstr "Nếu bật, Streamers (hoặc DJ) sẽ có thể kết nối trực tiếp với luồng của bạn và phát trực tiếp nội dung làm gián đoạn luồng AutoDJ."
+
+#: /var/azuracast/www/config/forms/station.php:434
+msgid "Record Live Broadcasts"
+msgstr "Ghi lại các chương trình phát sóng trực tiếp"
+
+#: /var/azuracast/www/config/forms/station.php:435
+msgid "If enabled, AzuraCast will automatically record any live broadcasts made to this station to per-broadcast recordings."
+msgstr "Nếu bật, sẽ tự động ghi lại chương trình phát sóng trực tiếp được thực hiện thành các bản ghi trên mỗi chương trình phát sóng."
+
+#: /var/azuracast/www/config/forms/station.php:449
+msgid "Live Broadcast Recording Format"
+msgstr "Định dạng ghi chương trình phát sóng trực tiếp"
+
+#: /var/azuracast/www/config/forms/station.php:465
+msgid "Live Broadcast Recording Bitrate (kbps)"
+msgstr "Tốc độ bit ghi trực tiếp (kb / giây)"
+
+#: /var/azuracast/www/config/forms/station.php:485
+msgid "Deactivate Streamer on Disconnect (Seconds)"
+msgstr "Hủy Streamer khi ngắt kết nối (Giây)"
+
+#: /var/azuracast/www/config/forms/station.php:486
+msgid "Number of seconds to deactivate station streamer on manual disconnect. Set to 0 to disable deactivation completely."
+msgstr "Số giây để hủy streamer khi ngắt kết nối thủ công. Đặt thành 0 để tắt hoàn toàn việc hủy kích hoạt."
+
+#: /var/azuracast/www/config/forms/station.php:499
+msgid "Customize DJ/Streamer Port"
+msgstr "Tùy chỉnh cổng DJ/Streamer"
+
+#: /var/azuracast/www/config/forms/station.php:501
+msgid "No other program can be using this port. Leave blank to automatically assign a port.<br><b>Note:</b> The port after this one (n+1) will automatically be used for legacy connections."
+msgstr "Không có chương trình nào khác có thể sử dụng cổng này. Để trống để tự động gán cổng. <br> <b> Lưu ý: </b> Cổng sau cổng này (n + 1) sẽ tự động được sử dụng cho các kết nối kế thừa."
+
+#: /var/azuracast/www/config/forms/station.php:512
+msgid "Customize Internal Request Processing Port"
+msgstr "Tùy chỉnh cổng xử lý yêu cầu nội bộ"
+
+#: /var/azuracast/www/config/forms/station.php:514
+msgid "This port is not used by any external process. Only modify this port if the assigned port is in use. Leave blank to automatically assign a port."
+msgstr "Cổng này không được sử dụng bởi bất kỳ quá trình bên ngoài nào. Chỉ sửa đổi cổng này nếu cổng được chỉ định đang được sử dụng. Để trống để tự động gán một cổng."
+
+#: /var/azuracast/www/config/forms/station.php:525
+msgid "DJ/Streamer Buffer Time (Seconds)"
+msgstr "Thời gian đệm của DJ/Streamer (Giây)"
+
+#: /var/azuracast/www/config/forms/station.php:526
+msgid "The number of seconds of signal to store in case of interruption. Set to the lowest value that your DJs can use without stream interruptions."
+msgstr "Số giây của tín hiệu cần lưu trữ trong trường hợp bị gián đoạn. Đặt thành giá trị thấp nhất mà DJ của bạn có thể sử dụng mà không bị gián đoạn luồng."
+
+#: /var/azuracast/www/config/forms/station.php:541
+msgid "Customize DJ/Streamer Mount Point"
+msgstr "Tùy chỉnh mount point của DJ/Streamer"
+
+#: /var/azuracast/www/config/forms/station.php:543
+msgid "If your streaming software requires a specific mount point path, specify it here. Otherwise, use the default."
+msgstr "Nếu phần mềm phát trực tuyến yêu cầu một đường dẫn mount point, hãy chỉ định nó tại đây. Nếu không, hãy sử dụng giá trị mặc định."
+
+#: /var/azuracast/www/config/forms/station.php:555
+msgid "Use Replaygain Metadata"
+msgstr "Sử dụng Replaygain Metadata"
+
+#: /var/azuracast/www/config/forms/station.php:558
+msgid "Instruct Liquidsoap to use any replaygain metadata associated with a song to control its volume level."
+msgstr "Liquidsoap sử dụng bất kỳ metadata phát thanh nào được liên kết với một nội dung để kiểm soát mức âm lượng."
+
+#: /var/azuracast/www/config/forms/station.php:571
+msgid "AutoDJ Queue Length"
+msgstr "Độ dài hàng đợi AutoDJ"
+
+#: /var/azuracast/www/config/forms/station.php:572
+msgid "If using AzuraCast's AutoDJ, this determines how many songs in advance the AutoDJ will automatically fill the queue."
+msgstr "Nếu sử dụng AutoDJ, điều này xác định có bao nhiêu nội dung trước AutoDJ sẽ tự động lấp đầy hàng đợi."
+
+#: /var/azuracast/www/config/forms/station.php:586
+msgid "Manual AutoDJ Mode"
+msgstr "Chế độ AutoDJ thủ công"
+
+#: /var/azuracast/www/config/forms/station.php:588
+msgid "This mode disables AzuraCast's AutoDJ management, using Liquidsoap itself to manage song playback. \"Next Song\" and some other features will not be available."
+msgstr "Chế độ này vô hiệu hóa tính năng quản lý AutoDJ của máy chủ, sử dụng chính Liquidsoap để quản lý phát lại bài hát. \"Bài hát tiếp theo\" và một số tính năng khác sẽ không khả dụng."
+
+#: /var/azuracast/www/config/forms/station.php:602
+msgid "Character Set Encoding"
+msgstr "Mã hóa bộ ký tự"
+
+#: /var/azuracast/www/config/forms/station.php:604
+msgid "For most cases, use the default UTF-8 encoding. The older ISO-8859-1 encoding can be used if accepting connections from SHOUTcast 1 DJs or using other legacy software."
+msgstr "Hầu hết các trường hợp, sử dụng mã hóa UTF-8 mặc định. Có thể sử dụng mã hóa ISO-8859-1 cũ hơn nếu chấp nhận kết nối từ SHOUTcast 1 DJ hoặc sử dụng phần mềm cũ khác."
+
+#: /var/azuracast/www/config/forms/station.php:620
+msgid "Duplicate Prevention Time Range (Minutes)"
+msgstr "Vượt quá thời gian ngăn trùng lặp (phút)"
+
+#: /var/azuracast/www/config/forms/station.php:621
+msgid "This specifies the time range (in minutes) of the song history that the duplicate song prevention algorithm should take into account."
+msgstr "Điều này chỉ định phạm vi thời gian (tính bằng phút) của lịch sử nội dung mà thuật toán ngăn chặn bài hát trùng lặp cần tính đến."
+
+#: /var/azuracast/www/config/forms/station.php:643
+msgid "Media Storage Location"
+msgstr "Vị trí lưu trữ nội dung"
+
+#: /var/azuracast/www/config/forms/station.php:652
+msgid "Live Recordings Storage Location"
+msgstr "Vị trí lưu trữ bản ghi trực tiếp"
+
+#: /var/azuracast/www/config/forms/station.php:661
+msgid "Podcasts Storage Location"
+msgstr "Vị trí lưu trữ podcast"
+
+#: /var/azuracast/www/config/forms/station.php:670
+msgid "Enable Broadcasting"
+msgstr "Bật tính năng phát sóng"
+
+#: /var/azuracast/www/config/forms/station.php:671
+msgid "If disabled, the station will not broadcast or shuffle its AutoDJ."
+msgstr "Nếu bị vô hiệu hóa, đài sẽ không phát sóng hoặc xáo trộn AutoDJ."
+
+#: /var/azuracast/www/config/forms/station.php:682
+msgid "Base Station Directory"
+msgstr "Thư mục trạm gốc"
+
+#: /var/azuracast/www/config/forms/station.php:684
+msgid "The parent directory where station playlist and configuration files are stored. Leave blank to use default directory."
+msgstr "Thư mục gốc, nơi lưu trữ danh sách phát đài và các tệp cấu hình. Để trống để sử dụng thư mục mặc định."
+
+#: /var/azuracast/www/config/forms/api_key.php:10
+#: /var/azuracast/www/templates/admin/api/index.phtml:18
+#: /var/azuracast/www/templates/frontend/api_keys/index.phtml:34
+msgid "Comments"
+msgstr "Bình luận"
+
+#: /var/azuracast/www/config/forms/api_key.php:11
+msgid "Describe the use-case for this API key for future reference."
+msgstr "Mô tả trường hợp sử dụng API key để tham khảo trong tương lai."
+
+#: /var/azuracast/www/config/forms/remote.php:14
+msgid "Show on Public Pages"
+msgstr "Hiển thị trên trang công khai"
+
+#: /var/azuracast/www/config/forms/remote.php:15
+msgid "Enable to allow listeners to select this relay on this station's public pages."
+msgstr "Bật để cho phép người nghe chọn chuyển tiếp này trên các trang công khai."
+
+#: /var/azuracast/www/config/forms/remote.php:26
+msgid "Remote Station Type"
+msgstr "Loại chuyển tiếp"
+
+#: /var/azuracast/www/config/forms/remote.php:40
+#: /var/azuracast/www/config/forms/user.php:10
+msgid "Display Name"
+msgstr "Tên hiển thị"
+
+#: /var/azuracast/www/config/forms/remote.php:41
+msgid "The display name assigned to this relay when viewing it on administrative or public pages. Leave blank to automatically generate one."
+msgstr "Tên hiển thị được gán cho chuyển tiếp này khi xem nó trên các trang quản trị hoặc công khai. Để trống để tự động tạo."
+
+#: /var/azuracast/www/config/forms/remote.php:49
+msgid "Remote Station Listening URL"
+msgstr "URL nghe trạm chuyển tiếp"
+
+#: /var/azuracast/www/config/forms/remote.php:50
+msgid "Example: if the remote radio URL is %s, enter <code>%s</code>."
+msgstr "Ví dụ: URL radio chuyển tiếp là %s, hãy nhập <code>%s</code>."
+
+#: /var/azuracast/www/config/forms/remote.php:63
+msgid "Remote Station Listening Mountpoint/SID"
+msgstr "Mountpoint/SID nghe radio chuyển tiếp"
+
+#: /var/azuracast/www/config/forms/remote.php:64
+msgid "Specify a mountpoint (i.e. <code>%s</code>) or a Shoutcast SID (i.e. <code>%s</code>) to specify a specific stream to use for statistics or broadcasting."
+msgstr "Chỉ định mountpoint (tức là <code>%s</code>) hoặc Shoutcast SID (tức là <code>%s</code>) để chỉ định một luồng cụ thể để sử dụng cho thống kê hoặc phát thanh."
+
+#: /var/azuracast/www/config/forms/remote.php:76
+msgid "Remote Station Administrator Password"
+msgstr "Mật khẩu quản trị viên trạm chuyển tiếp"
+
+#: /var/azuracast/www/config/forms/remote.php:77
+msgid "To retrieve detailed unique listeners and client details, an administrator password is often required."
+msgstr "Để lấy thông tin chi tiết về người nghe và thông tin khác, mật khẩu quản trị viên thường được yêu cầu."
+
+#: /var/azuracast/www/config/forms/remote.php:85
+msgid "Broadcast AutoDJ to Remote Station"
+msgstr "Truyền AutoDJ đến Trạm chuyển tiếp"
+
+#: /var/azuracast/www/config/forms/remote.php:86
+msgid "If enabled, the AutoDJ on this installation will automatically play music to this mount point."
+msgstr "Nếu được bật, AutoDJ trên cài đặt này sẽ tự động phát đến mount point này."
+
+#: /var/azuracast/www/config/forms/remote.php:99
+msgid "Configure AutoDJ Broadcasting"
+msgstr "Cấu hình AutoDJ Broadcasting"
+
+#: /var/azuracast/www/config/forms/remote.php:106
+msgid "AutoDJ Format"
+msgstr "Định dạng AutoDJ"
+
+#: /var/azuracast/www/config/forms/remote.php:120
+msgid "AutoDJ Bitrate (kbps)"
+msgstr "Tốc độ bit AutoDJ (kb/giây)"
+
+#: /var/azuracast/www/config/forms/remote.php:139
+msgid "Remote Station Source Port"
+msgstr "Cổng nguồn chuyển tiếp"
+
+#: /var/azuracast/www/config/forms/remote.php:140
+msgid "If the port you broadcast to is different from the one you listed in the URL above, specify the source port here."
+msgstr "Nếu cổng bạn phát đến khác với cổng bạn đã liệt kê trong URL ở trên, hãy chỉ định cổng nguồn tại đây."
+
+#: /var/azuracast/www/config/forms/remote.php:148
+msgid "Remote Station Source Mountpoint/SID"
+msgstr "Mountpoint/SID nguồn chuyển tiếp"
+
+#: /var/azuracast/www/config/forms/remote.php:149
+msgid "If the mountpoint (i.e. <code>/radio.mp3</code>) or Shoutcast SID (i.e. <code>2</code>) you broadcast to is different from the one listed above, specify the source mount point here."
+msgstr "Nếu mountpoint  (tức là <code> /radio.mp3 </code>) hoặc Shoutcast SID (tức là <code> 2 </code>) mà bạn phát sóng khác với điểm được liệt kê ở trên, hãy chỉ định mountpoint nguồn tại đây."
+
+#: /var/azuracast/www/config/forms/remote.php:157
+msgid "Remote Station Source Username"
+msgstr "Tên người dùng nguồn trạm chuyển tiếp"
+
+#: /var/azuracast/www/config/forms/remote.php:158
+msgid "If you are broadcasting using AutoDJ, enter the source username here. This may be blank."
+msgstr "Nếu bạn đang phát bằng AutoDJ, hãy nhập tên người dùng nguồn tại đây. Điều này có thể để trống."
+
+#: /var/azuracast/www/config/forms/remote.php:166
+msgid "Remote Station Source Password"
+msgstr "Mật khẩu nguồn trạm chuyển tiếp"
+
+#: /var/azuracast/www/config/forms/remote.php:167
+msgid "If you are broadcasting using AutoDJ, enter the source password here."
+msgstr "Nếu bạn đang phát bằng AutoDJ, hãy nhập mật khẩu nguồn tại đây."
+
+#: /var/azuracast/www/config/forms/remote.php:175
+msgid "Publish to \"Yellow Pages\" Directories"
+msgstr "Đưa lên mục \"Những Trang vàng\""
+
+#: /var/azuracast/www/config/forms/remote.php:176
+msgid "Enable to advertise this mount point on \"Yellow Pages\" public radio directories."
+msgstr "Cho phép quảng cáo mount point này trên các  mục radio \"Những Trang vàng\"."
+
+#: /var/azuracast/www/config/forms/profile_two_factor.php:8
+msgid "Code from Authenticator App"
+msgstr "Mã từ Ứng dụng xác thực"
+
+#: /var/azuracast/www/config/forms/profile_two_factor.php:9
+msgid "Enter the current code provided by your authenticator app to verify that it's working correctly."
+msgstr "Nhập mã được cung cấp bởi ứng dụng xác thực của bạn để xác minh rằng nó hoạt động chính xác."
+
+#: /var/azuracast/www/config/forms/profile_two_factor.php:19
+msgid "Verify Authenticator"
+msgstr "Xác minh trình xác thực"
+
+#: /var/azuracast/www/config/forms/install_geolite.php:12
+msgid "You can upload the MaxMind GeoLite database in order to provide geolocation of the IP addresses of your listeners. This will allow you to view the listeners on each station's \"Listeners\" report. To download the GeoLite database:"
+msgstr "Bạn có thể tải lên cơ sở dữ liệu MaxMind GeoLite để cung cấp vị trí địa lý của địa chỉ IP của người nghe. Điều này sẽ cho phép bạn xem các thính giả trên báo cáo \"Người nghe\" của mỗi đài. Để tải xuống cơ sở dữ liệu GeoLite:"
+
+#: /var/azuracast/www/config/forms/install_geolite.php:14
+msgid "Create an account on <a href=\"%s\" target=\"_blank\">the MaxMind developer site</a>."
+msgstr "Tạo tài khoản trên <a href=\"%s\" target=\"_blank\"> trang web của nhà phát triển MaxMind </a>."
+
+#: /var/azuracast/www/config/forms/install_geolite.php:16
+msgid "Visit the \"My License Key\" page under the \"Services\" section."
+msgstr "Truy cập trang \"My License Key\" trong phần \"Services\"."
+
+#: /var/azuracast/www/config/forms/install_geolite.php:17
+msgid "Click \"Generate new license key\"."
+msgstr "Nhấp vào \"Generate new license key\"."
+
+#: /var/azuracast/www/config/forms/install_geolite.php:18
+msgid "Paste the generated license key into the field on this page."
+msgstr "Dán license key đã tạo vào trường trên trang này."
+
+#: /var/azuracast/www/config/forms/install_geolite.php:26
+msgid "MaxMind License Key"
+msgstr "MaxMind License Key"
+
+#: /var/azuracast/www/config/forms/backup.php:14
+msgid "Run Automatic Nightly Backups"
+msgstr "Chạy các bản sao lưu tự động hàng đêm"
+
+#: /var/azuracast/www/config/forms/backup.php:15
+msgid "Enable to have AzuraCast automatically run nightly backups at the time specified."
+msgstr "Bật tự động chạy các bản sao lưu hàng đêm vào thời gian được chỉ định."
+
+#: /var/azuracast/www/config/forms/backup.php:28
+msgid "Scheduled Backup Time"
+msgstr "Thời gian sao lưu đã lên lịch"
+
+#: /var/azuracast/www/config/forms/backup.php:29
+msgid "The time (in UTC) to run the automated backup, if enabled."
+msgstr "Thời gian (tính theo UTC) để chạy sao lưu tự động, nếu được bật."
+
+#: /var/azuracast/www/config/forms/backup.php:37
+msgid "Exclude Media from Backups"
+msgstr "Loại trừ nội dung khỏi bản sao lưu"
+
+#: /var/azuracast/www/config/forms/backup.php:38
+msgid "Excluding media from automated backups will save space, but you should make sure to back up your media elsewhere. Note that only locally stored media will be backed up."
+msgstr "Loại trừ nội dung khỏi các bản sao lưu tự động sẽ tiết kiệm dung lượng, nhưng bạn nên đảm bảo sao lưu nội dung của mình ở nơi khác. Lưu ý rằng chỉ nội dung được lưu trữ cục bộ mới được sao lưu."
+
+#: /var/azuracast/www/config/forms/backup.php:51
+msgid "Number of Backup Copies to Keep"
+msgstr "Số lượng bản sao lưu cần giữ"
+
+#: /var/azuracast/www/config/forms/backup.php:52
+msgid "Copies older than the specified number of days will automatically be deleted. Set to zero to disable automatic deletion."
+msgstr "Các bản sao cũ hơn số ngày được chỉ định sẽ tự động bị xóa. Đặt thành 0 để tắt tính năng xóa tự động."
+
+#: /var/azuracast/www/config/forms/backup.php:65
+#: /var/azuracast/www/config/forms/backup_run.php:9
+msgid "Storage Location"
+msgstr "Đường dẫn lưu trữ"
+
+#: /var/azuracast/www/config/forms/settings.php:11
+msgid "Rolling Release"
+msgstr "Phát hành cuộn"
+
+#: /var/azuracast/www/config/forms/settings.php:12
+msgid "Stable"
+msgstr "Ổn định"
+
+#: /var/azuracast/www/config/forms/settings.php:18
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: /var/azuracast/www/config/forms/settings.php:19
+msgid "Security"
+msgstr "Bảo vệ"
+
+#: /var/azuracast/www/config/forms/settings.php:20
+msgid "Privacy"
+msgstr "Riêng tư"
+
+#: /var/azuracast/www/config/forms/settings.php:21
+msgid "Services"
+msgstr "Dịch vụ"
+
+#: /var/azuracast/www/config/forms/settings.php:34
+msgid "Site Base URL"
+msgstr "URL cơ sở của trang web"
+
+#: /var/azuracast/www/config/forms/settings.php:35
+msgid "The base URL where this service is located. Use either the external IP address or fully-qualified domain name (if one exists) pointing to this server."
+msgstr "URL nơi đặt dịch vụ này. Sử dụng địa chỉ IP hoặc tên miền đủ điều kiện (nếu tồn tại) trỏ đến máy chủ này."
+
+#: /var/azuracast/www/config/forms/settings.php:46
+msgid "AzuraCast Instance Name"
+msgstr "Tên phiên bản AzuraCast"
+
+#: /var/azuracast/www/config/forms/settings.php:47
+msgid "This name will appear as a sub-header next to the AzuraCast logo, to help identify this server."
+msgstr "Tên này sẽ xuất hiện dưới dạng tiêu đề phụ bên cạnh biểu trưng AzuraCast, để giúp xác định máy chủ này."
+
+#: /var/azuracast/www/config/forms/settings.php:57
+msgid "Prefer Browser URL (If Available)"
+msgstr "Ưu tiên URL trình duyệt (Nếu có)"
+
+#: /var/azuracast/www/config/forms/settings.php:58
+msgid "If this setting is set to \"Yes\", the browser URL will be used instead of the base URL when it's available. Set to \"No\" to always use the base URL."
+msgstr "Nếu cài đặt này được đặt thành \"Có\", thì URL của trình duyệt sẽ được sử dụng thay vì URL cơ sở khi có sẵn. Đặt thành \"Không\" để luôn sử dụng URL cơ sở."
+
+#: /var/azuracast/www/config/forms/settings.php:71
+msgid "Use Web Proxy for Radio"
+msgstr "Sử dụng Web Proxy cho Radio"
+
+#: /var/azuracast/www/config/forms/settings.php:72
+msgid "By default, radio stations broadcast on their own ports (i.e. 8000). If you're using a service like CloudFlare or accessing your radio station by SSL, you should enable this feature, which routes all radio through the web ports (80 and 443)."
+msgstr "Theo mặc định, các đài phát thanh phát sóng trên các cổng riêng của chúng (tức là 8000). Nếu bạn đang sử dụng một dịch vụ như CloudFlare hoặc truy cập đài phát thanh của mình bằng SSL, bạn nên bật tính năng này, tính năng này sẽ định tuyến tất cả đài phát thanh qua các cổng web (80 và 443)."
+
+#: /var/azuracast/www/config/forms/settings.php:85
+msgid "Days of Playback History to Keep"
+msgstr "Số ngày cần lưu giữ Lịch sử phát"
+
+#: /var/azuracast/www/config/forms/settings.php:86
+msgid "Set longer to preserve more playback history and listener metadata for stations. Set shorter to save disk space. "
+msgstr "Đặt lâu hơn để lưu giữ thêm lịch sử phát và metadata người nghe cho các đài. Đặt ngắn hơn để tiết kiệm dung lượng ổ đĩa. "
+
+#: /var/azuracast/www/config/forms/settings.php:90
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:65
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:26
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:92
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:23
+msgid "Last 14 Days"
+msgstr "14 ngày qua"
+
+#: /var/azuracast/www/config/forms/settings.php:91
+#: /var/azuracast/www/templates/stations/reports/listeners.js.phtml:104
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:66
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:93
+msgid "Last 30 Days"
+msgstr "30 ngày qua"
+
+#: /var/azuracast/www/config/forms/settings.php:92
+msgid "Last 60 Days"
+msgstr "60 ngày qua"
+
+#: /var/azuracast/www/config/forms/settings.php:93
+msgid "Last Year"
+msgstr "Năm ngoái"
+
+#: /var/azuracast/www/config/forms/settings.php:94
+msgid "Last 2 Years"
+msgstr "2 năm qua"
+
+#: /var/azuracast/www/config/forms/settings.php:95
+msgid "Indefinitely"
+msgstr "Vô thời hạn"
+
+#: /var/azuracast/www/config/forms/settings.php:105
+msgid "Use WebSockets for Now Playing Updates"
+msgstr "Sử dụng WebSockets cho các bản cập nhật đang phát"
+
+#: /var/azuracast/www/config/forms/settings.php:106
+msgid "Enables or disables the use of the newer and faster WebSocket-based system for receiving live updates on public players. You may need to disable this if you encounter problems with it."
+msgstr "Bật hoặc tắt việc sử dụng hệ thống dựa trên WebSocket mới hơn và nhanh hơn để nhận cập nhật trực tiếp về trình phát công khai. Bạn có thể cần phải tắt tính năng này nếu bạn gặp sự cố với nó."
+
+#: /var/azuracast/www/config/forms/settings.php:119
+msgid "Enable Advanced Features"
+msgstr "Bật tính năng nâng cao"
+
+#: /var/azuracast/www/config/forms/settings.php:120
+msgid "Enable certain advanced features in the web interface, including advanced playlist configuration, station port assignment, changing base media directories and other functionality that should only be used by users who are comfortable with advanced functionality."
+msgstr "Bật một số tính năng nâng cao nhất định trong giao diện web, bao gồm cấu hình danh sách phát nâng cao, gán cổng đài, thay đổi thư mục  cơ sở và chức năng khác chỉ nên được sử dụng bởi những người dùng cảm thấy thoải mái với chức năng nâng cao."
+
+#: /var/azuracast/www/config/forms/settings.php:142
+msgid "Always Use HTTPS"
+msgstr "Luôn sử dụng HTTPS"
+
+#: /var/azuracast/www/config/forms/settings.php:143
+msgid "Set to \"Yes\" to always use \"https://\" secure URLs, and to automatically redirect to the secure URL when an insecure URL is visited."
+msgstr "Đặt thành \"Có\" để luôn sử dụng URL bảo mật \"https: //\" và để tự động chuyển hướng đến URL an toàn khi một URL không an toàn được truy cập."
+
+#: /var/azuracast/www/config/forms/settings.php:156
+msgid "API \"Access-Control-Allow-Origin\" header"
+msgstr "Tiêu đề \"Access-Control-Allow-Origin\" của API"
+
+#: /var/azuracast/www/config/forms/settings.php:158
+msgid "<a href=\"%s\" target=\"_blank\">Learn more about this header</a>. Set to * to allow all sources, or specify a list of origins separated by a comma (,)."
+msgstr "<a href=\"%s\" target=\"_blank\"> Tìm hiểu thêm về tiêu đề này </a>. Đặt thành * để cho phép tất cả các nguồn hoặc chỉ định danh sách các nguồn được phân tách bằng dấu phẩy (,)."
+
+#: /var/azuracast/www/config/forms/settings.php:177
+msgid "Listener Analytics Collection"
+msgstr "Bộ sưu tập phân tích người nghe"
+
+#: /var/azuracast/www/config/forms/settings.php:178
+msgid "Aggregate listener statistics are used to show station reports across the system. IP-based listener statistics are used to view live listener tracking and may be required for royalty reports."
+msgstr "Số liệu thống kê về người nghe được sử dụng để báo cáo đài trên toàn hệ thống. Thống kê người nghe dựa trên IP được sử dụng để theo dõi người nghe trực tiếp và có thể được yêu cầu cho các báo cáo tiền bản quyền."
+
+#: /var/azuracast/www/config/forms/settings.php:183
+msgid "<b>Full:</b> Collect aggregate listener statistics and IP-based listener statistics"
+msgstr "<b> Đầy đủ: </b> Thu thập thống kê người nghe tổng hợp và thống kê người nghe dựa trên IP"
+
+#: /var/azuracast/www/config/forms/settings.php:186
+msgid "<b>Limited:</b> Only collect aggregate listener statistics"
+msgstr "<b> Hạn chế: </b> Chỉ thu thập thống kê tổng hợp của người nghe"
+
+#: /var/azuracast/www/config/forms/settings.php:189
+msgid "<b>None:</b> Do not collect any listener analytics"
+msgstr "<b> Không: </b> Không thu thập bất kỳ phân tích nào"
+
+#: /var/azuracast/www/config/forms/settings.php:199
+msgid "AzuraCast Update Checks"
+msgstr "Kiểm tra cập nhật "
+
+#: /var/azuracast/www/config/forms/settings.php:206
+msgid "Current Release Channel"
+msgstr "Kênh phát hành hiện tại"
+
+#: /var/azuracast/www/config/forms/settings.php:208
+msgid "For information on how to switch your release channel, visit <a href=\"%s\" target=\"_blank\">this page</a>."
+msgstr "Để biết thông tin về cách chuyển kênh phát hành của bạn, hãy truy cập <a href=\"%s\" target=\"_blank\"> trang này </a>."
+
+#: /var/azuracast/www/config/forms/settings.php:218
+msgid "Show Update Announcements"
+msgstr "Hiển thị Thông báo Cập nhật"
+
+#: /var/azuracast/www/config/forms/settings.php:219
+msgid "Show new releases within your update channel on the AzuraCast homepage."
+msgstr "Hiển thị các bản phát hành mới trong kênh cập nhật của bạn trên trang chủ."
+
+#: /var/azuracast/www/config/forms/settings.php:229
+msgid "E-mail Delivery Service"
+msgstr "Dịch vụ gửi e-mail"
+
+#: /var/azuracast/www/config/forms/settings.php:230
+msgid "Used for \"Forgot Password\" functionality, web hooks and other functions."
+msgstr "Sử dụng cho chức năng \"Quên mật khẩu\", web hooks và các chức năng khác."
+
+#: /var/azuracast/www/config/forms/settings.php:238
+msgid "Enable Mail Delivery"
+msgstr "Bật gửi thư"
+
+#: /var/azuracast/www/config/forms/settings.php:249
+msgid "Sender Name"
+msgstr "Tên người gửi"
+
+#: /var/azuracast/www/config/forms/settings.php:258
+msgid "Sender E-mail Address"
+msgstr "Địa chỉ E-mail của Người gửi"
+
+#: /var/azuracast/www/config/forms/settings.php:268
+msgid "SMTP Host"
+msgstr "Máy chủ SMTP"
+
+#: /var/azuracast/www/config/forms/settings.php:277
+msgid "SMTP Port"
+msgstr "Cổng SMTP"
+
+#: /var/azuracast/www/config/forms/settings.php:286
+msgid "Use Secure (TLS) SMTP Connection"
+msgstr "Sử dụng Kết nối SMTP Bảo mật (TLS)"
+
+#: /var/azuracast/www/config/forms/settings.php:287
+msgid "Usually enabled for port 465, disabled for ports 587 or 25."
+msgstr "Thường bật cổng 465, tắt cổng 587 hoặc 25."
+
+#: /var/azuracast/www/config/forms/settings.php:299
+msgid "SMTP Username"
+msgstr "Tên người dùng SMTP"
+
+#: /var/azuracast/www/config/forms/settings.php:308
+msgid "SMTP Password"
+msgstr "Mật khẩu SMTP"
+
+#: /var/azuracast/www/config/forms/settings.php:319
+msgid "Avatar Services"
+msgstr "Dịch vụ hình đại diện"
+
+#: /var/azuracast/www/config/forms/settings.php:326
+msgid "Avatar Service"
+msgstr "Dịch vụ hình đại diện"
+
+#: /var/azuracast/www/config/forms/settings.php:341
+msgid "Default Avatar URL"
+msgstr "URL hình đại diện mặc định"
+
+#: /var/azuracast/www/config/forms/settings.php:353
+msgid "Album Art Services"
+msgstr "Dịch vụ ảnh bìa"
+
+#: /var/azuracast/www/config/forms/settings.php:360
+msgid "Check Web Services for Album Art for \"Now Playing\" Tracks"
+msgstr "Kiểm tra Dịch vụ web cho Ảnh bìa album để tìm nội dung \"Đang phát\""
+
+#: /var/azuracast/www/config/forms/settings.php:371
+msgid "Check Web Services for Album Art When Uploading Media"
+msgstr "Kiểm tra dịch vụ web cho ảnh bìa album khi tải lên nội dung"
+
+#: /var/azuracast/www/config/forms/settings.php:382
+msgid "Last.fm API Key"
+msgstr "Last.fm API Key"
+
+#: /var/azuracast/www/config/forms/settings.php:383
+msgid "<a href=\"%s\" target=\"_blank\">Apply for an API key here</a>. This service can provide album art for tracks where none is available locally."
+msgstr "<a href=\"%s\" target=\"_blank\"> Đăng ký API key tại đây </a>. Dịch vụ này có thể cung cấp ảnh bìa album cho các nội dung không có sẵn."
+
+#: /var/azuracast/www/config/forms/report/soundexchange.php:55
+msgid "Attempt to Automatically Retrieve ISRC When Missing"
+msgstr "Cố gắng tự động truy xuất ISRC khi bị mất"
+
+#: /var/azuracast/www/config/forms/report/soundexchange.php:56
+msgid "If enabled, AzuraCast will connect to the MusicBrainz database to attempt to find an ISRC for any files where one is missing. Disabling this may improve performance."
+msgstr "Nếu được bật, AzuraCast sẽ kết nối với cơ sở dữ liệu MusicBrainz để cố gắng tìm ISRC cho bất kỳ tệp nào bị thiếu. Tắt tính năng này có thể cải thiện hiệu suất."
+
+#: /var/azuracast/www/config/forms/automation.php:10
+msgid "Enable Automated Assignment"
+msgstr "Bật gán tự động"
+
+#: /var/azuracast/www/config/forms/automation.php:11
+msgid "Allow the system to periodically automatically assign songs to playlists based on their performance. This process will run in the background, and will only run if this option is set to \"Enabled\" and at least one playlist is set to \"Include in Automated Assignment\"."
+msgstr "Cho phép hệ thống định kỳ tự động gán các nội dung vào danh sách phát dựa trên hiệu suất của chúng. Quá trình này sẽ chạy  nền và chỉ chạy nếu tùy chọn này được đặt thành \"Bật gán tự động\" và ít nhất một danh sách phát được đặt thành \"Bao gồm gán tự động\"."
+
+#: /var/azuracast/www/config/forms/automation.php:15
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:58
+#: /var/azuracast/www/templates/admin/backups/index.phtml:24
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:81
+msgid "Enabled"
+msgstr "Đã bật"
+
+#: /var/azuracast/www/config/forms/automation.php:23
+msgid "Days Between Automated Assignments"
+msgstr "Số ngày giữa các bài tập tự động"
+
+#: /var/azuracast/www/config/forms/automation.php:24
+msgid "Based on this setting, the system will automatically reassign songs every (this) days using data from the previous (this) days."
+msgstr "Dựa trên cài đặt này, hệ thống sẽ tự động chỉ định lại nội dung ngày này bằng cách sử dụng dữ liệu từ ngày trước."
+
+#: /var/azuracast/www/config/forms/automation.php:28
+#: /var/azuracast/www/config/forms/automation.php:29
+#: /var/azuracast/www/config/forms/automation.php:30
+#: /var/azuracast/www/config/forms/automation.php:31
+msgid "%d days"
+msgstr "%d ngày"
+
+#: /var/azuracast/www/config/forms/user.php:19
+#: /var/azuracast/www/config/forms/profile.php:27
+#: /var/azuracast/www/config/forms/register.php:13
+#: /var/azuracast/www/templates/admin/users/index.phtml:22
+#: /var/azuracast/www/templates/frontend/setup/register.phtml:37
+#: /var/azuracast/www/templates/frontend/account/forgot.phtml:21
+#: /var/azuracast/www/templates/frontend/account/forgot.phtml:25
+#: /var/azuracast/www/templates/frontend/account/login.phtml:41
+#: /var/azuracast/www/templates/frontend/account/login.phtml:45
+msgid "E-mail Address"
+msgstr "Địa chỉ email"
+
+#: /var/azuracast/www/config/forms/user.php:30
+#: /var/azuracast/www/config/forms/profile.php:40
+msgid "Reset Password"
+msgstr "Đặt lại mật khẩu"
+
+#: /var/azuracast/www/config/forms/user.php:31
+#: /var/azuracast/www/config/forms/sftp_user.php:18
+msgid "Leave blank to use the current password."
+msgstr "Để trống để sử dụng mật khẩu hiện tại."
+
+#: /var/azuracast/www/config/forms/user.php:42
+#: /var/azuracast/www/templates/admin/users/index.phtml:23
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:46
+msgid "Roles"
+msgstr "Vai trò"
+
+#: /var/azuracast/www/config/forms/backup_run.php:17
+msgid "Backup Filename"
+msgstr "Tên tệp sao lưu"
+
+#: /var/azuracast/www/config/forms/backup_run.php:18
+msgid "This will be the file name for your backup, include the file type (.zip or .rar) you wish to use."
+msgstr "Đây sẽ là tên tệp cho bản sao lưu của bạn, bao gồm loại tệp (.zip hoặc .rar) bạn muốn sử dụng."
+
+#: /var/azuracast/www/config/forms/backup_run.php:25
+msgid "Exclude Media from Backup"
+msgstr "Loại trừ nội dung khỏi bản sao lưu"
+
+#: /var/azuracast/www/config/forms/backup_run.php:26
+msgid "This will produce a significantly smaller backup, but you should make sure to back up your media elsewhere. Note that only locally stored media will be backed up."
+msgstr "Điều này sẽ tạo ra một bản sao lưu nhỏ hơn đáng kể, nhưng bạn nên đảm bảo sao lưu nội dung của mình ở nơi khác. Lưu ý rằng chỉ nội dung được lưu trữ cục bộ mới được sao lưu."
+
+#: /var/azuracast/www/config/forms/profile.php:5
+msgid "Use Browser Default"
+msgstr "Sử dụng mặc định của trình duyệt"
+
+#: /var/azuracast/www/config/forms/profile.php:41
+msgid "Leave these fields blank to continue using your current password."
+msgstr "Để trống các trường này để tiếp tục sử dụng mật khẩu hiện tại của bạn."
+
+#: /var/azuracast/www/config/forms/profile.php:47
+msgid "Current Password"
+msgstr "Mật khẩu hiện tại"
+
+#: /var/azuracast/www/config/forms/profile.php:56
+#: /var/azuracast/www/config/forms/sftp_user.php:17
+msgid "New Password"
+msgstr "Mật khẩu mới"
+
+#: /var/azuracast/www/config/forms/profile.php:67
+msgid "Confirm New Password"
+msgstr "Xác nhận mật khẩu mới"
+
+#: /var/azuracast/www/config/forms/profile.php:78
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:60
+msgid "Customization"
+msgstr "Tùy biến"
+
+#: /var/azuracast/www/config/forms/profile.php:94
+msgid "Site Theme"
+msgstr "Chủ đề trang web"
+
+#: /var/azuracast/www/config/forms/profile.php:96
+#: /var/azuracast/www/config/forms/branding.php:19
+msgid "Prefer System Default"
+msgstr "Ưu tiên hệ thống mặc định"
+
+#: /var/azuracast/www/config/forms/profile.php:97
+#: /var/azuracast/www/config/forms/branding.php:20
+msgid "Light"
+msgstr "Sáng"
+
+#: /var/azuracast/www/config/forms/profile.php:98
+#: /var/azuracast/www/config/forms/branding.php:21
+msgid "Dark"
+msgstr "Tối"
+
+#: /var/azuracast/www/config/forms/branding.php:14
+msgid "Base Theme for Public Pages"
+msgstr "Chủ đề cho các trang công khai"
+
+#: /var/azuracast/www/config/forms/branding.php:15
+msgid "Select a theme to use as a base for station public pages and the login page."
+msgstr "Chọn một chủ đề để sử dụng cho các trang công khai của đài và trang đăng nhập."
+
+#: /var/azuracast/www/config/forms/branding.php:31
+msgid "Hide Album Art on Public Pages"
+msgstr "Ẩn ảnh bìa album trên các trang công khai"
+
+#: /var/azuracast/www/config/forms/branding.php:32
+msgid "If selected, album art will not display on public-facing radio pages."
+msgstr "Nếu được chọn, ảnh bìa album sẽ không hiển thị trên các trang radio công khai."
+
+#: /var/azuracast/www/config/forms/branding.php:43
+msgid "Homepage Redirect URL"
+msgstr "URL chuyển hướng trang chủ"
+
+#: /var/azuracast/www/config/forms/branding.php:44
+msgid "If a visitor is not signed in and visits the AzuraCast homepage, you can automatically redirect them to the URL specified here. Leave blank to redirect them to the login screen by default."
+msgstr "Nếu khách truy cập chưa đăng nhập và truy cập trang chủ , bạn có thể tự động chuyển hướng họ đến URL được chỉ định tại đây. Để trống để chuyển hướng họ đến màn hình đăng nhập theo mặc định."
+
+#: /var/azuracast/www/config/forms/branding.php:67
+msgid "Hide AzuraCast Branding on Public Pages"
+msgstr "Ẩn thương hiệu AzuraCast trên các trang công khai"
+
+#: /var/azuracast/www/config/forms/branding.php:68
+msgid "If selected, this will remove the AzuraCast branding from public-facing pages."
+msgstr "Nếu được chọn, điều này sẽ xóa thương hiệu AzuraCast khỏi các trang hiển thị công khai."
+
+#: /var/azuracast/www/config/forms/branding.php:81
+msgid "Custom CSS for Public Pages"
+msgstr "CSS tùy chỉnh cho các trang công khai"
+
+#: /var/azuracast/www/config/forms/branding.php:82
+msgid "This CSS will be applied to the station public pages and login page."
+msgstr "CSS này sẽ được áp dụng cho các trang công khai của đài và trang đăng nhập."
+
+#: /var/azuracast/www/config/forms/branding.php:95
+msgid "Custom JS for Public Pages"
+msgstr "Tùy chỉnh JS cho các trang công khai"
+
+#: /var/azuracast/www/config/forms/branding.php:96
+msgid "This javascript code will be applied to the station public pages and login page."
+msgstr "Mã javascript này sẽ được áp dụng cho các trang công khai của đài và trang đăng nhập."
+
+#: /var/azuracast/www/config/forms/branding.php:111
+msgid "Custom CSS for Internal Pages"
+msgstr "Tùy chỉnh CSS cho các trang nội bộ"
+
+#: /var/azuracast/www/config/forms/branding.php:112
+msgid "This CSS will be applied to the main management pages, like this one."
+msgstr "CSS này sẽ được áp dụng cho các trang quản lý chính, như trang này."
+
+#: /var/azuracast/www/config/forms/register.php:7
+msgid "Account Information"
+msgstr "Thông tin tài khoản"
+
+#: /var/azuracast/www/config/forms/register.php:23
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:63
+#: /var/azuracast/www/templates/frontend/setup/register.phtml:47
+#: /var/azuracast/www/templates/frontend/account/recover.phtml:25
+#: /var/azuracast/www/templates/frontend/account/recover.phtml:29
+#: /var/azuracast/www/templates/frontend/account/login.phtml:50
+#: /var/azuracast/www/templates/frontend/account/login.phtml:54
+msgid "Password"
+msgstr "Mật khẩu"
+
+#: /var/azuracast/www/config/forms/register.php:37
+#: /var/azuracast/www/templates/frontend/setup/station.phtml:13
+#: /var/azuracast/www/templates/frontend/setup/settings.phtml:13
+#: /var/azuracast/www/templates/frontend/setup/register.phtml:55
+#: /var/azuracast/www/templates/frontend/setup/register.phtml:56
+msgid "Create Account"
+msgstr "Tạo tài khoản"
+
+#: /var/azuracast/www/config/forms/sftp_user.php:8
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:24
+msgid "Username"
+msgstr "Tên tài khoản"
+
+#: /var/azuracast/www/config/forms/sftp_user.php:27
+msgid "SSH Public Keys"
+msgstr "Khóa công khai SSH"
+
+#: /var/azuracast/www/config/forms/sftp_user.php:29
+msgid "Optionally supply SSH public keys this user can use to connect instead of a password. Enter one key per line."
+msgstr "Tùy chọn cung cấp khóa công khai SSH mà người dùng này có thể sử dụng để kết nối thay vì mật khẩu. Nhập một KEY trên mỗi dòng."
+
+#: /var/azuracast/www/config/forms/role.php:11
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:22
+msgid "Role Name"
+msgstr "Tên vai trò"
+
+#: /var/azuracast/www/config/forms/role.php:20
+msgid "System-Wide Permissions"
+msgstr "Quyền trên toàn hệ thống"
+
+#: /var/azuracast/www/config/forms/role.php:33
+msgid "Permissions for %s"
+msgstr "Quyền cho %s"
+
+#: /var/azuracast/www/config/assets.php:164
+msgid "Are you sure?"
+msgstr "Bạn có chắc không?"
+
+#: /var/azuracast/www/config/assets.php:165
+msgid "Advanced"
+msgstr "Nâng cao"
+
+#: /var/azuracast/www/config/assets.php:166
+msgid "Enter a password to continue."
+msgstr "Nhập mật khẩu để tiếp tục."
+
+#: /var/azuracast/www/config/assets.php:167
+msgid "No problems detected."
+msgstr "Không có lỗi."
+
+#: /var/azuracast/www/templates/stations/podcasts/index.phtml:3
+msgid "Podcasts"
+msgstr "Podcast"
+
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:13
+msgid "Remote relays let you work with broadcasting software outside this server. Any relay you include here will be included in your station's statistics. You can also broadcast from this server to remote relays."
+msgstr "Chuyển tiếp cho phép làm việc với phần mềm phát sóng bên ngoài máy chủ này. Bất kỳ chuyển tiếp nào đưa vào đây sẽ được đưa vào thống kê của trạm. Cũng có thể phát từ máy chủ này tới các chuyển tiếp khác."
+
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:31
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:29
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:23
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:31
+#: /var/azuracast/www/templates/admin/stations/index.phtml:20
+#: /var/azuracast/www/templates/admin/backups/index.phtml:100
+#: /var/azuracast/www/templates/admin/custom_fields/index.phtml:21
+#: /var/azuracast/www/templates/admin/users/index.phtml:21
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:46
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:21
+msgid "Actions"
+msgstr "Hành động"
+
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:32
+msgid "Remote Relay"
+msgstr "Chuyển tiếp"
+
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:44
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:34
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:42
+#: /var/azuracast/www/templates/admin/stations/index.phtml:32
+#: /var/azuracast/www/templates/admin/custom_fields/index.phtml:31
+#: /var/azuracast/www/templates/admin/users/index.phtml:35
+#: /var/azuracast/www/templates/admin/api/index.phtml:27
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:32
+#: /var/azuracast/www/templates/frontend/api_keys/index.phtml:42
+msgid "Edit"
+msgstr "Sửa"
+
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:45
+msgid "Delete remote relay \"%s\"?"
+msgstr "Xóa chuyển tiếp \"%s\"?"
+
+#: /var/azuracast/www/templates/stations/remotes/index.phtml:47
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:61
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:38
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:54
+#: /var/azuracast/www/templates/admin/stations/index.phtml:37
+#: /var/azuracast/www/templates/admin/backups/index.phtml:117
+#: /var/azuracast/www/templates/admin/custom_fields/index.phtml:32
+#: /var/azuracast/www/templates/admin/users/index.phtml:37
+#: /var/azuracast/www/templates/admin/users/index.phtml:39
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:43
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:38
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:41
+msgid "Delete"
+msgstr "Xóa"
+
+#: /var/azuracast/www/templates/stations/streamers/disabled.phtml:3
+msgid "Streamer accounts are currently disabled for this station. To enable streamer accounts, click the button below."
+msgstr "Tài khoản phát trực tiếp đã bị vô hiệu hóa cho đài này. Để kích hoạt tài khoản, hãy nhấp vào nút bên dưới."
+
+#: /var/azuracast/www/templates/stations/streamers/disabled.phtml:5
+msgid "Enable Streaming"
+msgstr "Bật phát trực tuyến"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:23
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:51
+msgid "Connection Information"
+msgstr "Thông tin kết nối"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:26
+msgid "IceCast Clients"
+msgstr "IceCast Clients"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:28
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:48
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:55
+msgid "Server"
+msgstr "Server"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:32
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:52
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:58
+msgid "You may need to connect directly via your IP address, which is <code>%s</code>."
+msgstr "Bạn có thể cần kết nối trực tiếp qua địa chỉ IP của mình, là <code>% s </code>."
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:39
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:59
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:62
+msgid "Port"
+msgstr "Port"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:42
+msgid "Mount Name"
+msgstr "Mount Name"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:46
+msgid "ShoutCast v1 Clients"
+msgstr "ShoutCast v1 Clients"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:60
+msgid "%d (%d for some clients)"
+msgstr "%d (%d cho một số client)"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:65
+msgid "or"
+msgstr "hoặc"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:67
+msgid "(DJ username and password separated by a colon or comma)"
+msgstr "(Tên người dùng và mật khẩu DJ được phân tách bằng dấu hai chấm hoặc dấu phẩy)"
+
+#: /var/azuracast/www/templates/stations/streamers/index.phtml:72
+msgid "Setup instructions for broadcasting software are available <a href=\"%s\" target=\"_blank\">on the AzuraCast Wiki</a>."
+msgstr "Hướng dẫn thiết lập cho phần mềm phát thanh có sẵn <a href=\"%s\" target=\"_blank\"> trên AzuraCast Wiki </a>."
+
+#: /var/azuracast/www/templates/stations/automation/index.phtml:2
+#: /var/azuracast/www/templates/stations/automation/index.phtml:6
+msgid "Automated Playlist Assignment"
+msgstr "Chỉ định danh sách phát tự động"
+
+#: /var/azuracast/www/templates/stations/automation/index.phtml:9
+msgid "Based on the previous performance of your station's songs, %s can automatically distribute songs evenly among your playlists, placing the highest performing songs in the highest-weighted playlists."
+msgstr "Dựa trên hiệu suất trước đó của các nội dung trong đài, %s có thể tự động phân phối các nội dung trong các danh sách phát, đặt các nội dung có hiệu suất cao nhất vào danh sách phát có trọng số cao nhất."
+
+#: /var/azuracast/www/templates/stations/automation/index.phtml:12
+msgid "Once you have configured automated assignment, click the button below to run the automated assignment process. This process will not run at all unless you have selected \"Enable\" below."
+msgstr "Khi bạn cấu hình danh sach phát tự động, hãy nhấp vào nút bên dưới để chạy quy trình chỉ định tự động. Quá trình này sẽ hoàn toàn không chạy trừ khi bạn đã chọn \"Bật\" bên dưới."
+
+#: /var/azuracast/www/templates/stations/automation/index.phtml:14
+msgid "Run Automated Assignment"
+msgstr "Chạy chỉ định tự động"
+
+#: /var/azuracast/www/templates/stations/automation/index.phtml:20
+msgid "Configure Automated Assignment"
+msgstr "Cấu hình chỉ định tự động"
+
+#: /var/azuracast/www/templates/stations/sidebar.phtml:16
+msgid "Station Time"
+msgstr "Giờ của trạm"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:29
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:30
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:22
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:23
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:17
+msgid "Download CSV"
+msgstr "Tải xuống CSV"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:34
+#: /var/azuracast/www/templates/stations/reports/listeners.js.phtml:7
+#: /var/azuracast/www/templates/stations/reports/listeners.js.phtml:96
+msgid "Live Listeners"
+msgstr "Người nghe trực tiếp"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:45
+msgid "Unique Listeners"
+msgstr "Người nghe"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:46
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:53
+msgid "for selected period"
+msgstr "cho khoảng thời gian đã chọn"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:52
+msgid "Total Listener Hours"
+msgstr "Tổng số giờ của người nghe"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:61
+msgid "IP"
+msgstr "IP"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:62
+msgid "Time"
+msgstr "Thời gian"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:63
+msgid "Time (sec)"
+msgstr "Thời gian (giây)"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:64
+msgid "User Agent"
+msgstr "Người dùng"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:65
+msgid "Stream"
+msgstr "Luồng"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:66
+msgid "Location"
+msgstr "Vị trí"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:77
+msgid "Mobile Device"
+msgstr "Thiết bị di động"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:81
+msgid "Desktop Device"
+msgstr "Máy tính để bàn"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:88
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:108
+msgid "Unknown"
+msgstr "Không xác định"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:93
+msgid "Local"
+msgstr "Tại chỗ"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.phtml:96
+msgid "Remote"
+msgstr "Từ xa"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.js.phtml:59
+msgid "There are too many data points to map!"
+msgstr "Có quá nhiều điểm dữ liệu để lập bản đồ!"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.js.phtml:98
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:62
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:89
+msgid "Today"
+msgstr "Hôm nay"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.js.phtml:100
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:63
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:90
+msgid "Yesterday"
+msgstr "Hôm qua"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.js.phtml:102
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:64
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:91
+msgid "Last 7 Days"
+msgstr "7 ngày qua"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.js.phtml:106
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:67
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:94
+msgid "This Month"
+msgstr "Tháng này"
+
+#: /var/azuracast/www/templates/stations/reports/listeners.js.phtml:108
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:68
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:95
+msgid "Last Month"
+msgstr "Tháng trước"
+
+#: /var/azuracast/www/templates/stations/reports/restricted.phtml:1
+#: /var/azuracast/www/templates/stations/reports/restricted.phtml:5
+msgid "Report Not Available"
+msgstr "Báo cáo không có sẵn"
+
+#: /var/azuracast/www/templates/stations/reports/restricted.phtml:8
+msgid "This report is not available for this station, because the system administrator has chosen not to collect detailed IP-based listener information."
+msgstr "Báo cáo này không khả dụng cho trạm này, vì quản trị viên hệ thống đã chọn không thu thập thông tin chi tiết về người nghe dựa trên IP."
+
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:45
+msgid "Listener Request"
+msgstr "Yêu cầu người nghe"
+
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:47
+msgid "Playlist:"
+msgstr "Danh sách phát:"
+
+#: /var/azuracast/www/templates/stations/reports/timeline.js.phtml:49
+msgid "Live Streamer:"
+msgstr "Phát trực tiếp:"
+
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:16
+msgid "Clear all pending requests?"
+msgstr "Xóa tất cả yêu cầu đang chờ xử lý?"
+
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:19
+msgid "Clear Pending Requests"
+msgstr "Xóa các yêu cầu đang chờ xử lý"
+
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:25
+msgid "Date Requested"
+msgstr "Ngày yêu cầu"
+
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:26
+msgid "Date Played"
+msgstr "Ngày phát"
+
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:27
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:46
+msgid "Song Title"
+msgstr "Tên bài hát"
+
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:28
+msgid "Requester IP"
+msgstr "IP của người yêu cầu"
+
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:44
+msgid "Not Played"
+msgstr "Không được phát"
+
+#: /var/azuracast/www/templates/stations/reports/requests.phtml:58
+msgid "Delete request?"
+msgstr "Xóa yêu cầu?"
+
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:43
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:41
+msgid "Date/Time"
+msgstr "Ngày giờ"
+
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:45
+msgid "Change"
+msgstr "Thay đổi"
+
+#: /var/azuracast/www/templates/stations/reports/timeline.phtml:47
+msgid "Source"
+msgstr "Nguồn"
+
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:32
+msgid "Filename"
+msgstr "Tên tệp"
+
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:34
+msgid "Length Text"
+msgstr "Độ dài Văn bản"
+
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:35
+msgid "Playlist(s)"
+msgstr "Danh sách phát"
+
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:36
+msgid "Joins"
+msgstr "Tham gia"
+
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:37
+msgid "Losses"
+msgstr "Loss"
+
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:38
+msgid "Total"
+msgstr "Tổng"
+
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:39
+msgid "Plays"
+msgstr "Phát"
+
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:40
+msgid "Play %"
+msgstr "Phát %"
+
+#: /var/azuracast/www/templates/stations/reports/performance.phtml:41
+msgid "Ratio"
+msgstr "Tỉ lệ"
+
+#: /var/azuracast/www/templates/stations/sftp_users/index.phtml:36
+msgid "Delete SFTP User \"%s\"?"
+msgstr "Xóa Người dùng SFTP \"%s\"?"
+
+#: /var/azuracast/www/templates/stations/sidebar.js.phtml:22
+msgid "Please wait..."
+msgstr "Vui lòng đợi ..."
+
+#: /var/azuracast/www/templates/stations/logs/index.phtml:12
+msgid "Available Logs"
+msgstr "Nhật ký có sẵn"
+
+#: /var/azuracast/www/templates/stations/files/index.phtml:47
+msgid "%s of %s Used (%d Files)"
+msgstr "%s trong số %s được sử dụng (%d Tệp)"
+
+#: /var/azuracast/www/templates/stations/files/index.phtml:50
+msgid "%s Used (%d Files)"
+msgstr "%s được sử dụng (%d Tệp)"
+
+#: /var/azuracast/www/templates/stations/files/index.phtml:64
+msgid "You can also upload files in bulk via SFTP."
+msgstr "Bạn cũng có thể tải lên nhiều tệp qua SFTP."
+
+#: /var/azuracast/www/templates/stations/files/index.phtml:70
+msgid "Manage SFTP Accounts"
+msgstr "Quản lý tài khoản SFTP"
+
+#: /var/azuracast/www/templates/stations/profile/disabled.phtml:4
+msgid "Station Broadcasting Disabled"
+msgstr "Đài phát sóng đã bị khóa"
+
+#: /var/azuracast/www/templates/stations/profile/disabled.phtml:8
+msgid "Your station is currently not enabled for broadcasting. You can still manage media, playlists, and other station settings. To re-enable broadcasting, <a href=\"%s\">edit your station profile</a>."
+msgstr "Đài của bạn hiện không được kích hoạt để phát sóng. Bạn vẫn có thể quản lý phương tiện, danh sách phát và các cài đặt đài khác. Để bật lại tính năng phát sóng, hãy <a href=\"%s\"> chỉnh sửa hồ sơ đài của bạn </a>."
+
+#: /var/azuracast/www/templates/stations/webhooks/add.phtml:7
+msgid "Select the type of web hook to create."
+msgstr "Chọn loại móc web để tạo."
+
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:13
+msgid "Web hooks let you connect to external web services and broadcast changes to your station to them."
+msgstr "Kết nối web cho phép bạn kết nối với các dịch vụ web bên ngoài và truyền phát các thay đổi về đài của bạn cho họ."
+
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:32
+msgid "Type"
+msgstr "Kiểu"
+
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:33
+msgid "Triggers"
+msgstr "Triggers"
+
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:47
+msgid "Enable"
+msgstr "Kích hoạt"
+
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:51
+msgid "Trigger the web hook manually and view the raw response."
+msgstr "Kích hoạt web hook theo cách thủ công và xem phản hồi."
+
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:51
+msgid "Test"
+msgstr "Kiểm tra"
+
+#: /var/azuracast/www/templates/stations/webhooks/index.phtml:52
+msgid "Delete web hook \"%s\"?"
+msgstr "Xóa web hook \"%s\"?"
+
+#: /var/azuracast/www/templates/partials/log_help_card.phtml:3
+msgid "Need Help?"
+msgstr "Cần giúp đỡ?"
+
+#: /var/azuracast/www/templates/partials/log_help_card.phtml:6
+msgid "You can find answers for many common questions in our <a href=\"%s\" target=\"_blank\">support documents</a>."
+msgstr "Bạn có thể tìm thấy câu trả lời cho nhiều câu hỏi phổ biến trong <a href=\"%s\" target=\"_blank\"> tài liệu hỗ trợ </a> của chúng tôi."
+
+#: /var/azuracast/www/templates/partials/log_help_card.phtml:11
+msgid "If you're experiencing a bug or error, you can submit a GitHub issue using the link below."
+msgstr "Nếu bạn đang gặp rắc rối hoặc lỗi, bạn có thể gửi sự cố bằng liên kết bên dưới."
+
+#: /var/azuracast/www/templates/partials/log_help_card.phtml:13
+msgid "Your current installation type is <b>%s</b>. Be sure to include this when creating a new issue."
+msgstr "Loại cài đặt hiện tại của bạn là <b>%s</b>. Hãy chắc chắn có điều này khi tạo một vấn đề mới."
+
+#: /var/azuracast/www/templates/partials/log_help_card.phtml:21
+msgid "Add New GitHub Issue"
+msgstr "Báo sự cố mới"
+
+#: /var/azuracast/www/templates/partials/radio_controls.js.phtml:9
+msgid "Stop"
+msgstr "Dừng"
+
+#: /var/azuracast/www/templates/partials/radio_controls.js.phtml:10
+msgid "Play"
+msgstr "Phát"
+
+#: /var/azuracast/www/templates/partials/log_inline.phtml:12
+#: /var/azuracast/www/templates/partials/log_viewer.phtml:28
+#: /var/azuracast/www/templates/frontend/api_keys/new_key.phtml:21
+#: /var/azuracast/www/templates/frontend/profile/enable_two_factor.phtml:44
+msgid "Copy to Clipboard"
+msgstr "Sao chép vào clipboard"
+
+#: /var/azuracast/www/templates/partials/log_viewer.phtml:12
+msgid "Log View"
+msgstr "Xem nhật ký"
+
+#: /var/azuracast/www/templates/partials/log_viewer.phtml:20
+msgid "Automatically scroll to the bottom of the log"
+msgstr "Tự động cuộn xuống cuối nhật ký"
+
+#: /var/azuracast/www/templates/mail/forgot.phtml:4
+msgid "Account Recovery"
+msgstr "Khôi phục tài khoản"
+
+#: /var/azuracast/www/templates/mail/forgot.phtml:7
+msgid "An account recovery link has been requested for your account on \"%s\"."
+msgstr "Liên kết khôi phục tài khoản đã được yêu cầu cho tài khoản của bạn trên \"%s\"."
+
+#: /var/azuracast/www/templates/mail/forgot.phtml:10
+msgid "Click the link below to log in to your account."
+msgstr "Nhấp vào liên kết bên dưới để đăng nhập vào tài khoản của bạn."
+
+#: /var/azuracast/www/templates/system/error_http.phtml:17
+#: /var/azuracast/www/templates/system/error_general.phtml:17
+#: /var/azuracast/www/templates/frontend/index/index.phtml:11
+#: /var/azuracast/www/templates/main.phtml:75
+msgid "Dashboard"
+msgstr "Bảng điều khiển"
+
+#: /var/azuracast/www/templates/system/form_page.phtml:65
+msgid "Errors were encountered when trying to save changes:"
+msgstr "Đã gặp lỗi khi cố gắng lưu các thay đổi:"
+
+#: /var/azuracast/www/templates/system/form_page.phtml:68
+msgid "General"
+msgstr "Chung"
+
+#: /var/azuracast/www/templates/system/log_view.phtml:33
+msgid "Details"
+msgstr "Chi tiết"
+
+#: /var/azuracast/www/templates/admin/stations/index.phtml:5
+msgid "Manage Stations"
+msgstr "Quản lý các trạm"
+
+#: /var/azuracast/www/templates/admin/stations/index.phtml:10
+msgid "Add Station"
+msgstr "Thêm trạm"
+
+#: /var/azuracast/www/templates/admin/stations/index.phtml:21
+msgid "Station"
+msgstr "Trạm"
+
+#: /var/azuracast/www/templates/admin/stations/index.phtml:30
+msgid "Manage"
+msgstr "Quản lý"
+
+#: /var/azuracast/www/templates/admin/stations/index.phtml:34
+msgid "Clone"
+msgstr "Nhân bản"
+
+#: /var/azuracast/www/templates/admin/stations/index.phtml:35
+msgid "Delete station \"%s\"?"
+msgstr "Xóa trạm \"%s\"?"
+
+#: /var/azuracast/www/templates/admin/relays/index.phtml:20
+msgid "Relay"
+msgstr "Chuyển tiếp"
+
+#: /var/azuracast/www/templates/admin/relays/index.phtml:21
+msgid "Is Public"
+msgstr "Công khai"
+
+#: /var/azuracast/www/templates/admin/relays/index.phtml:22
+msgid "First Connected"
+msgstr "Được kết nối đầu tiên"
+
+#: /var/azuracast/www/templates/admin/relays/index.phtml:23
+msgid "Latest Update"
+msgstr "Cập nhật mới nhất"
+
+#: /var/azuracast/www/templates/admin/backups/run.phtml:20
+msgid "Backups Home"
+msgstr "Trang chủ sao lưu"
+
+#: /var/azuracast/www/templates/admin/backups/run.phtml:25
+msgid "The backup process is running in the background. The log below will update automatically."
+msgstr "Quá trình sao lưu đang chạy ở chế độ nền. Nhật ký bên dưới sẽ tự động cập nhật."
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:23
+#: /var/azuracast/www/templates/admin/backups/index.phtml:51
+msgid "Automatic Backups"
+msgstr "Sao lưu tự động"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:30
+#: /var/azuracast/www/templates/admin/index/index.phtml:99
+msgid "Last run: %s"
+msgstr "Lần chạy cuối: %s"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:32
+msgid "Never run"
+msgstr "Không bao giờ chạy"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:39
+#: /var/azuracast/www/templates/admin/backups/index.phtml:58
+msgid "Configure"
+msgstr "Cấu hình"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:44
+#: /var/azuracast/www/templates/admin/backups/index.phtml:138
+msgid "Most Recent Backup Log"
+msgstr "Nhật ký sao lưu gần nhất"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:65
+msgid "Restoring Backups"
+msgstr "Khôi phục bản sao lưu"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:68
+msgid "To restore a backup from your host computer, run:"
+msgstr "Để khôi phục bản sao lưu từ máy tính chủ của bạn, hãy chạy:"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:76
+msgid "Note that restoring a backup will clear your existing database. Never restore backup files from untrusted users."
+msgstr "Lưu ý rằng việc khôi phục bản sao lưu sẽ xóa cơ sở dữ liệu hiện có của bạn. Không bao giờ khôi phục các tệp sao lưu từ những người dùng không đáng tin cậy."
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:101
+msgid "Backup"
+msgstr "Sao lưu"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:102
+msgid "Last Modified"
+msgstr "Sửa đổi lần cuối"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:103
+msgid "Size"
+msgstr "Kích thước"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:112
+msgid "Download"
+msgstr "Tải xuống"
+
+#: /var/azuracast/www/templates/admin/backups/index.phtml:116
+msgid "Delete backup \"%s\"?"
+msgstr "Xóa bản sao lưu \"%s\"?"
+
+#: /var/azuracast/www/templates/admin/custom_fields/index.phtml:32
+msgid "Delete custom field \"%s\"?"
+msgstr "Xóa trường tùy chỉnh \"%s\"?"
+
+#: /var/azuracast/www/templates/admin/users/index.phtml:33
+#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:3
+#: /var/azuracast/www/templates/frontend/account/login.phtml:6
+msgid "Log In"
+msgstr "Đăng nhập"
+
+#: /var/azuracast/www/templates/admin/users/index.phtml:37
+msgid "Delete user \"%s\"?"
+msgstr "Xóa người dùng \"%s\"?"
+
+#: /var/azuracast/www/templates/admin/users/index.phtml:47
+msgid "(You)"
+msgstr "(Bạn)"
+
+#: /var/azuracast/www/templates/admin/api/index.phtml:17
+msgid "API Key"
+msgstr "API Key"
+
+#: /var/azuracast/www/templates/admin/api/index.phtml:19
+msgid "Owner"
+msgstr "Chủ nhân"
+
+#: /var/azuracast/www/templates/admin/api/index.phtml:28
+#: /var/azuracast/www/templates/frontend/api_keys/index.phtml:43
+msgid "Revoke"
+msgstr "Thu hồi"
+
+#: /var/azuracast/www/templates/admin/install_shoutcast/installed.phtml:1
+msgid "SHOUTcast Installed"
+msgstr "Đã cài đặt SHOUTcast"
+
+#: /var/azuracast/www/templates/admin/install_shoutcast/installed.phtml:3
+msgid "The SHOUTcast 2 DNAS is installed and ready for use."
+msgstr "SHOUTcast 2 DNAS đã được cài đặt và sẵn sàng sử dụng."
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:14
+#: /var/azuracast/www/templates/admin/debug/index.phtml:20
+msgid "Clear Cache"
+msgstr "Xóa bộ nhớ cache"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:17
+msgid "Clearing the application cache may log you out of your session."
+msgstr "Xóa bộ nhớ cache của ứng dụng có thể khiến bạn đăng xuất khỏi phiên của mình."
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:29
+#: /var/azuracast/www/templates/admin/debug/index.phtml:35
+msgid "Clear All Message Queues"
+msgstr "Xóa tất cả hàng đợi tin nhắn"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:32
+msgid "This will clear any pending unprocessed messages in all message queues."
+msgstr "Thao tác này sẽ xóa mọi tin chưa được xử lý  trong tất cả các hàng đợi."
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:45
+#: /var/azuracast/www/templates/admin/index/index.phtml:89
+msgid "Synchronization Tasks"
+msgstr "Đồng bộ hóa"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:57
+#: /var/azuracast/www/templates/admin/index/index.phtml:106
+msgid "Run Task"
+msgstr "Chạy tác vụ"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:68
+msgid "Message Queues"
+msgstr "Hàng đợi"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:75
+msgid "%d queued messages"
+msgstr "%d tin đã xếp hàng đợi"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:80
+msgid "Clear Queue"
+msgstr "Xóa hàng đợi"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:91
+msgid "Station-Specific Debugging"
+msgstr "Gỡ lỗi cho từng trạm"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:109
+msgid "Rebuild AutoDJ Queue"
+msgstr "Tạo lại hàng đợi AutoDJ"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:114
+msgid "Run Test"
+msgstr "Chạy thử"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:120
+msgid "Send Liquidsoap Telnet Command"
+msgstr "Gửi lệnh Telnet Liquidsoap"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:125
+msgid "Command"
+msgstr "Lệnh"
+
+#: /var/azuracast/www/templates/admin/debug/index.phtml:129
+msgid "Execute Command"
+msgstr "Thực thi lệnh"
+
+#: /var/azuracast/www/templates/admin/debug/sync.phtml:7
+#: /var/azuracast/www/templates/admin/debug/sync.phtml:14
+msgid "Run Synchronization Task"
+msgstr "Chạy tác vụ đồng bộ hóa"
+
+#: /var/azuracast/www/templates/admin/debug/sync.phtml:19
+msgid "Debug Home"
+msgstr "Trang chủ gỡ lỗi"
+
+#: /var/azuracast/www/templates/admin/debug/sync.phtml:24
+msgid "The synchronization task is running in the background. The log below will update automatically."
+msgstr "Tác vụ đồng bộ hóa đang chạy trong nền. Nhật ký bên dưới sẽ tự động cập nhật."
+
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:39
+msgid "Insert"
+msgstr "Chèn"
+
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:47
+msgid "Update"
+msgstr "Cập nhật"
+
+#: /var/azuracast/www/templates/admin/audit_log/index.js.phtml:64
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:59
+msgid "Changes"
+msgstr "Những thay đổi"
+
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:42
+msgid "User"
+msgstr "Người dùng"
+
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:44
+msgid "Identifier"
+msgstr "Định danh"
+
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:45
+msgid "Target"
+msgstr "Mục tiêu"
+
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:71
+msgid "Field"
+msgstr "Trường"
+
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:72
+msgid "Previous"
+msgstr "Trước"
+
+#: /var/azuracast/www/templates/admin/audit_log/index.phtml:73
+msgid "Updated"
+msgstr "Đã cập nhật"
+
+#: /var/azuracast/www/templates/admin/index/index.phtml:37
+msgid "Server Status"
+msgstr "Trạng thái máy chủ"
+
+#: /var/azuracast/www/templates/admin/index/index.phtml:42
+msgid "CPU Load"
+msgstr "Tải CPU"
+
+#: /var/azuracast/www/templates/admin/index/index.phtml:48
+msgid "Current"
+msgstr "Hiện hành"
+
+#: /var/azuracast/www/templates/admin/index/index.phtml:54
+msgid "15-Minute Average"
+msgstr "Trung bình 15 phút"
+
+#: /var/azuracast/www/templates/admin/index/index.phtml:62
+msgid "Memory"
+msgstr "Bộ nhớ"
+
+#: /var/azuracast/www/templates/admin/index/index.phtml:70
+#: /var/azuracast/www/templates/admin/index/index.phtml:84
+msgid "%s of %s Used"
+msgstr "%s trong số %s được sử dụng"
+
+#: /var/azuracast/www/templates/admin/index/index.phtml:76
+msgid "Disk Space"
+msgstr "Dung lượng đĩa"
+
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:36
+msgid "Delete role \"%s\"?"
+msgstr "Xóa vai trò \"%s\"?"
+
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:41
+msgid "This role cannot be deleted."
+msgstr "Không thể xóa vai trò này."
+
+#: /var/azuracast/www/templates/admin/permissions/index.phtml:50
+msgid "Global"
+msgstr "Toàn bộ"
+
+#: /var/azuracast/www/templates/admin/install_geolite/index.phtml:30
+msgid "GeoLite version \"%s\" is currently installed."
+msgstr "Phiên bản GeoLite \"%s\" hiện đã được cài đặt."
+
+#: /var/azuracast/www/templates/admin/install_geolite/index.phtml:33
+msgid "Uninstall GeoLite database?"
+msgstr "Gỡ cài đặt cơ sở dữ liệu GeoLite?"
+
+#: /var/azuracast/www/templates/admin/install_geolite/index.phtml:35
+msgid "Uninstall GeoLite Database"
+msgstr "Gỡ cài đặt cơ sở dữ liệu GeoLite"
+
+#: /var/azuracast/www/templates/admin/install_geolite/index.phtml:39
+msgid "GeoLite is not currently installed on this installation."
+msgstr "GeoLite hiện chưa được cài đặt trên cài đặt này."
+
+#: /var/azuracast/www/templates/admin/logs/index.phtml:20
+msgid "Because you are running Docker, some system logs can only be accessed from a shell session on the host computer. You can run <code>%s</code> to access container logs from the terminal."
+msgstr "Bởi vì bạn đang chạy Docker, một số nhật ký hệ thống chỉ có thể được truy cập từ một phiên shell trên máy tính chủ. Bạn có thể chạy <code>% s </code> để truy cập container log từ terminal."
+
+#: /var/azuracast/www/templates/admin/logs/index.phtml:37
+msgid "Logs by Station"
+msgstr "Nhật ký theo Trạm"
+
+#: /var/azuracast/www/templates/frontend/api_keys/index.phtml:3
+#: /var/azuracast/www/templates/frontend/api_keys/index.phtml:9
+#: /var/azuracast/www/templates/frontend/api_keys/new_key.phtml:3
+#: /var/azuracast/www/templates/main.phtml:104
+msgid "My API Keys"
+msgstr "API Key của tôi"
+
+#: /var/azuracast/www/templates/frontend/api_keys/index.phtml:13
+msgid "API keys can be used to access some system functionality without needing to log in. All of the keys\n"
+"            you create share your permissions in the system. For more information, see the <a href=\"%s\">API documentation</a>."
+msgstr "Các khóa API có thể được sử dụng để truy cập một số chức năng của hệ thống mà không cần đăng nhập. Tất cả các khóa\n"
+"            bạn tạo chia sẻ quyền của bạn trong hệ thống. Để biết thêm thông tin, hãy xem <a href=\"%s\"> tài liệu API </a>."
+
+#: /var/azuracast/www/templates/frontend/api_keys/index.phtml:33
+msgid "Key Identifier"
+msgstr "Khóa định danh"
+
+#: /var/azuracast/www/templates/frontend/api_keys/new_key.phtml:11
+msgid "New Key Generated"
+msgstr "Khóa mới được tạo"
+
+#: /var/azuracast/www/templates/frontend/api_keys/new_key.phtml:14
+msgid "<b>Important: copy the key below before continuing!</b> You will not be able to retrieve it again."
+msgstr "<b> Quan trọng: sao chép key bên dưới trước khi tiếp tục! </b> Bạn sẽ không thể lấy lại khóa."
+
+#: /var/azuracast/www/templates/frontend/api_keys/new_key.phtml:16
+msgid "Your full API key is below:"
+msgstr "API key đầy đủ của bạn ở bên dưới:"
+
+#: /var/azuracast/www/templates/frontend/api_keys/new_key.phtml:25
+msgid "When making API calls, you can pass this value in the \"X-API-Key\" header to authenticate as yourself. You can only perform the actions your user account is allowed to perform."
+msgstr "Khi thực hiện lệnh gọi API, bạn có thể chuyển giá trị này vào tiêu đề \"X-API-Key\" để xác thực là chính mình. Bạn chỉ có thể thực hiện các hành động mà tài khoản người dùng của bạn được phép thực hiện."
+
+#: /var/azuracast/www/templates/frontend/api_keys/new_key.phtml:28
+msgid "Continue"
+msgstr "Tiếp tục"
+
+#: /var/azuracast/www/templates/frontend/setup/station.phtml:19
+#: /var/azuracast/www/templates/frontend/setup/settings.phtml:19
+msgid "Create Station"
+msgstr "Tạo trạm"
+
+#: /var/azuracast/www/templates/frontend/setup/station.phtml:34
+msgid "Continue the setup process by creating your first radio station below. You can edit any of these details later."
+msgstr "Tiếp tục quá trình thiết lập bằng cách tạo đài phát thanh của bạn bên dưới. Bạn có thể chỉnh sửa bất kỳ chi tiết nào sau này."
+
+#: /var/azuracast/www/templates/frontend/setup/station.phtml:41
+msgid "Create a New Radio Station"
+msgstr "Tạo một đài phát thanh mới"
+
+#: /var/azuracast/www/templates/frontend/setup/settings.phtml:35
+msgid "Complete the setup process by providing some information about your broadcast environment. These settings can be changed later from the administration panel."
+msgstr "Hoàn tất quá trình thiết lập bằng cách cung cấp một số thông tin về môi trường phát sóng của bạn. Các cài đặt này có thể được thay đổi sau từ mục quản trị."
+
+#: /var/azuracast/www/templates/frontend/setup/settings.phtml:42
+msgid "Customize AzuraCast Settings"
+msgstr "Tùy chỉnh cài đặt máy chủ"
+
+#: /var/azuracast/www/templates/frontend/setup/register.phtml:17
+msgid "AzuraCast First-Time Setup"
+msgstr "Thiết lập lần đầu tiên máy chủ"
+
+#: /var/azuracast/www/templates/frontend/setup/register.phtml:20
+msgid "Welcome to AzuraCast!"
+msgstr "Chào mừng bạn đến với AzuraCast!"
+
+#: /var/azuracast/www/templates/frontend/setup/register.phtml:27
+msgid "Let's get started by creating your Super Administrator account."
+msgstr "Hãy bắt đầu bằng cách tạo tài khoản Quản trị viên cấp cao."
+
+#: /var/azuracast/www/templates/frontend/setup/register.phtml:28
+msgid "This account will have full access to the system, and you'll automatically be logged in to it for the rest of setup."
+msgstr "Tài khoản này sẽ có toàn quyền truy cập vào hệ thống và bạn sẽ tự động đăng nhập vào nó trong phần còn lại của quá trình thiết lập."
+
+#: /var/azuracast/www/templates/frontend/index/index.phtml:17
+msgid "AzuraCast User"
+msgstr "Người dùng"
+
+#: /var/azuracast/www/templates/frontend/account/forgot.phtml:6
+#: /var/azuracast/www/templates/frontend/account/forgot.phtml:15
+#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:6
+#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:17
+msgid "Forgot Password"
+msgstr "Quên mật khẩu"
+
+#: /var/azuracast/www/templates/frontend/account/forgot.phtml:23
+#: /var/azuracast/www/templates/frontend/account/login.phtml:43
+msgid "name@example.com"
+msgstr "name@example.com"
+
+#: /var/azuracast/www/templates/frontend/account/forgot.phtml:27
+#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:22
+#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:23
+#: /var/azuracast/www/templates/frontend/account/recover.phtml:31
+#: /var/azuracast/www/templates/frontend/account/login.phtml:64
+#: /var/azuracast/www/templates/frontend/account/login.phtml:67
+msgid "Sign in"
+msgstr "Đăng nhập"
+
+#: /var/azuracast/www/templates/frontend/account/forgot.phtml:30
+msgid "Send Recovery E-mail"
+msgstr "Gửi e-mail khôi phục"
+
+#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:22
+msgid "This installation's administrator has not configured this functionality."
+msgstr "Quản trị viên chưa cấu hình chức năng này."
+
+#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:25
+msgid "Contact an administrator to reset your password following the instructions in our documentation:"
+msgstr "Liên hệ với quản trị viên để đặt lại mật khẩu của bạn theo hướng dẫn trong tài liệu:"
+
+#: /var/azuracast/www/templates/frontend/account/forgot_disabled.phtml:31
+msgid "Password Reset Instructions"
+msgstr "Hướng dẫn Đặt lại Mật khẩu"
+
+#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:11
+msgid "Enter Two-Factor Code"
+msgstr "Nhập mã hai yếu tố"
+
+#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:12
+msgid "Your account uses a two-factor security code. Enter the code your device is currently showing below."
+msgstr "Tài khoản của bạn sử dụng mã bảo mật hai yếu tố. Nhập mã thiết bị của bạn hiện đang hiển thị bên dưới."
+
+#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:18
+#: /var/azuracast/www/templates/frontend/account/two_factor.phtml:20
+msgid "Security Code"
+msgstr "Mã bảo mật"
+
+#: /var/azuracast/www/templates/frontend/account/recover.phtml:6
+#: /var/azuracast/www/templates/frontend/account/recover.phtml:18
+#: /var/azuracast/www/templates/frontend/account/recover.phtml:34
+msgid "Recover Account"
+msgstr "Khôi phục tài khoản"
+
+#: /var/azuracast/www/templates/frontend/account/recover.phtml:19
+msgid "Choose a new password for your account."
+msgstr "Chọn một mật khẩu mới cho tài khoản của bạn."
+
+#: /var/azuracast/www/templates/frontend/account/recover.phtml:27
+#: /var/azuracast/www/templates/frontend/account/login.phtml:52
+msgid "Enter your password"
+msgstr "Nhập mật khẩu của bạn"
+
+#: /var/azuracast/www/templates/frontend/account/login.phtml:20
+msgid "Welcome!"
+msgstr "Chào mừng!"
+
+#: /var/azuracast/www/templates/frontend/account/login.phtml:23
+msgid "Welcome to %s!"
+msgstr "Chào mừng bạn đến với %s!"
+
+#: /var/azuracast/www/templates/frontend/account/login.phtml:60
+msgid "Remember me"
+msgstr "Nhớ truy cập"
+
+#: /var/azuracast/www/templates/frontend/account/login.phtml:71
+msgid "Please log in to continue."
+msgstr "Đăng nhập để tiếp tục."
+
+#: /var/azuracast/www/templates/frontend/account/login.phtml:74
+msgid "Forgot your password?"
+msgstr "Quên mật khẩu?"
+
+#: /var/azuracast/www/templates/frontend/public/schedule.phtml:13
+msgid "Schedule"
+msgstr "Lịch phát"
+
+#: /var/azuracast/www/templates/frontend/public/podcast-episode.phtml:50
+#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:40
+msgid "Back"
+msgstr "Trở lại"
+
+#: /var/azuracast/www/templates/frontend/public/podcast-episode.phtml:53
+#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:43
+#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:76
+msgid "RSS Feed"
+msgstr "Nguồn RSS"
+
+#: /var/azuracast/www/templates/frontend/public/podcast-episode.phtml:85
+msgid "Explicit"
+msgstr "Rõ ràng"
+
+#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:32
+#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:38
+#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:83
+msgid "Episodes"
+msgstr "Các tập"
+
+#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:65
+#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:99
+msgid "View Details"
+msgstr "Xem chi tiết"
+
+#: /var/azuracast/www/templates/frontend/public/podcast-episodes.phtml:87
+msgid "Contains explicit content"
+msgstr "Chứa nội dung rõ ràng"
+
+#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:60
+msgid "Categories"
+msgstr "Thể loại"
+
+#: /var/azuracast/www/templates/frontend/public/podcasts.phtml:98
+msgid "No entries found."
+msgstr "Không tìm thấy mục."
+
+#: /var/azuracast/www/templates/frontend/profile/enable_two_factor.phtml:2
+#: /var/azuracast/www/templates/frontend/profile/enable_two_factor.phtml:13
+msgid "Enable Two-Factor Authentication"
+msgstr "Bật xác thực hai yếu tố"
+
+#: /var/azuracast/www/templates/frontend/profile/enable_two_factor.phtml:16
+msgid "Step 1: Scan QR Code"
+msgstr "Bước 1: Quét mã QR"
+
+#: /var/azuracast/www/templates/frontend/profile/enable_two_factor.phtml:18
+msgid "From your smartphone, scan the code to the right using an authentication app of your choice (FreeOTP, Authy, etc)."
+msgstr "Từ điện thoại thông minh của bạn, quét mã sang bên phải bằng ứng dụng xác thực mà bạn chọn (FreeOTP, Authy, v.v.)."
+
+#: /var/azuracast/www/templates/frontend/profile/enable_two_factor.phtml:20
+msgid "Step 2: Verify Generated Code"
+msgstr "Bước 2: Xác minh mã đã tạo"
+
+#: /var/azuracast/www/templates/frontend/profile/enable_two_factor.phtml:22
+msgid "To verify that the code was set up correctly, enter the 6-digit code the app shows you."
+msgstr "Để xác minh rằng mã đã được thiết lập chính xác, hãy nhập mã gồm 6 chữ số mà ứng dụng hiển thị cho bạn."
+
+#: /var/azuracast/www/templates/frontend/profile/enable_two_factor.phtml:31
+msgid "QR-Code"
+msgstr "Mã QR"
+
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:3
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:27
+#: /var/azuracast/www/templates/main.phtml:92
+msgid "My Account"
+msgstr "Tài khoản của tôi"
+
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:68
+msgid "Customize"
+msgstr "Tùy chỉnh"
+
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:76
+msgid "Two-Factor Authentication"
+msgstr "Xác thực hai yếu tố"
+
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:88
+msgid "Two-factor authentication improves the security of your account by requiring a second one-time access code in addition to your password when you log in."
+msgstr "Xác thực hai yếu tố cải thiện tính bảo mật cho tài khoản của bạn bằng cách yêu cầu mã truy cập một lần thứ hai ngoài mật khẩu của bạn khi bạn đăng nhập."
+
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:97
+msgid "Disable Two-Factor"
+msgstr "Tắt hai yếu tố"
+
+#: /var/azuracast/www/templates/frontend/profile/index.phtml:103
+msgid "Enable Two-Factor"
+msgstr "Bật hai yếu tố"
+
+#: /var/azuracast/www/templates/main.phtml:43
+msgid "Skip to main content"
+msgstr "Chuyển đến nội dung chính"
+
+#: /var/azuracast/www/templates/main.phtml:48
+msgid "Toggle Sidebar"
+msgstr "Chuyển đổi thanh bên"
+
+#: /var/azuracast/www/templates/main.phtml:66
+msgid "Toggle Menu"
+msgstr "Chuyển đổi menu"
+
+#: /var/azuracast/www/templates/main.phtml:84
+msgid "System Administration"
+msgstr "Quản trị hệ thống"
+
+#: /var/azuracast/www/templates/main.phtml:98
+msgid "Switch Theme"
+msgstr "Chuyển đổi chủ đề"
+
+#: /var/azuracast/www/templates/main.phtml:110
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: /var/azuracast/www/templates/main.phtml:119
+msgid "End Session"
+msgstr "Kết thúc"
+
+#: /var/azuracast/www/templates/main.phtml:127
+msgid "Sign Out"
+msgstr "Đăng xuất"
+
+#: /var/azuracast/www/templates/main.phtml:185
+msgid "Like our software? <a href=\"%s\" target=\"_blank\">Donate to support AzuraCast!</a>"
+msgstr "Thích phần mềm của chúng tôi? <a href=\"%s\" target=\"_blank\"> Đóng góp để hỗ trợ AzuraCast! </a>"
+
