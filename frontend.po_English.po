@@ -49,7 +49,7 @@ msgstr "ID khóa truy cập"
 
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:61
 msgid "Account is Active"
-msgstr "Tài khoản đang hoạt động"
+msgstr "Kích hoạt tài khoản"
 
 #: ./vue/StationStreamers.vue:29
 msgid "Account List"
@@ -789,7 +789,7 @@ msgstr "Thời lượng"
 
 #: ./vue/station_profile/ProfileBackend.vue:31
 msgid "LiquidSoap is currently shuffling from %{songs} and %{playlists}."
-msgstr "LiquidSoap hiện đang xáo trộn từ% {songs} và% {playlists}."
+msgstr "LiquidSoap hiện đang xáo trộn từ %{songs} và %{playlists}."
 
 #: ./vue/StationQueue.vue:35
 #: ./vue/StationQueue.vue:2
@@ -899,7 +899,7 @@ msgstr "Di chuyển"
 
 #: ./vue/station_media/MediaMoveFilesModal.vue:25
 msgid "Move %{ num } File(s) to"
-msgstr "Di chuyển% {num} tệp sang"
+msgstr "Di chuyển %{num} tệp sang"
 
 #: ./vue/station_media/MediaMoveFilesModal.vue:35
 #: ./vue/station_media/MediaMoveFilesModal.vue:5
@@ -1015,7 +1015,7 @@ msgstr "Một lần mỗi %{phút} phút"
 
 #: ./vue/StationPlaylists.vue:81
 msgid "Once per %{songs} Songs"
-msgstr "Một lần mỗi %{bài hát} nội dung"
+msgstr "Một lần mỗi %{songs} nội dung"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:72
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:168
@@ -1269,7 +1269,7 @@ msgstr "Sắp xếp lại danh sách phát"
 
 #: ./vue/webcaster/playlist.vue:64
 msgid "Repeat Playlist"
-msgstr "Phát lại danh sách"
+msgstr "Lặp lại danh sách"
 
 #: ./vue/station_media/form/MediaFormAlbumArt.vue:14
 #: ./vue/station_media/form/MediaFormAlbumArt.vue:1
@@ -1364,7 +1364,7 @@ msgstr "Các ngày phát đã lên lịch trong tuần"
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:15
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:15
 msgid "Scheduled Time #%{num}"
-msgstr "Đã lên lịch #% {num}"
+msgstr "Đã lên lịch #%{num}"
 
 #: ./vue/StationPlaylists.vue:25
 msgid "Scheduling"
@@ -1639,7 +1639,7 @@ msgstr "Truyền phát trực tuyến"
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:32
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:1
 msgid "Streamer Display Name"
-msgstr "Tên hiển thị của trình phát trực tiếp"
+msgstr "Tên hiển thị"
 
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:18
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:1
@@ -1649,7 +1649,7 @@ msgstr "Mật khẩu streamer"
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:6
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:1
 msgid "Streamer Username"
-msgstr "Tên Streamer"
+msgstr "Streamer Username"
 
 #: ./vue/station_profile/ProfileSchedule.vue:17
 #: ./vue/station_profile/ProfileSchedule.vue:1
@@ -1789,7 +1789,7 @@ msgstr "Hàng đợi này chứa các nội dung còn lại theo thứ tự chú
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:57
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:54
 msgid "This station's time zone is currently %{tz}."
-msgstr "Múi giờ của đài hiện là% {tz}."
+msgstr "Múi giờ của đài hiện là %{tz}."
 
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:7
 msgid "This streamer is not scheduled to play at any times."
@@ -1831,7 +1831,7 @@ msgstr "Thứ ba"
 #: ./vue/station_profile/ProfileStreams.vue:64
 #: ./vue/station_profile/ProfileStreams.vue:23
 msgid "Unique"
-msgstr "Độc nhất"
+msgstr "Hiện tại"
 
 #: ./vue/Dashboard.vue:46
 msgid "Unique Listeners"
