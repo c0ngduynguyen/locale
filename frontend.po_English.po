@@ -10,37 +10,37 @@ msgstr ""
 
 #: ./vue/StationPlaylists.vue:26
 msgid "# Songs"
-msgstr "# Bài hát"
+msgstr "# Nội dung"
 
 #: ./vue/station_profile/ProfileNowPlaying.vue:28
 msgid "%{listeners} Listener"
 msgid_plural "%{listeners} Listeners"
-msgstr[0] "% {Listening} Listener"
-msgstr[1] ""
+msgstr[0] "%{listeners} Người nghe"
+msgstr[1] "%{listeners} Người nghe"
 
 #: ./vue/station_profile/ProfileBackend.vue:28
 msgid "%{numPlaylists} playlist"
 msgid_plural "%{numPlaylists} playlists"
-msgstr[0] "% {numPlaylists} danh sách phát"
-msgstr[1] ""
+msgstr[0] "%{numPlaylists} danh sách phát"
+msgstr[1] "%{numPlaylists} danh sách phát"
 
 #: ./vue/station_profile/ProfileBackend.vue:25
 msgid "%{numSongs} uploaded song"
 msgid_plural "%{numSongs} uploaded songs"
-msgstr[0] "% {numSongs} đã tải lên bài hát"
-msgstr[1] ""
+msgstr[0] "%{numSongs} nội dung đã tải"
+msgstr[1] "%{numSongs} nội dung đã tải"
 
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:42
 msgid "A completely random track is picked for playback every time the queue is populated."
-msgstr "Một bản nhạc hoàn toàn ngẫu nhiên được chọn để phát lại mỗi khi hàng đợi được điền."
+msgstr "Một nội dung hoàn toàn ngẫu nhiên được chọn để phát lại mỗi khi hàng đợi được điền."
 
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:11
 msgid "A playlist containing media files hosted on this server."
-msgstr "Danh sách phát chứa các tệp phương tiện được lưu trữ trên máy chủ này."
+msgstr "Danh sách phát chứa các file nội dung được lưu trữ trên máy chủ này."
 
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:15
 msgid "A playlist that instructs the station to play from a remote URL."
-msgstr "Danh sách phát hướng dẫn đài phát từ một URL từ xa."
+msgstr "Danh sách phát cho đài phát lại từ một URL."
 
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:63
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:1
@@ -64,11 +64,11 @@ msgstr "Danh sách tài khoản"
 #: ./vue/station_playlists/PlaylistReorderModal.vue:9
 #: ./vue/station_streamers/StreamerBroadcastsModal.vue:52
 msgid "Actions"
-msgstr "Hành động"
+msgstr "Thao tác"
 
 #: ./vue/AdminStorageLocations.vue:16
 msgid "Adapter"
-msgstr "Bộ chuyển đổi"
+msgstr "Chuyển đổi"
 
 #: ./vue/webcaster/playlist.vue:49
 msgid "Add Files to Playlist"
@@ -82,11 +82,11 @@ msgstr "Thêm danh sách phát"
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:105
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:99
 msgid "Add Schedule Item"
-msgstr "Thêm mục lịch biểu"
+msgstr "Thêm lịch"
 
 #: ./vue/Dashboard.vue:86
 msgid "Add Station"
-msgstr "Thêm trạm"
+msgstr "Thêm đài phát"
 
 #: ./vue/AdminStorageLocations.vue:15
 #: ./vue/admin_storage_locations/StorageLocationEditModal.vue:27
@@ -100,7 +100,7 @@ msgstr "Thêm Streamer"
 
 #: ./vue/Dashboard.vue:18
 msgid "Administration"
-msgstr "Hành chính"
+msgstr "Quản trị"
 
 #: ./vue/station_profile/ProfileFrontend.vue:20
 #: ./vue/station_profile/ProfileFrontend.vue:8
@@ -121,7 +121,7 @@ msgstr "Nâng cao"
 #: ./vue/station_playlists/form/PlaylistFormAdvanced.vue:15
 #: ./vue/station_playlists/form/PlaylistFormAdvanced.vue:1
 msgid "Advanced Manual AutoDJ Scheduling Options"
-msgstr "Tùy chọn lập lịch AutoDJ thủ công nâng cao"
+msgstr "Tùy chọn nâng cao lập lịch AutoDJ thủ công"
 
 #: ./vue/SongRequest.vue:29
 #: ./vue/StationMedia.vue:75
@@ -136,7 +136,7 @@ msgstr "Album"
 #: ./vue/StationOnDemand.vue:49
 #: ./vue/station_media/form/MediaFormAlbumArt.vue:16
 msgid "Album Art"
-msgstr "Album Nghệ thuật"
+msgstr "Ảnh bìa Album"
 
 #: ./vue/StationPlaylists.vue:32
 msgid "All Playlists"
@@ -167,7 +167,7 @@ msgstr "Đã xảy ra lỗi và không thể hoàn thành yêu cầu của bạn
 
 #: ./vue/station_media/MediaToolbar.vue:50
 msgid "Analyze and reprocess the selected media"
-msgstr "Phân tích và xử lý lại phương tiện đã chọn"
+msgstr "Phân tích và xử lý lại nội dung đã chọn"
 
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:118
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:1
@@ -182,7 +182,7 @@ msgstr "Đang áp dụng các thay đổi ..."
 
 #: ./vue/StationOnDemand.vue:16
 msgid "Art"
-msgstr "Nghệ thuật"
+msgstr "Ảnh bìa"
 
 #: ./vue/SongRequest.vue:24
 #: ./vue/StationMedia.vue:70
@@ -191,7 +191,7 @@ msgstr "Nghệ thuật"
 #: ./vue/station_playlists/PlaylistReorderModal.vue:7
 #: ./vue/webcaster/settings.vue:109
 msgid "Artist"
-msgstr "Họa sĩ"
+msgstr "Nghệ sĩ"
 
 #: ./vue/StationPlaylists.vue:79
 #: ./vue/StationPlaylists.vue:21
@@ -200,7 +200,7 @@ msgstr "Được chỉ định tự động"
 
 #: ./vue/station_profile/ProfileBackendNone.vue:3
 msgid "AutoDJ Disabled"
-msgstr "AutoDJ đã bị vô hiệu hóa"
+msgstr "AutoDJ bị vô hiệu hóa"
 
 #: ./vue/station_profile/ProfileBackendNone.vue:6
 msgid "AutoDJ has been disabled for this station. No music will automatically be played when a source is not live."
@@ -225,7 +225,7 @@ msgstr "AzuraCast sẽ quét tệp đã tải lên để tìm các trận đấu
 
 #: ./vue/station_media/MediaMoveFilesModal.vue:6
 msgid "Back"
-msgstr "Trở lại"
+msgstr "Quay lại"
 
 #: ./vue/AdminStorageLocations.vue:29
 msgid "Backups"
@@ -242,16 +242,16 @@ msgstr "Thông tin cơ bản"
 
 #: ./vue/webcaster/settings.vue:56
 msgid "Bit Rate"
-msgstr "Tốc độ bit"
+msgstr "Bit Rate"
 
 #: ./vue/station_profile/ProfileFrontend.vue:4
 msgid "Broadcasting Service"
-msgstr "Dịch vụ phát thanh truyền hình"
+msgstr "Dịch vụ phát thanh"
 
 #: ./vue/StationStreamers.vue:38
 #: ./vue/StationStreamers.vue:6
 msgid "Broadcasts"
-msgstr "Chương trình phát sóng"
+msgstr "Phát thanh"
 
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:96
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:1
@@ -263,11 +263,11 @@ msgstr "Tên nhóm"
 #: ./vue/station_playlists/PlaylistEditModal.vue:169
 #: ./vue/station_streamers/StreamerEditModal.vue:139
 msgid "Changes saved."
-msgstr "Các thay đổi đã được lưu."
+msgstr "Đã lưu thay đổi."
 
 #: ./vue/station_media/MediaToolbar.vue:32
 msgid "Clear"
-msgstr "Thông thoáng"
+msgstr "Xóa"
 
 #: ./vue/station_playlists/PlaylistQueueModal.vue:26
 #: ./vue/station_playlists/PlaylistQueueModal.vue:5
@@ -306,18 +306,18 @@ msgstr "Bình luận"
 
 #: ./vue/webcaster/playlist.vue:58
 msgid "Continuous Play"
-msgstr "Chơi liên tục"
+msgstr "Phát liên tục"
 
 #: ./vue/station_playlists/form/PlaylistFormAdvanced.vue:18
 #: ./vue/station_playlists/form/PlaylistFormAdvanced.vue:1
 msgid "Control how this playlist is handled by the AutoDJ software."
-msgstr "Kiểm soát cách xử lý danh sách phát này bằng phần mềm AutoDJ."
+msgstr "Kiểm soát danh sách phát này bằng phần mềm AutoDJ."
 
 #: ./vue/components/CopyToClipboardButton.vue:3
 #: ./vue/station_queue/QueueLogsModal.vue:9
 #: ./vue/station_queue/QueueLogsModal.vue:5
 msgid "Copy to Clipboard"
-msgstr "Sao chép vào clipboard"
+msgstr "Copy vào clipboard"
 
 #: ./vue/station_media/MediaNewDirectoryModal.vue:17
 #: ./vue/station_media/MediaNewDirectoryModal.vue:4
@@ -328,44 +328,44 @@ msgstr "Tạo thư mục"
 #: ./vue/webcaster/playlist.vue:22
 #: ./vue/webcaster/settings.vue:133
 msgid "Cue"
-msgstr "Gợi ý"
+msgstr "Cue"
 
 #: ./vue/StationQueue.vue:18
 msgid "Cued On"
-msgstr "Đã quản lý"
+msgstr "Cued On"
 
 #: ./vue/StationPlaylists.vue:93
 msgid "Custom"
-msgstr "Tập quán"
+msgstr "Tùy chỉnh"
 
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:49
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:1
 msgid "Custom Cues: Cue-In Point (seconds)"
-msgstr "Cues tùy chỉnh: Điểm dừng (giây)"
+msgstr "Tùy chỉnh: Cue-In Point (giây)"
 
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:58
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:1
 msgid "Custom Cues: Cue-Out Point (seconds)"
-msgstr "Cues tùy chỉnh: Điểm dừng (giây)"
+msgstr "Tùy chỉnh: Cue-Out Point (giây)"
 
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:31
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:1
 msgid "Custom Fading: Fade-In Time (seconds)"
-msgstr "Làm mờ tùy chỉnh: Thời gian mờ dần (giây)"
+msgstr "Tùy chỉnh: Fade-In (giây)"
 
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:40
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:1
 msgid "Custom Fading: Fade-Out Time (seconds)"
-msgstr "Làm mờ tùy chỉnh: Thời gian mờ dần (giây)"
+msgstr "Tùy chỉnh: Fade-Out (giây)"
 
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:22
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:1
 msgid "Custom Fading: Overlap Time (seconds)"
-msgstr "Làm mờ tùy chỉnh: Thời gian chồng chéo (giây)"
+msgstr "Tùy chỉnh: Overlap (giây)"
 
 #: ./vue/station_media/form/MediaFormCustomFields.vue:9
 msgid "Custom Fields"
-msgstr "Trường tùy chỉnh"
+msgstr "Tùy chỉnh trường"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:10
 msgid "Default"
@@ -390,11 +390,11 @@ msgstr "Mặc định"
 #: ./vue/station_streamers/StreamerBroadcastsModal.vue:3
 #: ./vue/station_streamers/StreamerBroadcastsModal.vue:87
 msgid "Delete"
-msgstr "Xóa bỏ"
+msgstr "Xóa"
 
 #: ./vue/station_media/MediaToolbar.vue:68
 msgid "Delete %{ num } media files?"
-msgstr "Xóa% {num} tệp phương tiện?"
+msgstr "Xóa %{num} file nội dung?"
 
 #: ./vue/station_media/form/MediaFormAlbumArt.vue:8
 msgid "Delete Album Art"
@@ -402,7 +402,7 @@ msgstr "Xóa ảnh bìa album"
 
 #: ./vue/station_streamers/StreamerBroadcastsModal.vue:88
 msgid "Delete broadcast?"
-msgstr "Xóa chương trình phát sóng?"
+msgstr "Xóa chương trình phát?"
 
 #: ./vue/StationPlaylists.vue:140
 msgid "Delete playlist?"
@@ -445,7 +445,7 @@ msgstr "Tên thư mục"
 #: ./vue/station_profile/ProfileStreamers.vue:16
 #: ./vue/station_profile/ProfileStreamers.vue:14
 msgid "Disable"
-msgstr "Vô hiệu hóa"
+msgstr "Tắt"
 
 #: ./vue/station_profile/ProfilePublicPages.vue:27
 msgid "Disable public pages?"
@@ -453,11 +453,11 @@ msgstr "Tắt các trang công khai?"
 
 #: ./vue/station_profile/ProfileRequests.vue:15
 msgid "Disable song requests?"
-msgstr "Tắt yêu cầu bài hát?"
+msgstr "Tắt yêu cầu nội dung?"
 
 #: ./vue/station_profile/ProfileStreamers.vue:15
 msgid "Disable streamers?"
-msgstr "Tắt trình phát trực tiếp?"
+msgstr "Tắt streamers trực tiếp?"
 
 #: ./vue/StationPlaylists.vue:82
 #: ./vue/StationPlaylists.vue:24
@@ -471,7 +471,7 @@ msgstr "Tắt trình phát trực tiếp?"
 #: ./vue/station_profile/ProfileStreamers.vue:24
 #: ./vue/station_profile/ProfileStreamers.vue:4
 msgid "Disabled"
-msgstr "Tàn tật"
+msgstr "Đã tắt"
 
 #: ./vue/station_profile/ProfileNowPlaying.vue:99
 msgid "Disconnect Streamer"
@@ -483,7 +483,7 @@ msgstr "Tên hiển thị"
 
 #: ./vue/webcaster/settings.vue:81
 msgid "DJ Credentials"
-msgstr "Thông tin đăng nhập của DJ"
+msgstr "Đăng nhập của DJ"
 
 #: ./vue/station_playlists/PlaylistReorderModal.vue:21
 msgid "Down"
@@ -504,7 +504,7 @@ msgstr "Tải xuống PLS"
 
 #: ./vue/station_media/MediaFileUpload.vue:15
 msgid "Drag files here to upload to this folder or"
-msgstr "Kéo các tệp vào đây để tải lên thư mục này hoặc"
+msgstr "Kéo tệp vào đây để tải lên thư mục này hoặc"
 
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:142
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:1
@@ -519,27 +519,27 @@ msgstr "Mã xác thực Dropbox"
 #: ./vue/StationStreamers.vue:35
 #: ./vue/StationStreamers.vue:3
 msgid "Edit"
-msgstr "Biên tập"
+msgstr "Sửa"
 
 #: ./vue/station_media/MediaEditModal.vue:73
 msgid "Edit Media"
-msgstr "Chỉnh sửa phương tiện"
+msgstr "Sửa nội dung"
 
 #: ./vue/station_playlists/PlaylistEditModal.vue:30
 msgid "Edit Playlist"
-msgstr "Chỉnh sửa danh sách phát"
+msgstr "Sửa danh sách phát"
 
 #: ./vue/station_profile/ProfileHeader.vue:10
 msgid "Edit Profile"
-msgstr "Chỉnh sửa hồ sơ"
+msgstr "Sửa hồ sơ"
 
 #: ./vue/admin_storage_locations/StorageLocationEditModal.vue:26
 msgid "Edit Storage Location"
-msgstr "Chỉnh sửa vị trí lưu trữ"
+msgstr "Sửa vị trí lưu trữ"
 
 #: ./vue/station_streamers/StreamerEditModal.vue:54
 msgid "Edit Streamer"
-msgstr "Chỉnh sửa Streamer"
+msgstr "Sửa Streamer"
 
 #: ./vue/StationPlaylists.vue:63
 #: ./vue/station_profile/ProfilePublicPages.vue:75
@@ -549,7 +549,7 @@ msgstr "Chỉnh sửa Streamer"
 #: ./vue/station_profile/ProfileStreamers.vue:30
 #: ./vue/station_profile/ProfileStreamers.vue:10
 msgid "Enable"
-msgstr "Kích hoạt"
+msgstr "Bật"
 
 #: ./vue/station_profile/ProfilePublicPages.vue:30
 msgid "Enable public pages?"
@@ -566,7 +566,7 @@ msgstr "Bật trình phát trực tiếp?"
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:62
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:1
 msgid "Enable this setting to prevent metadata from being sent to the AutoDJ for files in this playlist. This is useful if the playlist contains jingles or bumpers."
-msgstr "Bật cài đặt này để ngăn siêu dữ liệu được gửi tới AutoDJ cho các tệp trong danh sách phát này. Điều này hữu ích nếu danh sách phát chứa tiếng leng keng hoặc đoạn đệm."
+msgstr "Bật cài đặt này để ngăn metadata được gửi tới AutoDJ cho các tệp trong danh sách phát này. Điều này hữu ích nếu danh sách phát chứa tiếng leng keng hoặc đoạn đệm."
 
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:58
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:1
@@ -591,7 +591,7 @@ msgstr "Mã hoá"
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:73
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:1
 msgid "End Date"
-msgstr "Ngày cuối"
+msgstr "Ngày kết thúc"
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:42
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:1
@@ -614,7 +614,7 @@ msgstr "Thực thi thời gian lên lịch"
 #: ./vue/StationPlaylists.vue:27
 #: ./vue/StationPlaylists.vue:2
 msgid "Export %{format}"
-msgstr "Xuất% {format}"
+msgstr "Xuất %{format}"
 
 #: ./vue/station_media/form/MediaFormBasicInfo.vue:6
 #: ./vue/station_media/form/MediaFormBasicInfo.vue:1
@@ -640,7 +640,7 @@ msgstr "Các tệp đã bị xóa:"
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:27
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:1
 msgid "For local filesystems, this is the base path of the directory. For remote filesystems, this is the folder prefix."
-msgstr "Đối với hệ thống tệp cục bộ, đây là đường dẫn cơ sở của thư mục. Đối với hệ thống tệp từ xa, đây là tiền tố thư mục."
+msgstr "Đối với hệ thống tệp cục bộ, đây là đường dẫn cơ sở của thư mục. Đối với hệ thống tệp từ xa, đây là prefix thư mục."
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:18
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:18
@@ -657,7 +657,7 @@ msgstr "Âm thanh tối đa"
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:60
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:92
 msgid "General Rotation"
-msgstr "Xoay vòng chung"
+msgstr "Xoay vòng"
 
 #: ./vue/SongRequest.vue:30
 #: ./vue/StationMedia.vue:76
@@ -670,7 +670,7 @@ msgstr "Ẩn biểu đồ"
 
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:65
 msgid "Hide Metadata from Listeners (\"Jingle Mode\")"
-msgstr "Ẩn Siêu dữ liệu khỏi Trình nghe (\"Chế độ Jingle\")"
+msgstr "Ẩn Metadata khỏi người nghe (\"Chế độ Jingle\")"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:12
 msgid "High"
@@ -679,7 +679,7 @@ msgstr "Cao"
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:19
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:1
 msgid "Higher weight playlists are played more frequently compared to other lower-weight playlists."
-msgstr "Danh sách phát có trọng lượng cao hơn được phát thường xuyên hơn so với các danh sách phát có trọng lượng thấp hơn khác."
+msgstr "Danh sách phát có trọng số cao hơn được phát thường xuyên hơn so với danh sách phát có trọng số thấp hơn."
 
 #: ./vue/station_media/MediaBreadcrumb.vue:2
 msgid "Home"
@@ -692,7 +692,7 @@ msgstr "Nếu bất kỳ tùy chọn nào trong số này được bật, danh s
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:100
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:1
 msgid "If auto-assignment is enabled, use this playlist as one of the targets for songs to be redistributed into. This will overwrite the existing contents of this playlist."
-msgstr "Nếu tính năng tự động chỉ định được bật, hãy sử dụng danh sách phát này làm một trong những mục tiêu để các bài hát được phân phối lại. Thao tác này sẽ ghi đè nội dung hiện có của danh sách phát này."
+msgstr "Nếu tính năng tự động chỉ định được bật, hãy sử dụng danh sách phát này làm một trong những mục tiêu để các nội dung được phân phối lại. Thao tác này sẽ ghi đè nội dung hiện có của danh sách phát này."
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:29
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:1
@@ -729,15 +729,15 @@ msgstr "Nếu đài này đã bật tính năng phát trực tuyến và tải x
 #: ./vue/station_playlists/PlaylistImportModal.vue:5
 #: ./vue/station_playlists/PlaylistImportModal.vue:15
 msgid "Import from PLS/M3U"
-msgstr "Nhập từ PLS / M3U"
+msgstr "Nhập từ PLS/M3U"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:103
 msgid "Include in Automated Assignment"
-msgstr "Bao gồm trong Bài tập tự động"
+msgstr "Bao gồm Tự động thiết lập"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:50
 msgid "Include in On-Demand Player"
-msgstr "Bao gồm trong Trình phát theo yêu cầu"
+msgstr "Bao gồm Phát theo yêu cầu"
 
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:47
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:1
@@ -751,7 +751,7 @@ msgstr "Mã ghi tiêu chuẩn quốc tế, được sử dụng cho các báo c�
 
 #: ./vue/station_playlists/form/PlaylistFormAdvanced.vue:23
 msgid "Interrupt other songs to play at scheduled time."
-msgstr "Ngắt các bài hát khác để phát vào thời gian đã định."
+msgstr "Ngắt các nội dung khác để phát vào thời gian đã định."
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:32
 msgid "Is Enabled"
@@ -765,7 +765,7 @@ msgstr "ISRC"
 #: ./vue/StationPlaylists.vue:70
 #: ./vue/StationPlaylists.vue:12
 msgid "Jingle Mode"
-msgstr "Chế độ leng keng"
+msgstr "Chế độ Jingle"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:80
 msgid "Learn about Advanced Playlists"
@@ -781,11 +781,11 @@ msgstr "Tìm hiểu thêm về Mã thông báo xác thực Dropbox"
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:86
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:1
 msgid "Leave blank to play on every day of the week."
-msgstr "Để trống để chơi vào tất cả các ngày trong tuần."
+msgstr "Để trống để phát vào tất cả các ngày trong tuần."
 
 #: ./vue/StationMedia.vue:77
 msgid "Length"
-msgstr "Chiều dài"
+msgstr "Thời lượng"
 
 #: ./vue/station_profile/ProfileBackend.vue:31
 msgid "LiquidSoap is currently shuffling from %{songs} and %{playlists}."
@@ -820,7 +820,7 @@ msgstr "Đang tải..."
 
 #: ./vue/AdminStorageLocations.vue:43
 msgid "Local"
-msgstr "Địa phương"
+msgstr "Cục bộ"
 
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:11
 msgid "Local Filesystem"
@@ -856,15 +856,15 @@ msgstr "Xác định cách thủ công danh sách phát này được sử dụn
 
 #: ./vue/station_playlists/form/PlaylistFormAdvanced.vue:32
 msgid "Merge playlist to play as a single track."
-msgstr "Hợp nhất danh sách phát để phát thành một bản nhạc duy nhất."
+msgstr "Hợp nhất danh sách phát để phát thành một nội dung duy nhất."
 
 #: ./vue/webcaster/settings.vue:16
 msgid "Metadata"
-msgstr "metadata"
+msgstr "Metadata"
 
 #: ./vue/webcaster/microphone.vue:4
 msgid "Microphone"
-msgstr "Cái mic cờ rô"
+msgstr "Micrô"
 
 #: ./vue/webcaster/microphone.vue:32
 msgid "Microphone Source"
@@ -873,11 +873,11 @@ msgstr "Nguồn micrô"
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:177
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:1
 msgid "Minute of Hour to Play"
-msgstr "Phút của Giờ để chơi"
+msgstr "Phát (Phút của Giờ)"
 
 #: ./vue/webcaster/mixer.vue:4
 msgid "Mixer"
-msgstr "Máy trộn"
+msgstr "Mixer"
 
 #: ./vue/StationMedia.vue:94
 msgid "Modified"
@@ -891,7 +891,7 @@ msgstr "Thứ hai"
 #: ./vue/StationPlaylists.vue:38
 #: ./vue/station_media/MediaToolbar.vue:44
 msgid "More"
-msgstr "Hơn"
+msgstr "Thêm"
 
 #: ./vue/station_media/MediaToolbar.vue:39
 msgid "Move"
@@ -927,7 +927,7 @@ msgstr "Tên"
 
 #: ./vue/station_media/MediaNewDirectoryModal.vue:24
 msgid "New Directory"
-msgstr "Từ điển mới"
+msgstr "Đường dẫn thư mục mới"
 
 #: ./vue/station_media/MediaNewDirectoryModal.vue:43
 msgid "New directory created."
@@ -962,7 +962,7 @@ msgstr "Không chạy"
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:4
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:4
 msgid "Not Scheduled"
-msgstr "Không theo lịch trình"
+msgstr "Không có lịch phát"
 
 #: ./vue/StationStreamers.vue:23
 msgid "Notes"
@@ -971,12 +971,12 @@ msgstr "Ghi chú"
 #: ./vue/station_profile/ProfileSchedule.vue:27
 #: ./vue/station_profile/ProfileSchedule.vue:1
 msgid "Now"
-msgstr "Hiện nay"
+msgstr "Hiện tại"
 
 #: ./vue/Dashboard.vue:113
 #: ./vue/station_profile/ProfileNowPlaying.vue:23
 msgid "Now Playing"
-msgstr "Đang chơi"
+msgstr "Đang phát"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:149
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:1
@@ -990,7 +990,7 @@ msgstr "Số bài hát giữa các lần phát"
 
 #: ./vue/station_profile/ProfileNowPlaying.vue:4
 msgid "On the Air"
-msgstr "Giữa không trung"
+msgstr "On the Air"
 
 #: ./vue/StationPlaylists.vue:76
 #: ./vue/StationPlaylists.vue:18
@@ -1007,15 +1007,15 @@ msgstr "Mã nhúng theo yêu cầu"
 #: ./vue/station_profile/ProfilePublicPages.vue:36
 #: ./vue/station_profile/ProfilePublicPages.vue:34
 msgid "On-Demand Media"
-msgstr "Phương tiện theo yêu cầu"
+msgstr "Nội dung theo yêu cầu"
 
 #: ./vue/StationPlaylists.vue:85
 msgid "Once per %{minutes} Minutes"
-msgstr "Một lần mỗi% {phút} phút"
+msgstr "Một lần mỗi %{phút} phút"
 
 #: ./vue/StationPlaylists.vue:81
 msgid "Once per %{songs} Songs"
-msgstr "Một lần mỗi% {bài hát} bài hát"
+msgstr "Một lần mỗi %{bài hát} nội dung"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:72
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:168
@@ -1024,7 +1024,7 @@ msgstr "Một lần mỗi giờ"
 
 #: ./vue/StationPlaylists.vue:89
 msgid "Once per Hour (at %{minute})"
-msgstr "Một lần mỗi giờ (tại% {phút})"
+msgstr "Một lần mỗi giờ (tại %{phút})"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:68
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:140
@@ -1042,7 +1042,7 @@ msgstr "Chỉ lặp lại danh sách phát một lần."
 
 #: ./vue/station_playlists/form/PlaylistFormAdvanced.vue:29
 msgid "Only play one track at scheduled time."
-msgstr "Chỉ phát một bản nhạc vào thời gian đã định."
+msgstr "Chỉ phát một nội dung vào thời gian đã định."
 
 #: ./vue/webcaster/settings.vue:24
 msgid "Password"
@@ -1051,7 +1051,7 @@ msgstr "Mật khẩu"
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:24
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:1
 msgid "Path/Suffix"
-msgstr "Đường dẫn / Hậu tố"
+msgstr "Đường dẫn/Suffix"
 
 #: ./vue/InlinePlayer.vue:19
 #: ./vue/RadioPlayer.vue:58
@@ -1061,36 +1061,36 @@ msgstr "Tạm ngừng"
 #: ./vue/RadioPlayer.vue:55
 #: ./vue/station_media/form/MediaFormWaveformEditor.vue:13
 msgid "Play"
-msgstr "Chơi"
+msgstr "Phát"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:69
 msgid "Play exactly once every $x minutes."
-msgstr "Chơi chính xác một lần mỗi $ x phút."
+msgstr "Phát chính xác một lần mỗi $x phút."
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:65
 msgid "Play exactly once every $x songs."
-msgstr "Chơi chính xác một lần mỗi $ x bài hát."
+msgstr "Phát chính xác một lần mỗi $x bài hát."
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:73
 msgid "Play once per hour at the specified minute."
-msgstr "Chơi một lần mỗi giờ vào phút được chỉ định."
+msgstr "Phát một lần mỗi giờ vào phút được chỉ định."
 
 #: ./vue/Dashboard.vue:49
 #: ./vue/StationMedia.vue:147
 #: ./vue/StationOnDemand.vue:52
 #: ./vue/station_streamers/StreamerBroadcastsModal.vue:63
 msgid "Play/Pause"
-msgstr "Tạm dừng chơi"
+msgstr "Phát/Dừng"
 
 #: ./vue/StationPlaylists.vue:44
 #: ./vue/station_playlists/PlaylistQueueModal.vue:14
 msgid "Playback Queue"
-msgstr "Hàng đợi phát lại"
+msgstr "Hàng đợi phát"
 
 #: ./vue/station_profile/ProfilePublicPages.vue:22
 #: ./vue/station_profile/ProfilePublicPages.vue:20
 msgid "Player Embed Code"
-msgstr "Mã nhúng của người chơi"
+msgstr "Mã nhúng của player"
 
 #: ./vue/station_profile/ProfileNowPlaying.vue:53
 msgid "Playing Next"
@@ -1108,15 +1108,15 @@ msgstr "Danh sách phát"
 
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:102
 msgid "Playlist (M3U/PLS) URL"
-msgstr "URL danh sách phát (M3U / PLS)"
+msgstr "URL danh sách phát (M3U/PLS)"
 
 #: ./vue/webcaster/playlist.vue:24
 msgid "Playlist 1"
-msgstr "Danh sách phát 1"
+msgstr "Danh sách 1"
 
 #: ./vue/webcaster/playlist.vue:25
 msgid "Playlist 2"
-msgstr "Danh sách phát 2"
+msgstr "Danh sách 2"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:6
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:1
@@ -1139,7 +1139,7 @@ msgstr "Loại danh sách phát"
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:16
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:1
 msgid "Playlist Weight"
-msgstr "Trọng lượng danh sách phát"
+msgstr "Trọng số danh sách phát"
 
 #: ./vue/StationQueue.vue:38
 #: ./vue/StationQueue.vue:5
@@ -1181,7 +1181,7 @@ msgstr "Xếp hàng"
 
 #: ./vue/station_media/MediaToolbar.vue:47
 msgid "Queue the selected media to play next"
-msgstr "Xếp hàng đợi phương tiện đã chọn để phát tiếp theo"
+msgstr "Xếp hàng đợi đã chọn để phát tiếp theo"
 
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:41
 msgid "Random"
@@ -1189,7 +1189,7 @@ msgstr "Ngẫu nhiên"
 
 #: ./vue/webcaster/settings.vue:35
 msgid "Raw"
-msgstr "Nguyên"
+msgstr "Raw"
 
 #: ./vue/components/DataTable.vue:72
 msgid "Refresh rows"
@@ -1208,46 +1208,46 @@ msgstr "Mật khẩu chuyển tiếp"
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:109
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:1
 msgid "Remote Playback Buffer (Seconds)"
-msgstr "Bộ đệm phát lại từ xa (Giây)"
+msgstr "Bộ đệm phát lại (Giây)"
 
 #: ./vue/station_profile/ProfileStreams.vue:44
 #: ./vue/station_profile/ProfileStreams.vue:3
 msgid "Remote Relays"
-msgstr "Rơ le từ xa"
+msgstr "Phát lại"
 
 #: ./vue/StationPlaylists.vue:65
 #: ./vue/StationPlaylists.vue:7
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:85
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:1
 msgid "Remote URL"
-msgstr "URL từ xa"
+msgstr "URL phát lại"
 
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:14
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:77
 msgid "Remote URL Playlist"
-msgstr "Danh sách phát URL từ xa"
+msgstr "Danh sách URL phát lại"
 
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:95
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:1
 msgid "Remote URL Type"
-msgstr "Loại URL từ xa"
+msgstr "Kiểu URL phát lại"
 
 #: ./vue/AdminStorageLocations.vue:49
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:17
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:134
 msgid "Remote: Dropbox"
-msgstr "Điều khiển từ xa: Dropbox"
+msgstr "Từ xa: Dropbox"
 
 #: ./vue/AdminStorageLocations.vue:46
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:14
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:55
 msgid "Remote: S3 Compatible"
-msgstr "Điều khiển từ xa: Tương thích S3"
+msgstr "Từ xa: Tương thích S3"
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:21
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:21
 msgid "Remove"
-msgstr "Tẩy"
+msgstr "Xóa"
 
 #: ./vue/StationMedia.vue:141
 #: ./vue/station_media/MediaRenameModal.vue:18
@@ -1257,7 +1257,7 @@ msgstr "Đổi tên"
 
 #: ./vue/station_media/MediaRenameModal.vue:28
 msgid "Rename File/Directory"
-msgstr "Đổi tên tệp / thư mục"
+msgstr "Đổi tên tệp/thư mục"
 
 #: ./vue/StationPlaylists.vue:41
 msgid "Reorder"
@@ -1287,7 +1287,7 @@ msgstr "Yêu cầu"
 
 #: ./vue/public_radio_player/RequestModal.vue:23
 msgid "Request a Song"
-msgstr "Yêu cầu một bài hát"
+msgstr "Yêu cầu một nội dung"
 
 #: ./vue/station_profile/ProfilePublicPages.vue:50
 #: ./vue/station_profile/ProfilePublicPages.vue:48
@@ -1296,11 +1296,11 @@ msgstr "Yêu cầu mã nhúng"
 
 #: ./vue/PublicRadioPlayer.vue:37
 msgid "Request Song"
-msgstr "Yêu cầu bài hát"
+msgstr "Yêu cầu nội dung"
 
 #: ./vue/StationPlaylists.vue:47
 msgid "Reshuffle"
-msgstr "Cải tổ"
+msgstr "Reshuffle"
 
 #: ./vue/station_profile/ProfileBackend.vue:25
 #: ./vue/station_profile/ProfileFrontend.vue:52
@@ -1318,16 +1318,16 @@ msgstr "Đang chạy"
 
 #: ./vue/webcaster/settings.vue:40
 msgid "Sample Rate"
-msgstr "Tỷ lệ mẫu"
+msgstr "Sample Rate"
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:19
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:19
 msgid "Saturday"
-msgstr "ngày thứ bảy"
+msgstr "Thứ bảy"
 
 #: ./vue/station_media/MediaToolbar.vue:29
 msgid "Save"
-msgstr "Tiết kiệm"
+msgstr "Lưu"
 
 #: ./vue/admin_storage_locations/StorageLocationEditModal.vue:15
 #: ./vue/admin_storage_locations/StorageLocationEditModal.vue:5
@@ -1343,32 +1343,32 @@ msgstr "Lưu thay đổi"
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:26
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:26
 msgid "Schedule"
-msgstr "Lên lịch"
+msgstr "Lịch"
 
 #: ./vue/StationPlaylists.vue:35
 #: ./vue/StationStreamers.vue:32
 msgid "Schedule View"
-msgstr "Lên lịch xem"
+msgstr "Xem lịch"
 
 #: ./vue/station_profile/ProfileSchedule.vue:4
 msgid "Scheduled"
-msgstr "Lên kế hoạch"
+msgstr "Lịch đã đặt"
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:89
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:1
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:83
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:1
 msgid "Scheduled Play Days of Week"
-msgstr "Các ngày chơi đã lên lịch trong tuần"
+msgstr "Các ngày phát đã lên lịch trong tuần"
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:15
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:15
 msgid "Scheduled Time #%{num}"
-msgstr "Thời gian đã lên lịch #% {num}"
+msgstr "Đã lên lịch #% {num}"
 
 #: ./vue/StationPlaylists.vue:25
 msgid "Scheduling"
-msgstr "Lập lịch trình"
+msgstr "Lập lịch"
 
 #: ./vue/components/DataTable.vue:90
 msgid "Search"
@@ -1387,11 +1387,11 @@ msgstr "Vài giây kể từ khi bắt đầu bài hát mà AutoDJ sẽ dừng p
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:74
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:1
 msgid "Secret Key"
-msgstr "Chìa khoá bí mật"
+msgstr "Secret Key"
 
 #: ./vue/InlinePlayer.vue:16
 msgid "Seek"
-msgstr "Tìm"
+msgstr "Đến"
 
 #: ./vue/components/DataTable.vue:84
 msgid "Select"
@@ -1399,7 +1399,7 @@ msgstr "Lựa chọn"
 
 #: ./vue/components/DataTable.vue:81
 msgid "Select all visible rows"
-msgstr "Chọn tất cả các hàng có thể nhìn thấy"
+msgstr "Chọn tất cả các hàng nhìn thấy"
 
 #: ./vue/components/DataTable.vue:78
 msgid "Select displayed fields"
@@ -1412,7 +1412,7 @@ msgstr "Chọn tập tin"
 #: ./vue/station_playlists/PlaylistImportModal.vue:5
 #: ./vue/station_playlists/PlaylistImportModal.vue:1
 msgid "Select PLS/M3U File to Import"
-msgstr "Chọn tệp PLS / M3U để nhập"
+msgstr "Chọn tệp PLS/M3U để nhập"
 
 #: ./vue/StationPlaylists.vue:73
 #: ./vue/StationPlaylists.vue:15
@@ -1431,7 +1431,7 @@ msgstr "Đặt điểm gợi ý và điểm mờ dần bằng trình chỉnh s�
 
 #: ./vue/station_media/form/MediaFormWaveformEditor.vue:22
 msgid "Set Cue In"
-msgstr "Đặt Cue vào"
+msgstr "Đặt Cue In"
 
 #: ./vue/station_media/form/MediaFormWaveformEditor.vue:26
 msgid "Set Cue Out"
@@ -1439,7 +1439,7 @@ msgstr "Đặt Cue Out"
 
 #: ./vue/station_media/form/MediaFormWaveformEditor.vue:36
 msgid "Set Fade In"
-msgstr "Đặt mờ dần"
+msgstr "Đặt Fade In"
 
 #: ./vue/station_media/form/MediaFormWaveformEditor.vue:40
 msgid "Set Fade Out"
@@ -1447,11 +1447,11 @@ msgstr "Đặt Fade Out"
 
 #: ./vue/station_media/MediaToolbar.vue:38
 msgid "Set or clear playlists from the selected media"
-msgstr "Đặt hoặc xóa danh sách phát khỏi phương tiện đã chọn"
+msgstr "Đặt hoặc xóa danh sách phát khỏi nội dung đã chọn"
 
 #: ./vue/station_media/form/MediaFormWaveformEditor.vue:31
 msgid "Set Overlap"
-msgstr "Đặt chồng chéo"
+msgstr "Đặt trùng lặp"
 
 #: ./vue/webcaster/settings.vue:11
 msgid "Settings"
@@ -1550,13 +1550,13 @@ msgstr "Chỉ định phút mỗi giờ mà danh sách phát này sẽ phát."
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:61
 msgid "Standard playlist, shuffles with other standard playlists based on weight."
-msgstr "Danh sách phát tiêu chuẩn, trộn với danh sách phát tiêu chuẩn khác dựa trên trọng lượng."
+msgstr "Danh sách phát tiêu chuẩn, trộn với danh sách phát tiêu chuẩn khác dựa trên trọng số."
 
 #: ./vue/station_profile/ProfileBackend.vue:29
 #: ./vue/station_profile/ProfileFrontend.vue:56
 #: ./vue/station_profile/ProfileFrontend.vue:44
 msgid "Start"
-msgstr "Khởi đầu"
+msgstr "Bắt đầu"
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:63
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:1
@@ -1580,7 +1580,7 @@ msgstr "Thời gian bắt đầu"
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:68
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:3
 msgid "Start/end date cannot be used on playlists with advanced settings!"
-msgstr "Không thể sử dụng ngày bắt đầu / ngày kết thúc trên danh sách phát có cài đặt nâng cao!"
+msgstr "Không thể sử dụng ngày bắt đầu/kết thúc trên danh sách phát cài đặt nâng cao!"
 
 #: ./vue/AdminStorageLocations.vue:23
 msgid "Station Media"
@@ -1588,31 +1588,31 @@ msgstr "Đài truyền thông"
 
 #: ./vue/Dashboard.vue:107
 msgid "Station Name"
-msgstr "Tên trạm"
+msgstr "Tên đài phát"
 
 #: ./vue/Dashboard.vue:80
 msgid "Station Overview"
-msgstr "Tổng quan về nhà ga"
+msgstr "Các đài phát internet"
 
 #: ./vue/AdminStorageLocations.vue:26
 msgid "Station Recordings"
-msgstr "Bản ghi trạm"
+msgstr "Bản ghi đài phát"
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:54
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:51
 msgid "Station Time Zone"
-msgstr "Múi giờ nhà ga"
+msgstr "Múi giờ đài phát"
 
 #: ./vue/AdminStorageLocations.vue:17
 msgid "Station(s)"
-msgstr "(Các) nhà ga"
+msgstr "(Các) Đài phát"
 
 #: ./vue/station_media/form/MediaFormWaveformEditor.vue:17
 #: ./vue/station_profile/ProfileBackend.vue:33
 #: ./vue/station_profile/ProfileFrontend.vue:60
 #: ./vue/station_profile/ProfileFrontend.vue:48
 msgid "Stop"
-msgstr "Dừng lại"
+msgstr "Dừng"
 
 #: ./vue/webcaster/settings.vue:28
 msgid "Stop Streaming"
@@ -1621,7 +1621,7 @@ msgstr "Dừng phát trực tuyến"
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:6
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:1
 msgid "Storage Adapter"
-msgstr "Bộ điều hợp lưu trữ"
+msgstr "Adapter lưu trữ"
 
 #: ./vue/AdminStorageLocations.vue:4
 msgid "Storage Locations"
@@ -1630,7 +1630,7 @@ msgstr "Vị trí lưu trữ"
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:38
 #: ./vue/admin_storage_locations/form/StorageLocationForm.vue:1
 msgid "Storage Quota"
-msgstr "Hạn ngạch lưu trữ"
+msgstr "Giới hạn lưu trữ"
 
 #: ./vue/station_streamers/StreamerBroadcastsModal.vue:60
 msgid "Streamer Broadcasts"
@@ -1649,31 +1649,31 @@ msgstr "Mật khẩu streamer"
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:6
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:1
 msgid "Streamer Username"
-msgstr "Tên người dùng Streamer"
+msgstr "Tên Streamer"
 
 #: ./vue/station_profile/ProfileSchedule.vue:17
 #: ./vue/station_profile/ProfileSchedule.vue:1
 msgid "Streamer/DJ"
-msgstr "Streamer / DJ"
+msgstr "Streamer/DJ"
 
 #: ./vue/StationStreamers.vue:6
 msgid "Streamer/DJ Accounts"
-msgstr "Tài khoản Streamer / DJ"
+msgstr "Tài khoản Streamer/DJ"
 
 #: ./vue/station_profile/ProfileStreamers.vue:5
 #: ./vue/station_profile/ProfileStreamers.vue:23
 #: ./vue/station_profile/ProfileStreamers.vue:3
 msgid "Streamers/DJs"
-msgstr "Người phát trực tuyến / DJ"
+msgstr "Streamers/DJ"
 
 #: ./vue/station_profile/ProfileStreams.vue:3
 msgid "Streams"
-msgstr "Dòng"
+msgstr "Luồng"
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:20
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:20
 msgid "Sunday"
-msgstr "chủ nhật"
+msgstr "Chủ nhật"
 
 #: ./vue/station_playlists/form/PlaylistFormSource.vue:38
 msgid "The full playlist is shuffled and then played through in the shuffled order."
@@ -1691,7 +1691,7 @@ msgstr "Thứ tự của danh sách phát được chỉ định theo cách th�
 #: ./vue/station_media/form/MediaFormBasicInfo.vue:9
 #: ./vue/station_media/form/MediaFormBasicInfo.vue:1
 msgid "The relative path of the file in the station's media directory."
-msgstr "Đường dẫn tương đối của tệp trong thư mục phương tiện của đài."
+msgstr "Đường dẫn tương đối của tệp trong thư mục nội dung của đài."
 
 #: ./vue/station_media/MediaToolbar.vue:53
 msgid "The request could not be processed."
@@ -1710,12 +1710,12 @@ msgstr "Người phát trực tiếp sẽ sử dụng tên người dùng này �
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:34
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:1
 msgid "The time period that the song should fade in. Leave blank to use the system default."
-msgstr "Khoảng thời gian mà bài hát sẽ mờ dần. Để trống để sử dụng mặc định của hệ thống."
+msgstr "Khoảng thời gian mà bài hát sẽ to dần. Để trống để sử dụng mặc định của hệ thống."
 
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:43
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:1
 msgid "The time period that the song should fade out. Leave blank to use the system default."
-msgstr "Khoảng thời gian mà bài hát sẽ mất dần đi. Để trống để sử dụng mặc định của hệ thống."
+msgstr "Khoảng thời gian mà bài hát sẽ nhỏ dần. Để trống để sử dụng mặc định của hệ thống."
 
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:25
 #: ./vue/station_media/form/MediaFormAdvancedSettings.vue:1
@@ -1764,11 +1764,11 @@ msgstr "Trường này là bắt buộc."
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:35
 #: ./vue/station_streamers/form/StreamerFormBasicInfo.vue:1
 msgid "This is the informal display name that will be shown in API responses if the streamer/DJ is live."
-msgstr "Đây là tên hiển thị không chính thức sẽ được hiển thị trong phản hồi API nếu người phát trực tiếp / DJ đang phát trực tiếp."
+msgstr "Đây là tên hiển thị không chính thức sẽ được hiển thị trong phản hồi API nếu người phát trực tiếp/DJ đang phát trực tiếp."
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:7
 msgid "This playlist currently has no scheduled times. It will play at all times. To add a new scheduled time, click the button below."
-msgstr "Danh sách phát này hiện không có thời gian theo lịch trình. Nó sẽ chơi mọi lúc. Để thêm thời gian đã lên lịch mới, hãy nhấp vào nút bên dưới."
+msgstr "Danh sách phát này hiện không có thời gian theo lịch trình. Nó sẽ phát mọi lúc. Để thêm thời gian đã lên lịch mới, hãy nhấp vào nút bên dưới."
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:152
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:1
@@ -1782,18 +1782,18 @@ msgstr "Danh sách phát này sẽ phát mỗi bài hát của $ x, trong đó $
 
 #: ./vue/station_playlists/PlaylistQueueModal.vue:3
 msgid "This queue contains the remaining tracks in the order they will be queued by the AzuraCast AutoDJ (if the tracks are eligible to be played)."
-msgstr "Hàng đợi này chứa các bản nhạc còn lại theo thứ tự chúng sẽ được xếp hàng bởi AzuraCast AutoDJ (nếu các bản nhạc đủ điều kiện để phát)."
+msgstr "Hàng đợi này chứa các nội dung còn lại theo thứ tự chúng sẽ được xếp hàng bởi AzuraCast AutoDJ (nếu các nội dung đủ điều kiện để phát)."
 
 #: ./vue/StationPlaylists.vue:9
 #: ./vue/StationStreamers.vue:9
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:57
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:54
 msgid "This station's time zone is currently %{tz}."
-msgstr "Múi giờ của đài này hiện là% {tz}."
+msgstr "Múi giờ của đài hiện là% {tz}."
 
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:7
 msgid "This streamer is not scheduled to play at any times."
-msgstr "Người phát trực tiếp này không được lên lịch chơi bất cứ lúc nào."
+msgstr "Người phát trực tiếp này không được lên lịch phát mọi lúc."
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:17
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:17
@@ -1812,14 +1812,14 @@ msgstr "Tiêu đề"
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:33
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:1
 msgid "To play once per day, set the start and end times to the same value."
-msgstr "Để chơi một lần mỗi ngày, hãy đặt thời gian bắt đầu và kết thúc bằng cùng một giá trị."
+msgstr "Để phát một lần mỗi ngày, hãy đặt thời gian bắt đầu và kết thúc cùng một giá trị."
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:66
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:1
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:63
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:1
 msgid "To set this schedule to run only within a certain date range, specify a start and end date."
-msgstr "Để đặt lịch biểu này chỉ chạy trong một phạm vi ngày nhất định, hãy chỉ định ngày bắt đầu và ngày kết thúc."
+msgstr "Để đặt lịch này chỉ chạy trong phạm vi ngày nhất định, hãy chỉ định ngày bắt đầu và ngày kết thúc."
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:15
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:15
@@ -1835,11 +1835,11 @@ msgstr "Độc nhất"
 
 #: ./vue/Dashboard.vue:46
 msgid "Unique Listeners"
-msgstr "Người nghe duy nhất"
+msgstr "Người nghe trong ngày"
 
 #: ./vue/webcaster/playlist.vue:31
 msgid "Unknown Artist"
-msgstr "Nghệ sĩ không tên tuổi"
+msgstr "Nghệ sĩ không xác định"
 
 #: ./vue/webcaster/playlist.vue:28
 msgid "Unknown Title"
@@ -1847,37 +1847,37 @@ msgstr "Tiêu đề không xác định"
 
 #: ./vue/station_playlists/PlaylistReorderModal.vue:24
 msgid "Up"
-msgstr "Lên"
+msgstr "Tải lên"
 
 #: ./vue/StationQueue.vue:4
 msgid "Upcoming Song Queue"
-msgstr "Hàng đợi bài hát sắp tới"
+msgstr "Nội dung sắp tới"
 
 #: ./vue/webcaster/settings.vue:116
 msgid "Update Metadata"
-msgstr "Cập nhật siêu dữ liệu"
+msgstr "Cập nhật Metadata"
 
 #: ./vue/webcaster/settings.vue:96
 msgid "Use Asynchronous Worker"
-msgstr "Sử dụng công nhân không đồng bộ"
+msgstr "Sử dụng không đồng bộ"
 
 #: ./vue/StationStreamers.vue:21
 #: ./vue/webcaster/settings.vue:21
 msgid "Username"
-msgstr "tên tài khoản"
+msgstr "Tên tài khoản"
 
 #: ./vue/station_profile/ProfileRequests.vue:12
 #: ./vue/station_profile/ProfileRequests.vue:10
 msgid "View"
-msgstr "Lượt xem"
+msgstr "Xem"
 
 #: ./vue/StationMedia.vue:150
 msgid "View tracks in playlist"
-msgstr "Xem các bản nhạc trong danh sách phát"
+msgstr "Xem nội dung trong danh sách"
 
 #: ./vue/station_media/form/MediaFormWaveformEditor.vue:13
 msgid "Visual Cue Editor"
-msgstr "Trình chỉnh sửa Cue trực quan"
+msgstr "Chỉnh sửa Cue"
 
 #: ./vue/InlinePlayer.vue:19
 #: ./vue/RadioPlayer.vue:64
@@ -1896,7 +1896,7 @@ msgstr "Thu phóng dạng sóng"
 #: ./vue/station_profile/ProfilePublicPages.vue:29
 #: ./vue/station_profile/ProfilePublicPages.vue:27
 msgid "Web DJ"
-msgstr "DJ web"
+msgstr "Web DJ"
 
 #: ./vue/station_playlists/form/PlaylistFormSchedule.vue:16
 #: ./vue/station_streamers/form/StreamerFormSchedule.vue:16
@@ -1905,10 +1905,10 @@ msgstr "Thứ tư"
 
 #: ./vue/StationPlaylists.vue:78
 msgid "Weight"
-msgstr "Cân nặng"
+msgstr "Trọng số"
 
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:38
 #: ./vue/station_playlists/form/PlaylistFormBasicInfo.vue:1
 msgid "Whether the AutoDJ should attempt to avoid duplicate artists and track titles when playing media from this playlist."
-msgstr "Liệu AutoDJ có nên cố gắng tránh trùng lặp các nghệ sĩ và tiêu đề bản nhạc khi phát phương tiện từ danh sách phát này hay không."
+msgstr "AutoDJ nên cố gắng tránh trùng lặp các nghệ sĩ và tiêu đề bản nhạc khi phát nội dung từ danh sách phát này."
 
