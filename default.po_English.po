@@ -100,7 +100,7 @@ msgstr "Thiết lập máy chủ"
 
 #: /var/azuracast/www/src/Console/Command/SetupCommand.php:27
 msgid "Welcome to AzuraCast. Please wait while some key dependencies of AzuraCast are set up..."
-msgstr "Chào mừng đến với AzuraCast. Vui lòng đợi trong khi một số thuộc tính được thiết lập ..."
+msgstr "Chào mừng! Vui lòng đợi trong khi một số thuộc tính được thiết lập ..."
 
 #: /var/azuracast/www/src/Console/Command/SetupCommand.php:33
 msgid "Installing Data Fixtures"
@@ -339,7 +339,7 @@ msgstr "Quản lý Podcast của trạm"
 
 #: /var/azuracast/www/src/Radio/Backend/Liquidsoap/ConfigWriter.php:113
 msgid "Welcome to the AzuraCast Liquidsoap configuration editor."
-msgstr "Chào mừng bạn đến với trình chỉnh sửa cấu hình Liquidsoap."
+msgstr "Chào mừng bạn đến với chỉnh sửa cấu hình Liquidsoap."
 
 #: /var/azuracast/www/src/Radio/Backend/Liquidsoap/ConfigWriter.php:114
 msgid "Using this page, you can customize several sections of the Liquidsoap configuration."
@@ -402,7 +402,7 @@ msgstr "Cập nhật hướng dẫn"
 
 #: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:46
 msgid "AzuraCast <a href=\"%s\" target=\"_blank\">version %s</a> is now available."
-msgstr "AzuraCast <a href=\"%s\" target=\"_blank\"> phiên bản% s </a> hiện đã có sẵn."
+msgstr "AzuraCast <a href=\"%s\" target=\"_blank\"> phiên bản %s </a> hiện đã có sẵn."
 
 #: /var/azuracast/www/src/Notification/Check/UpdateCheck.php:51
 msgid "You are currently running version %s. Updating is highly recommended."
@@ -1121,7 +1121,7 @@ msgstr "Lưu thay đổi"
 #: /var/azuracast/www/src/Controller/Stations/EditLiquidsoapConfigAction.php:119
 #: /var/azuracast/www/config/menus/station.php:175
 msgid "Edit Liquidsoap Configuration"
-msgstr "Chỉnh sửa cấu hình Liquidsoap"
+msgstr "Cấu hình Liquidsoap"
 
 #: /var/azuracast/www/src/Controller/Stations/WebhooksController.php:56
 msgid "Web Hook added."
@@ -1368,7 +1368,7 @@ msgstr "Nhấp để khởi động lại trạm và áp dụng các thay đổi
 #: /var/azuracast/www/config/menus/station.php:41
 #: /var/azuracast/www/templates/stations/profile/index.phtml:10
 msgid "Profile"
-msgstr "Hồ sơ"
+msgstr "Thông tin chung"
 
 #: /var/azuracast/www/config/menus/station.php:46
 msgid "Public Page"
@@ -1486,11 +1486,11 @@ msgstr "Trình xem nhật ký"
 #: /var/azuracast/www/config/menus/station.php:187
 #: /var/azuracast/www/templates/stations/queue/index.phtml:3
 msgid "Upcoming Song Queue"
-msgstr "Hàng đợi bài sắp tới"
+msgstr "Nội dung sắp phát"
 
 #: /var/azuracast/www/config/menus/station.php:192
 msgid "Restart Broadcasting"
-msgstr "Khởi động lại phát sóng"
+msgstr "Khởi động lại trạm"
 
 #: /var/azuracast/www/config/menus/admin.php:15
 msgid "System Maintenance"
@@ -1532,7 +1532,7 @@ msgstr "Tài khoản người dùng"
 #: /var/azuracast/www/templates/admin/permissions/index.phtml:5
 #: /var/azuracast/www/templates/admin/permissions/index.phtml:23
 msgid "Permissions"
-msgstr "Quyền"
+msgstr "Phân quyền"
 
 #: /var/azuracast/www/config/menus/admin.php:65
 #: /var/azuracast/www/templates/admin/audit_log/index.phtml:3
@@ -2169,7 +2169,7 @@ msgstr "Hướng dẫn"
 
 #: /var/azuracast/www/config/forms/install_shoutcast.php:14
 msgid "<p>SHOUTcast 2 DNAS is not free software, and its restrictive license does not allow AzuraCast to distribute the SHOUTcast binary. In order to install SHOUTcast, you should download the Linux x64 binary from the <a href=\"%s\" target=\"_blank\">SHOUTcast Radio Manager</a> web site. Upload the <code>sc_serv2_linux_x64-latest.tar.gz</code> into the field below to automatically extract it into the proper directory.</p>"
-msgstr "<p> SHOUTcast 2 DNAS không phải là phần mềm miễn phí và giấy phép hạn chế của nó không cho phép AzuraCast phân phối lại SHOUTcast. Để cài đặt SHOUTcast, bạn nên tải xuống tệp Linux x64 từ trang web <a href=\"%s\" target=\"_blank\"> SHOUTcast Radio Manager </a>. Tải lên <code> sc_serv2_linux_x64-new.tar.gz </code> vào trường bên dưới để tự động giải nén nó vào thư mục thích hợp. </p>"
+msgstr "<p> SHOUTcast 2 DNAS không phải là phần mềm miễn phí và giấy phép hạn chế của nó không cho phép phân phối lại SHOUTcast. Để cài đặt SHOUTcast, bạn nên tải xuống tệp Linux x64 từ trang web <a href=\"%s\" target=\"_blank\"> SHOUTcast Radio Manager </a>. Tải lên <code> sc_serv2_linux_x64-new.tar.gz </code> vào trường bên dưới để tự động giải nén nó vào thư mục thích hợp. </p>"
 
 #: /var/azuracast/www/config/forms/install_shoutcast.php:23
 #: /var/azuracast/www/templates/admin/install_geolite/index.phtml:27
@@ -2798,7 +2798,7 @@ msgstr "Đường dẫn lưu trữ"
 
 #: /var/azuracast/www/config/forms/settings.php:11
 msgid "Rolling Release"
-msgstr "Phát hành cuộn"
+msgstr "Rolling Release"
 
 #: /var/azuracast/www/config/forms/settings.php:12
 msgid "Stable"
@@ -2830,11 +2830,11 @@ msgstr "URL nơi đặt dịch vụ này. Sử dụng địa chỉ IP hoặc tê
 
 #: /var/azuracast/www/config/forms/settings.php:46
 msgid "AzuraCast Instance Name"
-msgstr "Tên phiên bản AzuraCast"
+msgstr "Tên phiên bản"
 
 #: /var/azuracast/www/config/forms/settings.php:47
 msgid "This name will appear as a sub-header next to the AzuraCast logo, to help identify this server."
-msgstr "Tên này sẽ xuất hiện dưới dạng tiêu đề phụ bên cạnh biểu trưng AzuraCast, để giúp xác định máy chủ này."
+msgstr "Tên này sẽ xuất hiện dưới dạng tiêu đề phụ bên cạnh biểu trưng để giúp xác định máy chủ này."
 
 #: /var/azuracast/www/config/forms/settings.php:57
 msgid "Prefer Browser URL (If Available)"
@@ -3045,7 +3045,7 @@ msgstr "Cố gắng tự động truy xuất ISRC khi bị mất"
 
 #: /var/azuracast/www/config/forms/report/soundexchange.php:56
 msgid "If enabled, AzuraCast will connect to the MusicBrainz database to attempt to find an ISRC for any files where one is missing. Disabling this may improve performance."
-msgstr "Nếu được bật, AzuraCast sẽ kết nối với cơ sở dữ liệu MusicBrainz để cố gắng tìm ISRC cho bất kỳ tệp nào bị thiếu. Tắt tính năng này có thể cải thiện hiệu suất."
+msgstr "Nếu được bật sẽ kết nối với cơ sở dữ liệu MusicBrainz để cố gắng tìm ISRC cho bất kỳ tệp nào bị thiếu. Tắt tính năng này có thể cải thiện hiệu suất."
 
 #: /var/azuracast/www/config/forms/automation.php:10
 msgid "Enable Automated Assignment"
@@ -3305,7 +3305,7 @@ msgstr "Chuyển tiếp cho phép làm việc với phần mềm phát sóng bê
 #: /var/azuracast/www/templates/admin/audit_log/index.phtml:46
 #: /var/azuracast/www/templates/admin/permissions/index.phtml:21
 msgid "Actions"
-msgstr "Hành động"
+msgstr "Thao tác"
 
 #: /var/azuracast/www/templates/stations/remotes/index.phtml:32
 msgid "Remote Relay"
@@ -3408,15 +3408,15 @@ msgstr "Chỉ định danh sách phát tự động"
 
 #: /var/azuracast/www/templates/stations/automation/index.phtml:9
 msgid "Based on the previous performance of your station's songs, %s can automatically distribute songs evenly among your playlists, placing the highest performing songs in the highest-weighted playlists."
-msgstr "Dựa trên hiệu suất trước đó của các nội dung trong đài, %s có thể tự động phân phối các nội dung trong các danh sách phát, đặt các nội dung có hiệu suất cao nhất vào danh sách phát có trọng số cao nhất."
+msgstr "Dựa trên tần suất trước đó của các nội dung trong đài, %s có thể tự động phân phối các nội dung trong các danh sách phát, đặt các nội dung có hiệu suất cao nhất vào danh sách phát có trọng số cao nhất."
 
 #: /var/azuracast/www/templates/stations/automation/index.phtml:12
 msgid "Once you have configured automated assignment, click the button below to run the automated assignment process. This process will not run at all unless you have selected \"Enable\" below."
-msgstr "Khi bạn cấu hình danh sach phát tự động, hãy nhấp vào nút bên dưới để chạy quy trình chỉ định tự động. Quá trình này sẽ hoàn toàn không chạy trừ khi bạn đã chọn \"Bật\" bên dưới."
+msgstr "Khi bạn cấu hình danh sach phát tự động, hãy nhấp vào nút bên dưới để chạy quy trình chỉ định tự động. Quá trình này sẽ không chạy nếu bạn không chọn mục \"Bật\" bên dưới."
 
 #: /var/azuracast/www/templates/stations/automation/index.phtml:14
 msgid "Run Automated Assignment"
-msgstr "Chạy chỉ định tự động"
+msgstr "Chạy gán tự động"
 
 #: /var/azuracast/www/templates/stations/automation/index.phtml:20
 msgid "Configure Automated Assignment"
@@ -3442,7 +3442,7 @@ msgstr "Người nghe trực tiếp"
 
 #: /var/azuracast/www/templates/stations/reports/listeners.phtml:45
 msgid "Unique Listeners"
-msgstr "Người nghe"
+msgstr "Thống kê IP"
 
 #: /var/azuracast/www/templates/stations/reports/listeners.phtml:46
 #: /var/azuracast/www/templates/stations/reports/listeners.phtml:53
@@ -4130,7 +4130,7 @@ msgstr "API key đầy đủ của bạn ở bên dưới:"
 
 #: /var/azuracast/www/templates/frontend/api_keys/new_key.phtml:25
 msgid "When making API calls, you can pass this value in the \"X-API-Key\" header to authenticate as yourself. You can only perform the actions your user account is allowed to perform."
-msgstr "Khi thực hiện lệnh gọi API, bạn có thể chuyển giá trị này vào tiêu đề \"X-API-Key\" để xác thực là chính mình. Bạn chỉ có thể thực hiện các hành động mà tài khoản người dùng của bạn được phép thực hiện."
+msgstr "Khi thực hiện lệnh gọi API, bạn có thể chuyển giá trị này vào tiêu đề \"X-API-Key\" để xác thực là chính mình. Bạn chỉ có thể thực hiện các thao tác mà tài khoản người dùng của bạn được phép thực hiện."
 
 #: /var/azuracast/www/templates/frontend/api_keys/new_key.phtml:28
 msgid "Continue"
@@ -4163,7 +4163,7 @@ msgstr "Thiết lập lần đầu tiên máy chủ"
 
 #: /var/azuracast/www/templates/frontend/setup/register.phtml:20
 msgid "Welcome to AzuraCast!"
-msgstr "Chào mừng bạn đến với AzuraCast!"
+msgstr "Chào mừng!"
 
 #: /var/azuracast/www/templates/frontend/setup/register.phtml:27
 msgid "Let's get started by creating your Super Administrator account."
@@ -4389,5 +4389,5 @@ msgstr "Đăng xuất"
 
 #: /var/azuracast/www/templates/main.phtml:185
 msgid "Like our software? <a href=\"%s\" target=\"_blank\">Donate to support AzuraCast!</a>"
-msgstr "Thích phần mềm của chúng tôi? <a href=\"%s\" target=\"_blank\"> Đóng góp để hỗ trợ AzuraCast! </a>"
+msgstr "Thích phần mềm của chúng tôi? <a href=\"%s\" target=\"_blank\"> Đóng góp để hỗ trợ</a>"
 
