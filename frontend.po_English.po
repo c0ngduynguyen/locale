@@ -8,6 +8,9 @@ msgstr ""
 "Language: en\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+msgid "Music Files"
+msgstr "Tệp nội dung"
+
 #: ./vue/StationPlaylists.vue:26
 msgid "# Songs"
 msgstr "# Nội dung"
